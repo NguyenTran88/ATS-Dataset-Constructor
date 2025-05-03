@@ -117,31 +117,63 @@ def _normalise(txt: str) -> str:
     """lower‑case and collapse whitespace / hyphens"""
     return _HYPHEN_WS.sub(" ", txt).lower().strip()
 
+class ATSExtractor:
+    def __init__(self, html: str):
+        self.soup = BeautifulSoup(html, "html.parser")
+        self._rows_cache: dict[str, Tag] | None = None   # label → <tr>
 
-def _build_rows_cache(soup: BeautifulSoup) -> None:
-    global _ROWS_CACHE
-    _ROWS_CACHE = []
-    for row in soup.select("tr:has(td.label)"):
-        label = _normalise(row.td.get_text(" ", strip=True))
-        _ROWS_CACHE.append((label, row))
+    # ────────────────────────────────────────────────────────────────
+    #  Build once, then O(1) look‑up
+    # ────────────────────────────────────────────────────────────────
+    def _build_rows_cache(self):
+        self._rows_cache = {}
+        for row in self.soup.select("tr:has(td.label)"):
+            label = _normalise(row.td.get_text(" ", strip=True))
+            self._rows_cache[label] = row
 
+    # ────────────────────────────────────────────────────────────────
+    #  Binary Yes/No detector
+    # ────────────────────────────────────────────────────────────────
+    def radio_yes_no(self, question: str) -> Optional[bool]:
+        if self._rows_cache is None:
+            self._build_rows_cache()
 
-def _radio_yes_no(soup: BeautifulSoup, label_fragment: str) -> Optional[bool]:
-    """Return True / False / None for a Yes/No radio row."""
-    global _ROWS_CACHE
-    if _ROWS_CACHE is None:
-        _build_rows_cache(soup)
-
-    frag = _normalise(label_fragment)
-    for label, row in _ROWS_CACHE:
-        if frag not in label:
-            continue
-        checked = row.select_one('img[src*="radio-checked"]')
-        if not checked:
+        row = self._rows_cache.get(_normalise(question))
+        if not row:
             return None
-        txt = (checked.next_sibling or "").lower()
-        return "yes" in txt
-    return None
+
+        radios = row.select('img[src*="radio"]')
+        if len(radios) < 2:
+            return None
+
+        return "radio-checked" in radios[0]["src"] and not "radio-checked" in radios[1]["src"]
+
+    # you can expose higher‑level helpers here …
+
+# def _build_rows_cache(soup: BeautifulSoup) -> None:
+#     global _ROWS_CACHE
+#     _ROWS_CACHE = []
+#     for row in soup.select("tr:has(td.label)"):
+#         label = _normalise(row.td.get_text(" ", strip=True))
+#         _ROWS_CACHE.append((label, row))
+
+
+# def _radio_yes_no(soup: BeautifulSoup, label_fragment: str) -> Optional[bool]:
+#     """Return True / False / None for a Yes/No radio row."""
+#     global _ROWS_CACHE
+#     if _ROWS_CACHE is None:
+#         _build_rows_cache(soup)
+
+#     frag = _normalise(label_fragment)
+#     for label, row in _ROWS_CACHE:
+#         if frag not in label:
+#             continue
+#         checked = row.select_one('img[src*="radio-checked"]')
+#         if not checked:
+#             return None
+#         txt = (checked.next_sibling or "").lower()
+#         return "yes" in txt
+#     return None
 
 def _bool_to_word(value: Optional[bool]) -> str:
     # convert boolean to yes/no/unclear
@@ -466,32 +498,54 @@ SEG_TAG_PATTERNS = [
     r"counterparty\s+restriction",     # general restrictions on counterparty matching
     r"segmentation\s+(token|label|category)", # catch other variations of segmentation
 ]
-_tag_rx = re.compile("|".join(SEG_TAG_PATTERNS), re.I)
+# ---------------------------------------------------------------------------
+# 🔸  Data‑segmentation extraction (Item 13) 🔸
+# ---------------------------------------------------------------------------
 
-
-def _segmentation_block_text(soup: BeautifulSoup) -> str:
-    node = soup.find("td", string=lambda s: s and "explain the segmentation procedures" in s.lower())
-    if node:
-        div = node.find_next("div", class_="fakeBox3")
-        if div:
-            return div.get_text(" ", strip=True)
+def _item13_text(soup: BeautifulSoup) -> str:
+    """
+    Return the raw plain‑text that the filer wrote in Item 13(c)
+    ‘If yes, explain the segmentation procedures…’.
+    """
+    anchor = soup.find("a", {"name": "partIIIitem13"})
+    if not anchor:
+        return ""
+    for sib in anchor.next_elements:
+        if isinstance(sib, NavigableString):
+            continue
+        # The narrative is always inside the first fakeBox3 <div>
+        if sib.name == "div" and sib.get("class") == ["fakeBox3"]:
+            return sib.get_text(" ", strip=True)
+        # Don’t wander into the next Item
+        if sib.name == "a" and sib.get("name", "").startswith("partIIIitem") and sib is not anchor:
+            break
     return ""
 
+# Pre‑compiled token matcher (same patterns list you already have)
+_seg_token_rx = re.compile("|".join(SEG_TAG_PATTERNS), re.I)
 
 def _extract_segmentation_features(soup: BeautifulSoup, res: Dict[str, str]) -> Dict[str, str]:
-    txt = _segmentation_block_text(soup)
-    tags = sorted({m.group(0).lower() for m in _tag_rx.finditer(txt)})
+    """
+    Builds a single dict with:
+      • Yes/No answers to 13 (a)‑(e)   (already stored in *res*)
+      • Detected segmentation keywords
+      • Optional short prose summary
+    """
+    prose = _item13_text(soup)
+    tokens = sorted({m.group(0).lower() for m in _seg_token_rx.finditer(prose)})
+
     features = {
-        #"segmentation_description_summary": txt,
-        "segmentation_tags": ", ".join(tags) if tags else "None detected",
+        # radio buttons – they were filled earlier, just move & pop
+        "segmentation_supported":        res.pop("segmentation_supported", "Unclear"),
+        "segmentation_uniform":          res.pop("segmentation_uniform", "Unclear"),
+        "segmentation_customer_flag":    res.pop("segmentation_customer_flag", "Unclear"),
+        "segmentation_disclosed":        res.pop("segmentation_disclosed", "Unclear"),
+        "segmentation_disclosure_uniform": res.pop("segmentation_disclosure_uniform", "Unclear"),
+
+        # free‑text analysis
+        "segmentation_tags": ", ".join(tokens) if tokens else "None detected",
+        "data_segmentation_practices": (prose[:400] + "…") if len(prose) > 400 else prose or "No narrative provided",
     }
-    # convert five radios to words & remove raw keys
-    for key in (
-        "segmentation_supported", "segmentation_uniform",
-        "segmentation_customer_flag", "segmentation_disclosed",
-        "segmentation_disclosure_uniform",
-    ):
-        features[key] = res.pop(key, "Unclear")  # already bool-worded earlier
     return features
 
 
