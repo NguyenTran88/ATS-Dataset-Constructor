@@ -8,13 +8,13 @@ Usage::
 The script prints a dictionary of extracted features.  Adapt or import as
 needed for batch processing.
 """ 
+from __future__ import annotations
 import re
 import sys
 from pathlib import Path
 from typing import Dict, Optional, List
 from collections import defaultdict
 from bs4 import BeautifulSoup, NavigableString
-from __future__ import annotations
 from radio_matrix import RadioMatrix  
 
 
