@@ -79,7 +79,7 @@ YES_NO_QUESTIONS: Dict[str, str] = {
         "b. If yes to Item 9(a), are the terms and conditions governing conditional orders"
     ),
 
-        # --- Segmentation (Item 13) -------------------------------------------
+    # --- Segmentation (Item 13) -------------------------------------------
     "segmentation_supported":        "segmented into categories, classifications, tiers, or levels",
     "segmentation_uniform":          "segmentation of orders and trading interest the same for all Subscribers",
     "segmentation_customer_flag":    "identify orders or trading interest entered by a customer",
@@ -148,12 +148,6 @@ def _counterparty_selection(results: dict, radios) -> str:
 
     # Find explanation text (next <div class="fakeBox3"> after the label)
     explanation = None
-    # label_node = soup.find("td", string=lambda s: s and "If yes, explain the counter-party selection procedures" in s)
-    # if label_node:
-    #     div = label_node.find_next("div", class_="fakeBox3")
-    #     if div:
-    #         explanation = div.get_text(" ", strip=True)
-
     summary = _bool_to_word(supported)
     uniformity = _bool_to_word(uniform)
 
@@ -210,6 +204,8 @@ def _ioi_support(soup: BeautifulSoup, results: dict, radios) -> str:
     summary = _bool_to_word(has_support)
     uniformity = _bool_to_word(uniform)
     result = f"{summary} — terms and conditions are {'uniform' if uniform else 'not uniform'}"
+
+    # uncomment if want explanation
     # if explanation:
     #     result += f"\nDetails: {explanation}"
 
@@ -513,10 +509,10 @@ def extract_features_from_html(html: str) -> Dict[str, str]:
     # order type
     results.update(parse_order_type_features(_item7_text(soup)))
     
-    # -- display block -------------------------------------------------------
-    results.update(_extract_display_features(soup))
-    # segmentation block
-    results.update(_extract_segmentation_features(soup, results))
+    # # -- display block -------------------------------------------------------
+    # results.update(_extract_display_features(soup))
+    # # segmentation block
+    # results.update(_extract_segmentation_features(soup, results))
 
 
 
