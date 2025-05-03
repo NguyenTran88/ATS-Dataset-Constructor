@@ -7,17 +7,15 @@ Usage::
 
 The script prints a dictionary of extracted features.  Adapt or import as
 needed for batch processing.
-"""
-
-from __future__ import annotations
-
+""" 
 import re
 import sys
 from pathlib import Path
 from typing import Dict, Optional, List
 from collections import defaultdict
-
 from bs4 import BeautifulSoup, NavigableString
+from __future__ import annotations
+from radio_matrix import RadioMatrix  
 
 
 
@@ -107,73 +105,12 @@ RECIPIENT_PATTERNS: Dict[str, str] = {
 # 2.  Low‑level helpers
 # ---------------------------------------------------------------------------
 
-
 # Helper for text normalisation (hyphen → space, collapse whitespace)
 _HYPHEN_WS = re.compile(r"[‐‑–—-]|\s+")
-_ROWS_CACHE: List[tuple[str, "BeautifulSoup"]] | None = None
-
 
 def _normalise(txt: str) -> str:
     """lower‑case and collapse whitespace / hyphens"""
     return _HYPHEN_WS.sub(" ", txt).lower().strip()
-
-class ATSExtractor:
-    def __init__(self, html: str):
-        self.soup = BeautifulSoup(html, "html.parser")
-        self._rows_cache: dict[str, Tag] | None = None   # label → <tr>
-
-    # ────────────────────────────────────────────────────────────────
-    #  Build once, then O(1) look‑up
-    # ────────────────────────────────────────────────────────────────
-    def _build_rows_cache(self):
-        self._rows_cache = {}
-        for row in self.soup.select("tr:has(td.label)"):
-            label = _normalise(row.td.get_text(" ", strip=True))
-            self._rows_cache[label] = row
-
-    # ────────────────────────────────────────────────────────────────
-    #  Binary Yes/No detector
-    # ────────────────────────────────────────────────────────────────
-    def radio_yes_no(self, question: str) -> Optional[bool]:
-        if self._rows_cache is None:
-            self._build_rows_cache()
-
-        row = self._rows_cache.get(_normalise(question))
-        if not row:
-            return None
-
-        radios = row.select('img[src*="radio"]')
-        if len(radios) < 2:
-            return None
-
-        return "radio-checked" in radios[0]["src"] and not "radio-checked" in radios[1]["src"]
-
-    # you can expose higher‑level helpers here …
-
-# def _build_rows_cache(soup: BeautifulSoup) -> None:
-#     global _ROWS_CACHE
-#     _ROWS_CACHE = []
-#     for row in soup.select("tr:has(td.label)"):
-#         label = _normalise(row.td.get_text(" ", strip=True))
-#         _ROWS_CACHE.append((label, row))
-
-
-# def _radio_yes_no(soup: BeautifulSoup, label_fragment: str) -> Optional[bool]:
-#     """Return True / False / None for a Yes/No radio row."""
-#     global _ROWS_CACHE
-#     if _ROWS_CACHE is None:
-#         _build_rows_cache(soup)
-
-#     frag = _normalise(label_fragment)
-#     for label, row in _ROWS_CACHE:
-#         if frag not in label:
-#             continue
-#         checked = row.select_one('img[src*="radio-checked"]')
-#         if not checked:
-#             return None
-#         txt = (checked.next_sibling or "").lower()
-#         return "yes" in txt
-#     return None
 
 def _bool_to_word(value: Optional[bool]) -> str:
     # convert boolean to yes/no/unclear
@@ -184,10 +121,10 @@ def _bool_to_word(value: Optional[bool]) -> str:
 # 3.  Feature‑specific helpers (compose low‑level answers if needed)
 # ---------------------------------------------------------------------------
 
-def _subscriber_opt_out(soup: BeautifulSoup, results: dict) -> str:
+def _subscriber_opt_out(results: dict, radios) -> str:
     """Combine the two opt‑out questions into one human‑readable answer."""
-    bdo = _radio_yes_no(soup, YES_NO_QUESTIONS["subscriber_opt_out_bdo"])
-    aff = _radio_yes_no(soup, YES_NO_QUESTIONS["subscriber_opt_out_affiliate"])
+    bdo = radios._radio_yes_no(YES_NO_QUESTIONS["subscriber_opt_out_bdo"])
+    aff = radios._radio_yes_no(YES_NO_QUESTIONS["subscriber_opt_out_affiliate"])
     del results["subscriber_opt_out_bdo"]
     del results["subscriber_opt_out_affiliate"]
     if bdo is True and aff is True:
@@ -200,10 +137,10 @@ def _subscriber_opt_out(soup: BeautifulSoup, results: dict) -> str:
         return "No — Subscriber cannot opt out from either"
     return "Unclear"
 
-def _counterparty_selection(soup: BeautifulSoup, results: dict) -> str:
+def _counterparty_selection(results: dict, radios) -> str:
     """Extract counter-party selection logic and store description if available."""
-    supported = _radio_yes_no(soup, YES_NO_QUESTIONS["counterparty_selection_supported"])
-    uniform = _radio_yes_no(soup, YES_NO_QUESTIONS["counterparty_selection_uniform"])
+    supported = radios._radio_yes_no(YES_NO_QUESTIONS["counterparty_selection_supported"])
+    uniform = radios._radio_yes_no(YES_NO_QUESTIONS["counterparty_selection_uniform"])
 
     # Clean up intermediary keys
     del results["counterparty_selection_supported"]
@@ -227,10 +164,10 @@ def _counterparty_selection(soup: BeautifulSoup, results: dict) -> str:
     return result
 
 #internal/aff trading
-def extract_internal_trading_access(soup: BeautifulSoup) -> Dict[str, str]:
-    a = _radio_yes_no(soup, YES_NO_QUESTIONS["internal_trading_allowed"])
-    b = _radio_yes_no(soup, YES_NO_QUESTIONS["affiliate_access_to_ats"])
-    c = _radio_yes_no(soup, YES_NO_QUESTIONS["routing_to_affiliate_venue"])
+def extract_internal_trading_access(radios) -> Dict[str, str]:
+    a = radios._radio_yes_no(YES_NO_QUESTIONS["internal_trading_allowed"])
+    b = radios._radio_yes_no(YES_NO_QUESTIONS["affiliate_access_to_ats"])
+    c = radios._radio_yes_no(YES_NO_QUESTIONS["routing_to_affiliate_venue"])
 
     result = {}
     result["internal_trading_allowed"] = _bool_to_word(a)
@@ -256,9 +193,9 @@ def extract_internal_trading_access(soup: BeautifulSoup) -> Dict[str, str]:
     result["trading_access_summary"] = " ".join(summary_parts)
     return result
 
-def _ioi_support(soup: BeautifulSoup, results: dict) -> str:
-    has_support = _radio_yes_no(soup, YES_NO_QUESTIONS["supports_iois"])
-    uniform = _radio_yes_no(soup, YES_NO_QUESTIONS["ioi_uniform_treatment"])
+def _ioi_support(soup: BeautifulSoup, results: dict, radios) -> str:
+    has_support = radios._radio_yes_no(YES_NO_QUESTIONS["supports_iois"])
+    uniform = radios._radio_yes_no(YES_NO_QUESTIONS["ioi_uniform_treatment"])
 
     del results["supports_iois"]
     del results["ioi_uniform_treatment"]
@@ -452,7 +389,7 @@ def _extract_display_features(soup: BeautifulSoup) -> Dict[str, str]:
     mech    = mech_re.group(1) if mech_re else "Unspecified mechanism"
 
     return {
-        #"display_description_summary":  txt[:750].strip(),          # keep it short
+        #"display_description_summary":  txt[:450].strip(),          # keep it short
         #"display_recipients":           recips,
         "display_mechanism":            mech,
         "display_public_private_guess": _classify_public_private(txt_norm),
@@ -476,11 +413,6 @@ def _discover_feed_tokens(text: str) -> List[str]:
 
 # 3.  Segmentation extraction ------------------------------------------------
 
-# SEG_TAG_PATTERNS = [
-#     r"taker\s+level", r"taker\s+category", r"inclusion\s+level",
-#     r"contra\s+category", r"counterparty\s+classification",
-#     r"mark[- ]?out\s+analysis", r"category\s+id", r"taker\s+token",
-# ]
 SEG_TAG_PATTERNS = [
     r"taker\s+level",            # Specific matching tiers (Sigma X2 style)
     r"taker\s+category",          # a/b/c labels
@@ -555,6 +487,7 @@ def _extract_segmentation_features(soup: BeautifulSoup, res: Dict[str, str]) -> 
 
 def extract_features_from_html(html: str) -> Dict[str, str]:
     soup = BeautifulSoup(html, "html.parser")
+    radios = RadioMatrix(soup) 
     results: Dict[str, str] = {}
 
     # 4‑a. Regex features -----------------------------------------------------
@@ -565,23 +498,19 @@ def extract_features_from_html(html: str) -> Dict[str, str]:
 
     # 4‑b. Simple Yes/No radio questions -------------------------------------
     for key, fragment in YES_NO_QUESTIONS.items():
-        results[key] = _bool_to_word(_radio_yes_no(soup, fragment))
+        results[key] = _bool_to_word(radios._radio_yes_no(fragment))
 
     # 4‑c. Composed / multi‑step features ------------------------------------
 
     #subscriber logic
-    results["subscriber_opt_out_capability"] = _subscriber_opt_out(soup, results)
+    results["subscriber_opt_out_capability"] = _subscriber_opt_out(results, radios)
     #counterparty logic
-    results["counterparty_selection"] = _counterparty_selection(soup, results)
+    results["counterparty_selection"] = _counterparty_selection(results, radios)
     # Add new internal/affiliate access logic
-    results.update(extract_internal_trading_access(soup))
+    results.update(extract_internal_trading_access(radios))
     # ioi logic
-    results["supports_iois"] = _ioi_support(soup, results)
+    results["supports_iois"] = _ioi_support(soup, results, radios)
     # order type
-    # item7 = soup.find("a", {"name": "partIIIitem7"})
-    # if item7:
-    #     section_text = item7.find_next("table").get_text(" ", strip=True)
-    #     results.update(parse_order_type_features(section_text))
     results.update(parse_order_type_features(_item7_text(soup)))
     
     # -- display block -------------------------------------------------------
