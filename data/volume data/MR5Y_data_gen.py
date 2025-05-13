@@ -1,6 +1,9 @@
 import os, csv, collections, requests, base64, datetime as dt
 from dotenv import load_dotenv
 from tqdm import tqdm
+import pandas as pd
+from pathlib import Path
+import numpy as np
 
 # Load FINRA credentials
 load_dotenv("/Users/nguyentran/Desktop/Econ seminar/data/volume data/.env")
@@ -33,6 +36,7 @@ while cur <= today:
 ats_counts = collections.Counter()
 ats_volumes = collections.defaultdict(list)
 ats_ranks = collections.defaultdict(list)
+weekly_rows = []   # <-- collect (MPID, weekStartDate, shares)
 
 for monday in tqdm(mondays, desc="📊 Fetching weekly ATS data"):
     monday_str = monday.isoformat()
@@ -57,7 +61,11 @@ for monday in tqdm(mondays, desc="📊 Fetching weekly ATS data"):
     totals = collections.Counter()
     for row in csv.DictReader(r.text.splitlines()):
         try:
-            totals[row["MPID"]] += int(row["totalWeeklyShareQuantity"])
+            mpid = row["MPID"].strip()
+            # valid MPIDs are always four alphabetic characters (UBSA, SGMT, …)
+            if len(mpid) != 4 or not mpid.isalpha():
+                continue          # ← skip the aggregate “all ATS” row and any junk
+            totals[mpid] += int(row["totalWeeklyShareQuantity"])
         except:
             pass
 
@@ -65,22 +73,52 @@ for monday in tqdm(mondays, desc="📊 Fetching weekly ATS data"):
         ats_counts[mpid] += 1
         ats_volumes[mpid].append(vol)
         ats_ranks[mpid].append(rank)
+        # for each week; get top 30 and add: # of times a firm is in the top 30; the firms' volume that week; the firm rank that week
+        # print(f"{mpid:6} | {rank:2} | {vol:,.0f}")
+        weekly_rows.append(
+            {"MPID": mpid,
+             "weekStartDate": monday_str,
+             "shares": vol}
+        )
 
-# Summarize results
-# print("\n🏁 Top 15 Consistently High-Volume ATSs Over Past 5 Years:\n")
-# ranked_ats = sorted(ats_counts.items(), key=lambda x: (-x[1], x[0]))[:15]
+
+# 3 .  Aggregate + save
+# -----------------------------------------------------------------------
+out_dir = Path("data_clean")
+out_dir.mkdir(exist_ok=True)
+
+# 3 a. weekly_volume.csv  --------------------------------------------
+weekly_df = pd.DataFrame(weekly_rows)
+weekly_df.to_csv(out_dir / "weekly_volume.csv", index=False)
+
+# 3 b. annual_volume.csv  --------------------------------------------
+annual_df = (
+    weekly_df
+      .assign(year=lambda d: pd.to_datetime(d.weekStartDate).dt.year)
+      .groupby(["MPID", "year"], as_index=False)["shares"]
+      .sum()
+      .rename(columns={"shares": "annual_shares"})
+)
+annual_df.to_csv(out_dir / "annual_volume.csv", index=False)
+
+# 3 c. top15_overall.csv  --------------------------------------------
+top15_df = (
+    annual_df.groupby("MPID", as_index=False)["annual_shares"].sum()
+             .rename(columns={"annual_shares": "total_5yr_shares"})
+             .sort_values("total_5yr_shares", ascending=False)
+             .head(15)
+)
+top15_df.to_csv(out_dir / "top15_overall.csv", index=False)
 
 
-# for mpid, weeks in ranked_ats:
-#     avg_rank = sum(ats_ranks[mpid]) / len(ats_ranks[mpid])
-#     avg_volume = sum(ats_volumes[mpid]) / len(ats_volumes[mpid])
-#     print(f"{mpid:6} | Weeks in Top 30: {weeks:3} | Avg Rank: {avg_rank:4.1f} | Avg Volume: {avg_volume:,.0f}")
-
-cumulative_volume = {mpid: sum(vols) for mpid, vols in ats_volumes.items()}
-ranked_ats = sorted(cumulative_volume.items(), key=lambda x: -x[1])[:15]
-
-for mpid, total_vol in ranked_ats:
-    weeks = len(ats_volumes[mpid])
-    avg_rank = sum(ats_ranks[mpid]) / weeks
-    avg_volume = total_vol / weeks
-    print(f"{mpid:6} | Total Volume: {total_vol:,.0f} | Weeks: {weeks:3} | Avg Rank: {avg_rank:4.1f}")
+# console printout
+for m in top15_df.MPID:
+    r = ats_ranks[m]
+    print(m, " std-dev of weekly rank =", np.std(r).round(2))
+for _, row in top15_df.iterrows():
+    mpid        = row["MPID"]
+    total_vol   = row["total_5yr_shares"]
+    weeks       = len(ats_volumes[mpid])
+    avg_rank    = sum(ats_ranks[mpid]) / weeks
+    print(f"{mpid:6} | Total Vol 5y: {total_vol:>12,.0f} | "
+          f"Weeks in top-30: {weeks:3} | Avg weekly rank: {avg_rank:5.3f}")

@@ -49,5 +49,5 @@ for row in csv.DictReader(r.text.splitlines()):
     totals[row["MPID"]] += int(row["totalWeeklyShareQuantity"])
 
 print("Top‑5 ATS by share volume – week of", monday)
-for mpid, vol in totals.most_common(5):
+for mpid, vol in totals.most_common(16):
     print(f"{mpid:6}  {vol:,}")
