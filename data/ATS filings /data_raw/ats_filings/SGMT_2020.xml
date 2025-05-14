@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/seventeenafiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>X-17A-5</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <filerCik>0000042352</filerCik>
+          <filerCcc>XXXXXXXX</filerCcc>
+        </filerCredentials>
+      </filer>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <returnCopyFlag>true</returnCopyFlag>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <submissionInformation>
+      <periodBegin>01-01-2019</periodBegin>
+      <periodEnd>12-31-2019</periodEnd>
+      <typeOfRegistrant>Broker-dealer</typeOfRegistrant>
+      <materialWeakness>N</materialWeakness>
+    </submissionInformation>
+    <registrantIdentification>
+      <brokerDealerName>GOLDMAN SACHS &amp; CO. LLC</brokerDealerName>
+      <businessAddress>
+        <com:street1>200 WEST STREET</com:street1>
+        <com:city>NEW YORK</com:city>
+        <com:stateOrCountry>NY</com:stateOrCountry>
+        <com:zipCode>10282-2198</com:zipCode>
+      </businessAddress>
+      <contactPersonName>Thomas J. Favia</contactPersonName>
+      <contactPersonPhoneNumber>212-902-1710</contactPersonPhoneNumber>
+    </registrantIdentification>
+    <accountantIdentification>
+      <accountantName>PricewaterhouseCoopers LLP</accountantName>
+      <accountantAddress>
+        <com:street1>300 Madison Avenue</com:street1>
+        <com:city>New York</com:city>
+        <com:stateOrCountry>NY</com:stateOrCountry>
+        <com:zipCode>10017</com:zipCode>
+      </accountantAddress>
+      <accountantType>Certified Public Accountant</accountantType>
+    </accountantIdentification>
+    <oathSignature>
+      <signPersonName>Brian Doyle</signPersonName>
+      <entityName>GOLDMAN SACHS &amp; CO. LLC</entityName>
+      <signDate>12-31-2019</signDate>
+      <explanation>Receivables from customers and counterparties includes $418,758 receivable from Executive Officers
+and payables to customers and counterparties includes $53,059,600 payable to Executive Officers.
+Additionally, the account balances of certain affiliates are included in receivables from customers and
+counterparties or payables to customers and counterparties for purposes of financial statement
+presentation.</explanation>
+      <signature>Brian Doyle</signature>
+      <oathTitle>Chief Financial Officer</oathTitle>
+      <confirmNotarizedFlag>Y</confirmNotarizedFlag>
+    </oathSignature>
+  </formData>
+</edgarSubmission>

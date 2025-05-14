@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/sbse/sbsecfiler">
+  <headerData>
+    <submissionType>SBSE-C</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <filerCik>0000782124</filerCik>
+          <filerCcc>XXXXXXXX</filerCcc>
+        </filerCredentials>
+      </filer>
+      <flags>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <certificationOne>
+      <applicantName>J.P. MORGAN SECURITIES LLC</applicantName>
+      <cerApplicantName>J.P. MORGAN SECURITIES LLC</cerApplicantName>
+      <cerDate>10-29-2021</cerDate>
+      <signature>Jason Sippel</signature>
+      <name>Jason Sippel</name>
+      <title>CEO, J.P. Morgan Securities LLC</title>
+    </certificationOne>
+    <certificationTwo>
+      <applicantName>J.P. MORGAN SECURITIES LLC</applicantName>
+      <cerApplicantName>J.P. MORGAN SECURITIES LLC</cerApplicantName>
+      <cerDate>10-29-2021</cerDate>
+      <signature>Joseph Cerullo</signature>
+      <name>Joseph Cerullo</name>
+      <titleIfDesignee>Chief Compliance Officer</titleIfDesignee>
+    </certificationTwo>
+  </formData>
+</edgarSubmission>

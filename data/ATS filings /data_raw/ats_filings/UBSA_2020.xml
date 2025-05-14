@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ats="http://www.sec.gov/edgar/atsncommon">
+  <headerData>
+    <submissionType>ATS-N/MA</submissionType>
+    <accessionNumber>0000914121-20-000126</accessionNumber>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <filerCredentials>
+          <com:cik>0000230611</com:cik>
+          <com:ccc>XXXXXXXX</com:ccc>
+        </filerCredentials>
+        <fileNumber>013-00069</fileNumber>
+      </filer>
+      <flags>
+        <ats:overrideInternetFlag>false</ats:overrideInternetFlag>
+        <ats:confirmingCopyFlag>false</ats:confirmingCopyFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <cover>
+      <txNMSStockATSName>UBS ATS</txNMSStockATSName>
+      <taStatementAboutAmendment>Part II, Items 1, 2, 6, and Part III, Items 3, and 13 were revised with respect to disclosures relating to the order flows or subset of order flows eligible for grading (specifically related to orders received from clients of the UBS Retail Market Maker). These changes impact Class A Direct and Indirect Subscribers.
+
+Part III, Items 10 and 11 were revised with respect to disclosures related to executing in a locked or crossed market. These changes impact all classes of Subscribers including the Broker Dealer Operator.
+
+Part III, Item 13 was revised with respect to disclosures relating to: (1) the definition of Source Categories; (2) the order flows or subset of order flows eligible for grading; and (3) the grading process used to determine the Source Category assigned to an order flow or subset of order flow. These changes impact all classes of Subscribers including the Broker Dealer Operator.
+
+Part III, Item 14 was revised with respect the disclosures related to the No Locked crossing restriction due to the revision in Part III, Item 11 indicated above. These changes impact all classes of Subscribers including the Broker Dealer Operator.
+
+Part III, Item 23 has been revised with respect to adding NYSE National to the list of wireless market data feeds used by the UBS ATS. This change impacts all classes of Subscribers including the Broker Dealer Operator.</taStatementAboutAmendment>
+    </cover>
+    <partOne>
+      <rbPart1Item1IsBd>Y</rbPart1Item1IsBd>
+      <txPart1Item2ATSName>UBS SECURITIES LLC</txPart1Item2ATSName>
+      <atsNames>
+        <atsName txPart1Item3ATSName="UBS ATS"/>
+      </atsNames>
+      <txPart1Item4aBdFileNumber>008-22651</txPart1Item4aBdFileNumber>
+      <txPart1Item4aBdCrdNumber>000007654</txPart1Item4aBdCrdNumber>
+      <txPart1Item5aNsaFullName>FINRA</txPart1Item5aNsaFullName>
+      <part1Item5bEffectiveMembershipDate>05/15/1978</part1Item5bEffectiveMembershipDate>
+      <txtPart1Item5cNmsStockMPID>UBSA</txtPart1Item5cNmsStockMPID>
+      <txtPart1Item6uwebsite>www.ubs.com/ats</txtPart1Item6uwebsite>
+      <part1Item7PrimarySite>
+        <ats:street1>Equinix NY5 data center</ats:street1>
+        <ats:street2>800 Secaucus Rd</ats:street2>
+        <ats:city>Secaucus</ats:city>
+        <ats:zip>07094</ats:zip>
+        <ats:state>US-NJ</ats:state>
+      </part1Item7PrimarySite>
+      <part1Item7SecondarySiteRecords>
+        <secondarySiteI7>
+          <ats:street1>Equinix NY4 data center</ats:street1>
+          <ats:street2>755 Secaucus Rd</ats:street2>
+          <ats:city>Secaucus</ats:city>
+          <ats:zip>07094</ats:zip>
+          <ats:state>US-NJ</ats:state>
+        </secondarySiteI7>
+        <secondarySiteI7>
+          <ats:street1>Equinix CH1 data center</ats:street1>
+          <ats:street2>350 E Cermak Rd</ats:street2>
+          <ats:city>Chicago</ats:city>
+          <ats:zip>60616</ats:zip>
+          <ats:state>US-IL</ats:state>
+        </secondarySiteI7>
+      </part1Item7SecondarySiteRecords>
+      <cbPart1Item8Exhibit1atWebsite>false</cbPart1Item8Exhibit1atWebsite>
+      <cbPart1Item9Exhibit2atWebsite>false</cbPart1Item9Exhibit2atWebsite>
+    </partOne>
+    <partTwo>
+      <part2Item1aArePermittedToEnterInterest rbPart2Item1aArePermittedToEnterInterest="Y">
+        <taPart2Item1aUnitNamesEnterInterest>The UBS ATS is operated by UBS Securities LLC as the Broker-Dealer Operator. UBS Securities LLC ("UBS") is a broker and dealer registered with the Securities and Exchange Committee (SEC).
+
+The following UBS Equities business units of the Broker-Dealer Operator (the "Business Units") are permitted to enter or direct the entry of agency or principal orders and Conditional Indications (CIs) for execution in the UBS ATS:
+
+Global Cash Equities - This business unit is comprised of both sales and trading desks, which provide services to institutional (including other broker-dealers), retail, and corporate clients in cash equity securities.  The business unit primarily executes client orders on an agency basis, but it also maintains principal trading books to satisfy clients' liquidity needs as a market maker. This business unit is comprised of the following desks which are permitted to enter or direct the entry of agency or principal orders and CIs for execution in the UBS ATS: (1) High Touch Cash Trading, (2) Portfolio Trading, (3) Central Risk Book, (4) Retail Market-Making (RMM), and (5) Electronic Trading.
+
+Global Equity Derivatives - This business is primarily a client facilitation business that services clients in flow and structured derivatives. The derivative products typically traded include but are not limited to OTC, listed, structured notes, dynamic strategies, corporate derivatives, convertible bonds, and commodity index products. The trading desk generally hedges its risk on both a security-by-security and portfolio basis, as appropriate. This business unit is comprised of the following desks which are permitted to enter or direct the entry of agency or principal orders and CIs for execution in the UBS ATS: (1) Flow Derivative Trading, (2) Structured Products, (3) Public Distribution, and (4) Fund Derivative Trading.
+
+Global Financing Services - In addition to providing prime brokerage services to clients, this business operates a market making business in delta-one equity products (e.g., total return swaps, security futures and options).  The business also offers securities lending and inventory management services to the UBS Global Equities business. Risks are generally hedged on a trade-by-trade basis. This business unit is comprised of the following desks which are permitted to enter or direct the entry of agency or principal orders and CIs for execution in the UBS ATS: (1) Equity Finance, and (2) Securities Lending.
+
+All Business Units have the same levels of access to services (e.g., connectivity, liquidity, restrictions) within the UBS ATS and all orders or CIs from the Business Units reach the UBS ATS through the UBS Smart Order Router ("UBS SOR"). The desks of the Business Units, as described above, are Class A Direct Subscribers. For the definitions of each class of ATS Subscriber, please see Part II, Item 5.
+
+Class A Direct Subscribers are permitted to enter and direct the entry of agency and principal orders and CIs into the UBS ATS, using the MPID "UBSS".</taPart2Item1aUnitNamesEnterInterest>
+        <part2Item1bAreSevicesSametoAllSubscribers rbPart2Item1bAreSevicesSametoAllSubscribers="N">
+          <taPart2Item2bExplainDiff>The UBS ATS offers certain services to the Class A Direct Subscribers that differ from those provided to other classes of Subscribers. Listed below are descriptions of those differentiated services, along with applicable references to Part III of this submission.
+
+-- Item 3, Exclusion from ATS Services - Class A Direct Subscribers are not subject to reversion analysis and Source Category grading or Conditional Scoring, and therefore are not subject to exclusion from ATS Services. Details of that grading process and the definition of the term "Source Category" are available in Part III, Item 13.
+
+-- Item 5, Means of Entry - Class A Direct Subscribers do not have direct connectivity to the UBS ATS; their orders and CIs enter the UBS ATS through the UBS SOR using the industry standard Financial Information eXchange protocol (FIX
+4.2).
+
+-- Item 9, Conditional Orders and Indications of Interest - Conditional Indications (CIs) sent by Class A Direct Subscribers are not included in the UBS
+ATS monthly evaluation process in which the quality of CIs and subsequent Firm-Up orders are measured and assigned a Conditional Score (the "Score"). CIs are described in Part III, Item 9.
+
+-- Item 13, Segmentation; Notice - Class A Direct Subscribers are not subject to reversion analysis and Source Category grading or Conditional Scoring, and therefore are not subject to exclusion from ATS Services. Details of the grading process and the term "Source Category" are defined in Part III, Item 13.
+
+-- Item 14, Counter-Party Selection - For information on counter-party selection please see Part III, Item 14a of this Form ATS-N under the headline "Restricting Crossing Against a Specific Source Category" which dictates the permitted crossing restrictions that can be placed on orders for Class A Direct and Class A Indirect Subscribers as well as all Subscribers.
+
+--  Item 19, Fees - The UBS ATS does not charge an execution fee for Class A Direct Subscribers.
+
+--  Item 21, Trade Reporting - Business Unit principal orders crossing with other Business Unit principal orders will be treated as internal journal movements if the same legal entity is on each side of the cross and will not be reported to a trade reporting facility. All other Business Unit principal order crosses will be reported as principal.</taPart2Item2bExplainDiff>
+        </part2Item1bAreSevicesSametoAllSubscribers>
+        <rbPart2Item1cAreThereArrangements>N</rbPart2Item1cAreThereArrangements>
+      </part2Item1aArePermittedToEnterInterest>
+      <rbPart2Item1dCanOATInterestBeRouted>N</rbPart2Item1dCanOATInterestBeRouted>
+      <affiliatesPermittedToEnterInterest rbPart2Item2aAreAfflPermittedToEnterInterest="Y">
+        <taPart2Item2aAfflThatEnterInterest>Affiliates of the Broker-Dealer Operator are permitted to enter or direct the entry of orders and trading interest into UBS ATS through the UBS SOR using FIX 4.2. For purposes of this Form ATS-N, UBS has defined the term "Affiliate Orders" to mean orders and Conditional Indications (CIs) sent to the UBS ATS on behalf of an affiliate of the Broker Dealer Operator.
+
+Affiliate Orders use the "UBSS" MPID and may be sent as principal or agency but all Affiliate Orders are handled by the UBS ATS on an agency basis (i.e., the Broker-Dealer Operator, UBS Securities LLC, acts as agent for its Affiliates).
+
+Affiliate Orders are classified as either Class A Direct Subscriber or Class A Indirect Subscriber depending on from where the Affiliate Order originates. If the Affiliate Orders originates from either the UBS Algorithmic platform or Retail Market Making (RMM) then that Affiliate Order would be classified as a Class A Direct Subscriber, otherwise it would be classified as a Class A Indirect Subscriber.
+
+The following Affiliates entered or directed the entry of agency and principal orders, CIs and trading interest into UBS ATS in Q2 2019:
+-- UBS AG, acting through various global branches (e.g., UBS AG London Branch)
+-- UBS Financial Services Inc.
+-- UBS Europe SE
+-- UBS Securities Canada Inc.
+-- UBS Securities Australia Limited
+-- UBS Switzerland AG
+
+In general, these Affiliates are members of the following types of business operated within the larger UBS organization:
+
+-- Investment Bank: provides investment banking, advisory, capital markets, research, and sales and trading services to institutional clients around the world.
+
+-- Wealth Management: provides comprehensive financial advice, solutions and services to wealthy families and individuals around the world.
+
+-- Personal &amp; Corporate Banking: provides comprehensive financial products and services to UBS's private, corporate and institutional clients in Switzerland.
+
+-- Asset Management: offers investment capabilities and investment styles across all major traditional and alternative asset classes to institutions, wholesale intermediaries and wealth management clients around the world.
+
+-- Corporate Center: comprised of Services, Group Treasury, Asset and Liability Management, and Non-core and Legacy Portfolio.
+
+Please note the above does not represent an exhaustive listing of all Affiliates that have the ability to enter or direct the entry of orders and trading interest into UBS ATS.</taPart2Item2aAfflThatEnterInterest>
+        <part2Item2bAreSevicestoAfflSametoSubscribers rbPart2Item2bAreSevicestoAfflSametoSubscribers="N">
+          <taPart2Item2bExplainDiff>The UBS ATS offers certain services to Affiliates that differ from those provided to Subscribers. Listed below are descriptions of those differentiated services, along with applicable references to Part III of this submission:
+
+-- Item 3, Exclusion from ATS Services - Affiliates are not subject to Source Category grading or Conditional Scoring.
+
+-- Item 5, Means of Entry - Affiliates do not have direct connectivity to the UBS ATS. All Affiliate orders and CIs enter the UBS ATS through the UBS SOR using FIX 4.2.
+
+-- Item 9, Conditional Orders and Indications of Interest - Conditional Indications (CIs) sent by Class A Direct Subscribers on behalf of an Affiliate are not included in the UBS ATS monthly evaluation process in which the quality of CIs and subsequent Firm-Up orders are measured and assigned a Conditional Score (the "Score"). CIs are described in Part III, Item 9.
+
+-- Item 13, Segmentation; Notice - Affiliates are not subject to Source Category grading or Conditional Scoring.
+
+-- Item 14, Counter-Party Selection - For information on counter-party selection please see Part III, Item 14a of this Form ATS-N under the headline "Restricting Crossing Against a Specific Source Category" which dictates the permitted crossing restrictions that can be placed on orders for Class A Direct and Class A Indirect Subscribers as well as all Subscribers.
+
+-- Item 19, Fees - Affiliates do not pay an execution fee to the UBS ATS.</taPart2Item2bExplainDiff>
+        </part2Item2bAreSevicestoAfflSametoSubscribers>
+        <rbPart2Item2cAreThereArrangementsWithAffl>N</rbPart2Item2cAreThereArrangementsWithAffl>
+      </affiliatesPermittedToEnterInterest>
+      <rbPart2Item2dCanOATIBeRoutedByAffl>N</rbPart2Item2dCanOATIBeRoutedByAffl>
+      <part2Item3aCanSubscrOptOutWithOATIOfBD rbPart2Item3aCanSubscrOptOutWithOATIOfBD="Y">
+        <taPart2Item3aExplianOptOut>A UBS Principal Order is either (i) any order or CI for an account that is owned by the Broker-Dealer Operator, or (ii) an order or CI for an account of an affiliated broker-dealer or an account of another entity that is part of the UBS
+Investment Bank Division.
+
+All Subscribers may opt-out of interacting with UBS Principal Orders using crossing restrictions on an order-by-order basis, as set forth in the UBS ATS Specifications (the document which, among other things, sets forth the technical implementation of crossing restrictions). For crossing restriction identifiers, please see the UBS ATS Specifications, which are publicly available at: www.ubs.com/ats. For further information please refer to Part III, Item 14 of this Form ATS-N.
+
+Agency orders and CIs from the Broker Dealer Operator cannot be specifically restricted.</taPart2Item3aExplianOptOut>
+      </part2Item3aCanSubscrOptOutWithOATIOfBD>
+      <part2Item3aCanSubscrOptOutWithOATIOfAffl rbPart2Item3aCanSubscrOptOutWithOATIOfAffl="Y">
+        <taPart2Item3bExplianOptOut>Affiliate Orders may be sent to the UBS ATS as agency or principal. Subscribers cannot prevent interacting with agency Affiliate Orders but may prevent interacting with UBS Principal Orders using crossing restrictions on an order-by-order basis, as set forth in the UBS ATS Specifications (the document which, among other things, sets forth the technical implementation of crossing restrictions).
+
+A UBS Principal Order is either (i) any order or CI for an account that is owned by the Broker-Dealer Operator, or (ii) an order or CI for an account of an affiliated broker-dealer or an account of another entity that is part of the UBS
+Investment Bank Division.
+
+The UBS ATS Specifications are publicly available at: www.ubs.com/ats. For further information please refer to Part III, Item 14 of this Form ATS-N.</taPart2Item3bExplianOptOut>
+      </part2Item3aCanSubscrOptOutWithOATIOfAffl>
+      <rbPart2Item3cAreOptOutSametoAllSubscribers>Y</rbPart2Item3cAreOptOutSametoAllSubscribers>
+      <part2Item4aAreThereArrangementsBtwBDAndTC rbPart2Item4aAreThereArrangementsBtwBDAndTC="Y">
+        <taPart2Item4aTDAndATSServices>In some cases, UBS ATS has executed bilateral Subscriber Agreements. These bilateral Subscriber Agreements offer uniform and consistent terms between two broker-dealers that each route orders and also operate an NMS ATS. The bilateral Subscriber Agreements avoid two sets of negotiations and are administratively convenient. The bilateral Subscriber Agreements do not obligate or require either party to send orders to the other party's ATS or engage in any level of activity. The parties with which the UBS ATS currently has in place bilateral Subscriber Agreements are: Barclays Capital Inc., Citigroup Global Markets Inc., Credit Suisse Securities LLC, Deutsche Bank Securities Inc., Goldman Sachs &amp; Co. LLC, Instinet LLC, JP Morgan Securities LLC, Liquidnet Inc., Morgan Stanley &amp; Co Inc., National Financial Services LLC, Virtu Americas LLC., Virtu ITG LLC.</taPart2Item4aTDAndATSServices>
+        <rbPart2Item4bAreThereArrangementsBtwAfflAndTC>N</rbPart2Item4bAreThereArrangementsBtwAfflAndTC>
+      </part2Item4aAreThereArrangementsBtwBDAndTC>
+      <part2Item5aDoesOfferProductsAndServices rbPart2Item5aDoesOfferProductsAndServices="Y">
+        <taPart2Item5aProductsAndServices>The Broker-Dealer Operator offers a wide range of execution products and services (the "Electronic Trading Services" or "Services") that enable clients to interact with displayed and non-displayed liquidity, including the UBS ATS, through algorithmic trading, UBS SOR, and Direct Market Access (DMA). The use of the Services is governed by the relevant contractual agreements between the client and UBS Securities LLC with no specific terms and conditions for routing orders and/or Conditional Indications to the UBS ATS.
+
+UBS ATS Subscribers fall into one of the following categories:
+
+-- Class A Direct Subscribers are the trading desks (see Part II, Item 1 for more information) which are within UBS Securities LLC ("UBS" or "Broker-Dealer Operator"), where the trading desks route orders and trading interest to the UBS
+ATS using the Broker Dealer Operator Services and UBS makes the routing decision. This consists of UBS Algorithmic child orders and CIs from the UBS SOR routed on behalf of UBS clients, and also includes Principal flow from UBS trading desks and orders and CIs from RMM.
+
+-- Class A Indirect Subscribers are clients of the Broker-Dealer Operator that direct orders or CIs to the UBS ATS through the Electronic Trading Services provided by the Broker-Dealer Operator. They must undergo UBS' standard onboarding and Know Your Client (KYC) review processes.
+
+-- Class B Direct Subscribers must be a US registered broker-dealer and a member of at least one self-regulatory organization. They must provide information via an ATS questionnaire, which is reviewed by the ATS Desk (See Part II, Item 6a for definition), Legal, and Compliance &amp; Operational Risk Control ("Compliance"). If approved, they must undergo UBS' onboarding and KYC review processes and sign a specific UBS ATS Subscriber Agreement. Class B Direct Subscribers direct orders and CIs to the UBS ATS through their own direct connections to the UBS ATS;
+
+-- Class B Indirect Subscribers must be US based and fully disclosed to and approved by the UBS ATS to direct orders and CIs to the UBS ATS through a Class B Direct Subscriber. They must provide information via an ATS questionnaire, which is reviewed by the ATS Desk (See Part II, Item 6a for definition), Legal, and Compliance. If approved, they must undergo UBS' onboarding and KYC review processes, but Class B Indirect Subscribers do not sign a specific UBS ATS Subscriber Agreement. The Broker-Dealer Operator has the authority and discretion to deny any Class B Indirect Subscriber proposal made by a Class B Direct Subscriber.
+
+The Services that UBS offers to Subscribers are as follows.
+
+-- Class A Direct Subscribers: The Broker Dealer Operator offers all of the aforementioned Services to the Class A Direct Subscribers.
+
+-- Class A Indirect Subscribers: UBS offers Class A Indirect Subscribers the ability to enter orders and CIs directly into the UBS ATS (DMA) either through the UBS SOR and/or a UBS developed FIX 4.2 client connectivity proxy and/or through a UBS controlled third party technology platform.
+
+-- Class B Direct Subscribers and Class B Indirect Subscribers: UBS offers Class B Direct Subscribers and Class B Indirect Subscribers the ability to enter orders and CIs directly into the UBS ATS through a FIX 4.2 or UBP connection (See Part III, Item 5) as well as the ability to establish a direct cross-connect to the UBS ATS (See Part III, Item 6). In addition to being approved by the Broker Dealer Operator, Class B Direct Subscribers and Class B Indirect Subscribers of the UBS ATS must complete an onboarding questionnaire and be approved by the UBS ATS for access to the UBS ATS.</taPart2Item5aProductsAndServices>
+        <part2Item5bAreSevicesSametoAllSubscribersAndBD rbPart2Item5bAreSevicesSametoAllSubscribersAndBD="N">
+          <taPart2Item5bExplainDiff>The UBS ATS offers certain services to the Broker Dealer Operator that differ from those provided to other classes of Subscribers. Listed below are descriptions of those differentiated services, along with applicable references to Part III of this submission:
+
+-- Item 3, Exclusion from ATS Services - All orders and CIs from Class B Direct and Indirect Subscribers are subject to reversion analysis and Source Category grading and Conditional Scoring, and therefore are subject to exclusion from ATS Services. However, not all Class A Direct and Indirect Subscriber orders and CIs are subject to reversion analysis and Source Category grading and Conditional Scoring. For more information, please see Part III, Item 13(a).
+
+-- Item 9, Conditional Orders and Indications of Interest - Conditional Indications (CIs) sent by Class A Direct Subscribers are not included in the UBS ATS monthly evaluation process in which the quality of CIs and subsequent Firm-Up orders are measured and assigned a Conditional Score (the "Score"). CIs are first defined in Part III, Item 9.
+
+-- Item 13, Segmentation - All orders and CIs from Class B Direct and Indirect Subscribers are subject to reversion analysis and Source Category grading or Conditional Scoring, and therefore are subject to exclusion from ATS Services.  Class A Direct  Subscriber orders and CIs are not subject to reversion analysis, Source Category grading, or Conditional Scoring.  Class A Indirect Subscriber orders and CIs are subject to reversion analysis, Source Category grading, and Conditional Scoring only when not received through the UBS SOR.
+
+-- Item 14, Counter-Party Selection - For information on counter-party selection please see Part III, Item 14a of this Form ATS-N under the headline "Restricting Crossing Against a Specific Source Category" which dictates the permitted crossing restrictions that can be placed on orders for Class A Direct and Class A Indirect Subscribers as well as all Subscribers.
+
+-- Item 19, Fees - The UBS ATS does not charge an execution fee for Class A
+Direct Subscribers.
+
+It is possible for a US registered broker-dealer to be a Class B Direct Subscriber of the UBS ATS, and also sign the relevant contractual agreement with the Broker-Dealer Operator that provides the client with access to the Electronic Trading Services. In this case, the manner in which such a client sends an order or CI to the UBS ATS determines how the order is classified. If the client's order or CI enters the UBS ATS through the Broker-Dealer Operator's Electronic Trading Services, it would be classified either as a Class A Direct Subscriber or a Class A Indirect Subscriber, according to the definitions in Part II Item 5(a). If the client's order or CI enters the UBS ATS through their direct connection, it would be classified as a Class B Direct Subscriber.
+
+Similarly, it is also possible for a Class B Indirect Subscriber to sign the relevant contractual agreement with the Broker-Dealer Operator that provides the client with access to the Electronic Trading Services, in which case the manner in which such a client sends an order or CI to the UBS ATS determines how the order or CI is classified. If the client's order or CI enters the UBS ATS through the Broker-Dealer Operator's Electronic Trading Services, it would be classified either as a Class A Direct Subscriber or a Class A Indirect Subscriber , according to the definitions in Part II Item 5(a). If the client's order or CI enters the UBS ATS through their directed access provided by a Class B Direct Subscriber, it would be classified as a Class B Indirect Subscriber.</taPart2Item5bExplainDiff>
+        </part2Item5bAreSevicesSametoAllSubscribersAndBD>
+      </part2Item5aDoesOfferProductsAndServices>
+      <rbPart2Item5cDoesAfflOfferProductsAndServices>N</rbPart2Item5cDoesAfflOfferProductsAndServices>
+      <part2Item6aDoesEmployeeAccessConfidentialInfo rbPart2Item6aDoesEmployeeAccessConfidentialInfo="Y">
+        <taPart2Item6aUnitAfflEmployeeServices>General Background and Scope of Subscriber Confidential Trading Information:
+The Broker-Dealer Operator operates the UBS ATS trading systems and is involved in the execution, processing, clearing, and settling of transactions executed in the UBS ATS.
+
+UBS considers Subscriber confidential trading information (CTI) to consist of Subscribers' identities as well as Real-Time CTI and Post-Trade CTI (see below) relating to orders, trading interests, and executions in UBS ATS.
+
+UBS does not consider information publicly disseminated pursuant to regulatory requirements (e.g., information that is reported to the consolidated tape pursuant to SRO trade reporting requirements, etc.), or information of an aggregated and anonymized nature (e.g., aggregated and anonymous order, trading interest, and execution statistics (see Part III, Item 26), advertisements, etc.) to be CTI.
+
+For the purpose of this Form ATS-N, the term "Real-Time CTI" means order, trading interest, and execution information available for viewing in a Graphical User Interface (GUI) that provides visibility to such information on a near real time basis.
+
+Furthermore, for the purpose of this Form ATS-N, the term "Post-Trade CTI" means order, trading interest, and execution information available for viewing in either a database, log file, or report format solely after the event occurs (including canceled and expired orders) and the information is stored in its respective location and medium. The UBS ATS aggregates Post-Trade CTI across the entire ATS, by sector, by order type, by market capitalization, by size, by symbol or any other criteria deemed appropriate by the ATS Desk (see definition under ACE). The UBS ATS aggregates and anonymizes Post-Trade CTI on a daily, weekly, monthly, quarterly, semi-annual, or annual basis.
+
+UBS administers access to CTI through a permission-based bank access system (the "Access System"). The Access System allows Persons to submit a request documenting a reason why the access to CTI is required. When a request is submitted, the Access System creates notifications for the line manager and ATS Supervisor to review the access request in the Access System and either approve or reject the request. Furthermore, the UBS ATS systems are physically segregated with dedicated permissions to the segregated trading environment.
+
+UBS Americas Cash Equities (referred to as "ACE"):
+UBS ATS employees reside within ACE and are responsible for the management and supervision of the UBS ATS. ACE is part of the UBS Global Cash Equities business unit as described in Part II, Item 1. Within ACE the UBS ATS Desk is separate from all other groups. For purposes of this Form ATS-N, the term "ATS Desk" refers to the UBS ATS Supervisor, authorized delegates, and ATS senior management. The following groups provide shared resources within ACE: Senior Management, Market Structure (MS), Quantitative Analytics and Development (QAD), Product Development Group (PDG), Regulatory Risk Management (RRM), and Chief Operating Office (COO). While no other groups within ACE have direct access to the UBS ATS or visibility into the UBS ATS systems or order book, each of these shared functions has different levels of access to CTI based on their roles and responsibilities related to the UBS ATS.
+
+-- Senior Management ("Senior Management"):
+Senior Management within the Global Cash Equities business is ultimately responsible for the operations of the ACE business, including the UBS ATS. Senior Management may have access, on a case-by-case basis, to all CTI available to any member of the ATS Desk for the sole purpose of strategically operating the broader business. Access is approved through the Access System or separate supervisory approval.
+
+-- Market Structure (MS):
+The Americas Market Structure team is responsible for closely monitoring market structure and regulatory developments and regularly sharing UBS' insights through micro and macro market updates to all clients of UBS including UBS ATS Subscribers. MS may be made aware that a client is a UBS ATS Subscriber for purposes of discussions with that client, however, MS will not have access to any other CTI. Access is approved through the Access System or separate supervisory approval.
+
+-- Quantitative Analytics and Development (QAD):
+The Quantitative Analytics and Development team is responsible for Post-Trade CTI analytics for Equities including the UBS ATS with a focus on items such as Subscriber-specific and aggregated data for distribution, Source Category grading, Conditional Scoring analyses, and developing new functionality. QAD generally has access to Post-Trade CTI, but QAD also may have access to Real-Time CTI, on a case by case basis, as necessary for the performance of their responsibilities. Access is approved through the Access System.
+
+-- Product Development Group (PDG):
+The Product Development Group is responsible for the management and coordination of new development items and enhancements to existing systems within UBS ACE including the UBS ATS. PDG has access to Post-Trade CTI on a case-by-case basis, but in some cases access to Real-Time CTI may be provided if necessary for the performance of responsibilities. Access is approved through the Access System.
+
+-- Regulatory Risk Management (RRM):
+The Regulatory Risk Management team is responsible for the development and implementation of governance and control processes. RRM serves several roles including, but not limited to: 1) helping to ensure the UBS ATS operates within the applicable regulatory framework, and 2) performing surveillance monitoring on a T+1 basis. RRM personnel have access to Post-Trade CTI to perform their responsibilities and to assist with the development and enforcement of governance controls. Access is approved through the Access System or separate supervisory approval
+
+-- Chief Operating Officer (COO):
+The Chief Operating Office staff assists with the development and implementation of governance and control processes. One of the roles of COO is to help ensure the UBS ATS operates within the applicable control framework. COO personnel have access to Post-Trade CTI to support the control oversight of the UBS ATS and help ensure the UBS ATS operates consistent with the offering and bank standards. Access is approved through supervisory approval.
+
+UBS Business Solutions US LLC ("UBS Business Solutions"):
+UBS Business Solutions is an Affiliate of the Broker-Dealer Operator that provides development, support (e.g., monitoring, Subscriber support, deployment, systems engineering, etc.), control functions (e.g., Legal, Compliance, Surveillance, etc.), and other general corporate functions necessary for the operation of UBS ATS. Employees of UBS Business Solutions that service the operations of the UBS ATS as well as other UBS trading desks, business units and/or Affiliates of the Broker-Dealer Operator ("shared employees") have access to CTI if required to perform their job function. Access to Real-Time CTI monitoring tools for the UBS ATS is restricted and only granted to business, technology, and support staff on a case-by-case basis when necessary to perform their responsibilities. The functions within UBS Business Solutions that have access to CTI are listed below.
+
+-- Development:
+UBS' Order Management System technology development team (Development) is responsible for the software technology (e.g., development, testing, deployment, stability, support, etc.) of the UBS ATS. Development has access to Real-Time CTI and Post-Trade CTI to perform their responsibilities. This access is through the Access System.
+
+-- Support:
+Support personnel are responsible for addressing Subscriber inquiries related to orders, trading interest, and executions as well as escalating client market access limit issues, implementing limit change requests, deploying changes for Subscribers, monitoring the operation of the UBS ATS, and working with data center operations, networking, engineering, and incident management and response. Support personnel have access to Real-Time CTI (including alerting) and Post-Trade CTI in the UBS ATS to ensure the system operates consistent with the offering and to assist Subscribers with Real-Time CTI or Post-Trade CTI analysis. This access is through the Access System.
+
+-- Legal, Compliance and Surveillance:
+Personnel within Legal, Compliance and Surveillance cover both the operations of the UBS ATS and other business units of the Broker-Dealer Operator and its Affiliates. Legal, Compliance and Surveillance staff have access to Post-Trade CTI on a case-by-case basis. Access to Post-Trade CTI is necessary for the performance of their responsibilities related to ensuring the ATS operates in accordance with applicable rules and regulations, as well as performing T+1 surveillance monitoring. This access is through supervisory approval.
+
+-- Finance, Clearing, and Settlement:
+Personnel within Finance, Clearing, and Settlement cover both the operations of the UBS ATS and other business units of the Broker-Dealer Operator and its Affiliates. The systems supporting Finance, Clearing, and Settlement have standing access to Post-Trade CTI to ensure proper support of the ATS. The staff within Finance, Clearing, and Settlement must have approved access to these systems which is managed through the Access System. This access is through the Access System and approvals are managed by the team managers.
+
+Please note that certain individuals with access to CTI may change roles and move among different groups/functions within Global Cash Equities and UBS Business Solutions. When employees change roles, the UBS ATS may allow certain employees to temporarily maintain their existing level of access to CTI for the sole purpose of transitioning their responsibilities to another employee. When the transition of responsibilities is complete and the ATS Desk determines the employee's legacy access to CTI is no longer required, access will be removed.</taPart2Item6aUnitAfflEmployeeServices>
+      </part2Item6aDoesEmployeeAccessConfidentialInfo>
+      <part2Item6bDoesAnyEntitySupportServices rbPart2Item6bDoesAnyEntitySupportServices="Y">
+        <taPart2Item6bServiceProvider>UBS Business Solutions, an Affiliate of the Broker-Dealer Operator, provides compliance, legal, development, systems engineering, accounting, and corporate functions necessary for the operation of UBS ATS. Listed below are summaries of the roles and responsibilities performed by UBS Business Solutions as they relate to items specified in Part III:
+
+-- Item 6: Connectivity and Co-location - UBS Business Solutions provides data center support and networking resources to establish and maintain client connectivity for trading purposes.
+
+-- Item 22: Clearance and Settlement - UBS Business Solutions performs clearance and settlement services for the Broker-Dealer Operator's principal and institutional executions.</taPart2Item6bServiceProvider>
+        <part2Item6cDoesServiceProviderUseATSServices rbPart2Item6cDoesServiceProviderUseATSServices="Y">
+          <taPart2Item6cProviderAfflAndServicesUsed>UBS Business Solutions is an Affiliate of the Broker-Dealer Operator, and, because it is part of the UBS corporate organization, UBS Business Solutions is likewise considered an Affiliate of the Broker-Dealer Operator's Affiliates. As described above in Item 2 of Part II, certain entities that are Affiliates of both the Broker-Dealer Operator and UBS Business Solutions use certain services offered by the UBS ATS.</taPart2Item6cProviderAfflAndServicesUsed>
+          <part2Item6dAreATSSevicesSametoAll rbPart2Item6dAreATSSevicesSametoAll="N">
+            <taPart2Item6dExplainDiff>The UBS ATS offers certain services to Affiliates that differ from those provided to Class A Indirect Subscribers, Class B Direct Subscribers and Class B Indirect Subscribers. Listed below are descriptions of those differentiated services, along with applicable references to Part III of this submission:
+
+-- Item 3, Exclusion from ATS Services - Affiliates are not subject to Source Category grading or Conditional Scoring.
+
+-- Item 5, Means of Entry - Affiliates do not have direct connectivity to the UBS ATS. Affiliate Orders enter the UBS ATS through the UBS SOR using FIX 4.2.
+
+-- Item 6, Connectivity and Co-location - Affiliates do not have direct connectivity to the UBS ATS. Affiliate Orders enter the UBS ATS through the UBS
+SOR using FIX 4.2 and traverse a client-facing firewall.
+
+-- Item 9, Conditional Orders and Indications of Interest - Conditional Indications (CIs) sent by the Broker-Dealer Operator on behalf of an Affiliate are not included in the UBS ATS monthly evaluation process in which the quality of CIs and subsequent Firm-Up orders are measured and assigned a Conditional Score (the "Score"). CIs are defined in Part III, Item 9.
+
+-- Item 13, Segmentation; Notice - Affiliates are not subject to Source Category grading or Conditional Scoring.
+
+-- Item 14, Counter-Party Selection - For information on counter-party selection please see Part III, Item 14a of this Form ATS-N under the headline "Restricting Crossing Against a Specific Source Category" which dictates the permitted crossing restrictions that can be placed on orders for Class A Direct and Class A Indirect Subscribers as well as all Subscribers.
+
+-- Item 19, Fees - Affiliates do not pay an execution fee to the UBS ATS.</taPart2Item6dExplainDiff>
+          </part2Item6dAreATSSevicesSametoAll>
+        </part2Item6cDoesServiceProviderUseATSServices>
+      </part2Item6bDoesAnyEntitySupportServices>
+      <taPart2Item7aDescrOfSafeGaurdsAndProcedures>General Background and Scope of Subscriber Confidential Trading Information:
+The Broker-Dealer Operator operates the UBS ATS trading systems and is involved in the execution, processing, clearing, and settling of transactions executed in the UBS ATS.
+
+UBS considers Subscriber confidential trading information (CTI) to consist of Subscribers' identities as well as Real-Time CTI and Post-Trade CTI (see below) relating to orders, trading interests, and executions in UBS ATS.
+
+UBS does not consider information publicly disseminated pursuant to regulatory requirements (e.g., information that is reported to the consolidated tape pursuant to SRO trade reporting requirements, etc.), or information of an aggregated and anonymized nature (e.g., aggregated and anonymous order, trading interest, and execution statistics (see Part III, Item 26), advertisements, etc.) to be CTI.
+
+For the purpose of this Form ATS-N, the term "Real-Time CTI" means order, trading interest, and execution information available for viewing in a Graphical User Interface (GUI) that provides visibility to such information on a near real time basis.
+
+Furthermore, for the purpose of this Form ATS-N, the term "Post-Trade CTI" means order, trading interest, and execution information available for viewing in either a database, log file, or report format solely after the event occurs (including canceled and expired orders) and the information is stored in its respective location and medium. The UBS ATS aggregates Post-Trade CTI across the entire ATS, by sector, by order type, by market capitalization, by size, by symbol or any other criteria deemed appropriate by the ATS Desk (see definition under ACE). The UBS ATS aggregates and anonymizes Post-Trade CTI on a daily, weekly, monthly, quarterly, semi-annual, or annual basis.
+
+UBS administers access to CTI through a permission-based bank access system (the "Access System"). The Access System allows Persons to submit a request documenting a reason why the access to CTI is required. When a request is submitted, the Access System creates notifications for the line manager and ATS Supervisor to review the access request in the Access System and either approve or reject the request. Furthermore, the UBS ATS systems are physically segregated with dedicated permissions to the segregated trading environment.
+
+Physical Separation:
+The UBS ATS operates in an environment completely segregated (firewalled) from the Broker-Dealer Operator, its affiliates and all Subscribers. Due to this physical separation, access to the ATS environment is likewise segregated, maintained separately, and dedicated to the UBS ATS. Only those UBS Persons with pre-approved access may connect into the UBS ATS environment and only through dedicated remote access terminal servers using two-factor authentication. In addition, all UBS ATS servers and network equipment are located in segregated locked data center cages and cabinets, providing another layer of physical access security.
+
+Employees with Access to Subscriber Confidential Trading Information:
+Confidential trading information (CTI) is available to the UBS ATS Desk and shared employees described in Part II, Item 6.
+
+While UBS' written safeguards and procedures apply to all UBS Persons, the following response is specific to UBS Persons who are employees of the ATS. For information on shared employees, please refer to the response to Part II, Item 6(a).
+
+Safeguarding and Overseeing Subscriber Confidential Trading Information:
+UBS maintains physical restrictions and policies and procedures designed to safeguard CTI from persons not authorized to receive or access such information. Persons are granted access to CTI for the sole purpose of operating the UBS ATS or ensuring the UBS ATS' compliance with applicable rules and regulations. UBS Persons are subject to the Cyber &amp; Information Security Policy (referred to as "The CIS Policy") restricting the use and disclosure of all confidential information, including CTI. Additionally, UBS' policies and procedures prohibit trading on material non-public information (see excerpt from UBS Personal Investments Policy below). Violations of these policies are punishable under UBS' Violation Policy, which may result in disciplinary action up to and including dismissal. All Persons described in Part II, Item 6a have access to CTI.
+
+UBS restricts access to systems that contain CTI through physical restrictions as well as policies and procedures. The aforementioned policies and procedures apply across all of UBS. Access to the UBS ATS dedicated environment and UBS ATS data, including CTI, requires appropriate permissions to prevent information leakage. Permissions and access are handled either through the Access System or by a separate supervisory approval (with consultation of Compliance and/or Legal if necessary). Unless noted otherwise, the ATS Supervisor or delegate must approve access to CTI. Access requests require approval by the UBS ATS Supervisor or delegate. In reviewing such access requests, the UBS ATS Supervisor or delegate considers factors including the individual's job function and responsibilities related to the UBS ATS. An access request will be denied if it is determined that the access requested is unnecessary or inappropriate. The UBS ATS Supervisor or delegate reviews access rights at least annually, makes the appropriate adjustments, and signs off on the access rights. During this process, permissions will be terminated if access is no longer required or appropriate. A request to remove access to CTI must be entered in the Access System by the ATS Supervisor, and the Access System will generate a notification to the Support team to action the removal request. On a weekly basis, the Access System compares approved permissions to configured permissions and generates notifications to the ATS Desk and the Support team to remove any non-approved permissions. Furthermore, as part of its leaver process, when a relevant person leaves the firm the Access System automatically generates a removal request to prompt the Support team to restrict all system access for the leaver (including access to UBS ATS and CTI). As part of its mover process, if an employee changes roles, the Access System automatically generates a required review notification to the ATS Supervisor or delegate. The Supervisor or delegate is required to review the permissions to determine whether they are still required. If the permissions are no longer required, the Supervisor or delegate will initiate the removal through the Access System and will follow the process described above.
+
+Written Supervisory Procedures and Supervisory Controls:
+The UBS ATS maintains Written Supervisory Procedures ("WSPs") with regards to access rights, confidential information (including CTI), and information barriers. On a monthly basis, these WSPs are reviewed by the ATS Supervisor or delegate and signed off through a supervisory control process in a bank standard tool. This tool is used to evidence the appropriate reviews, sign off, and evidence.
+
+Personal Investments:
+UBS maintains a Global Policy on Personal Investments (referred to as "The PI Policy") which is applicable to all UBS Persons. Furthermore, except where prohibited under local law, various provisions of The PI Policy also apply to individuals with a relationship to UBS Persons such as: spouse / domestic partner; minor children / step children; financial dependents; relatives who have shared the same household as the UBS Person for one year; or any other connected party whereby the UBS Person maintains direct influence over that party's investment or trading activity. The PI Policy applies throughout a UBS Person's employment lifecycle (including when former employees are on "gardening leave"), and certain prohibitions apply even after leaving UBS. In addition to all UBS employees' adherence to the UBS Code of Conduct and Ethics, The PI Policy provides the following standards for all UBS Persons: (i) disclosure of accounts; (ii) use of approved brokers; (iii) pre-approval requirements; (iv) holding periods; and (v) prohibited activities. These standards aim to: (i) ensure that UBS Persons avoid conflicts of interest when engaging in personal investment activity; (ii) prohibit misuse of sensitive information including CTI and any other unpublished price sensitive information; (iii) satisfy regulatory obligations including the disclosure of personal accounts and investment information; (iv) enable UBS and UBS Persons to avoid the appearance of impropriety; and (v) protect UBS's reputation.
+
+UBS Persons are generally prohibited from trading single name instruments, including equities, bonds (including government bonds), any derivatives, structured notes or ETFs not broadly diversified as well as FX, commodities and precious metals.
+
+Conduct Risk, a dedicated function behind information barriers, is responsible for defining an adequate monitoring and control framework and for the independent monitoring of adherence to The PI Policy. UBS maintains an operational risk framework assessment process to evaluate specific risks, and more broadly assess market and client impact. Conduct Risk also performs thematic reviews with the objective of identifying potential or actual conduct risks. Conduct Risk issues can be identified through various data and management information available from 1st Line of Defense and 2nd Line of Defense sources. The data and information is used to identify: (1) impact of any organizational drivers; (2) possible indicators of weak governance, oversight and supervision or poor risk culture; (3) whether individual behaviors or conduct are a potential indicator of a systemic issue; and (4) patterns or trends of emerging conduct risk issues.
+
+Failure to comply with the requirements set out in The PI Policy may be subject a violator to the compliance violation framework as per the "Violations Policy" which may result in disciplinary action up to and including dismissal. UBS Persons may also be subject to regulatory sanctions and civil or criminal penalties, or both.
+
+Firm-wide Confidential Information Restrictions:
+UBS subjects all personnel to firm-wide policies restricting the use and disclosure of confidential information, including confidential information relating to information of UBS ATS Subscribers. Additionally, firm-wide policies and procedures prohibit trading on the basis of material non-public information. Employees with access to CTI are provided additional training regarding the sensitivity of such information.
+
+Systems with Access to Subscriber Confidential Trading Information:
+The following systems within UBS have access to CTI:
+
+ATS SYSTEMS: All direct trading systems of the UBS ATS have access to CTI, which includes systems such as the client facing proxies that Subscribers connect to and matching engines that process (and match) orders and CIs. Other ATS systems with access to CTI include the trade reporting and clearing system, risk and market access system, static database and publisher, real time monitoring system, and transactional databases.
+
+-- CLIENT CONNECTIVITY PROXY: The UBS ATS proxy is the client connectivity layer to the UBS ATS that sits inside the ATS dedicated environment. Subscribers connect to one or more UBS ATS proxies to send messages to the UBS ATS. The UBS ATS proxy has access to CTI and that access is required to provide this functionality.
+
+-- MATCHING ENGINES: The UBS ATS matching engine performs a process that receives Subscriber orders and CIs along with market data and other static information to make matching and Conditional Invitation decisions. The UBS ATS matching engine has access to CTI and that access is required to provide this functionality.
+
+-- TRADE REPORTING AND CLEARING: The UBS ATS trade reporting system is designed to receive all ATS execution information and make the appropriate decisions, based on regulatory requirements, to report trades to a trade reporting facility. The UBS ATS trade reporting system also uses ATS information to submit all Class B Direct and Indirect Subscriber trades and certain Class A Indirect Subscriber trades for clearing via real-time QSR submission to DTCC on behalf of the Broker-Dealer Operator.
+
+-- RISK AND MARKET ACCESS SYSTEM: The UBS ATS risk and market access system is a real time application that is designed to receive all ATS order and execution information and perform the necessary calculations and compare the output against each Subscriber's allowed credit limits. The risk and market access system uses this information to calculate the remaining value of credit available to a Subscriber, generate automated alerts, and send a control message to the client connectivity proxy to prevent trading in breach of a Subscriber's credit limit.
+
+-- STATIC DATABASE AND PUBLISHER: The UBS ATS has a dedicated database in the segregated ATS environment that contains Subscriber static configuration information including but not limited to market access limits, risk checks, and trading configurations. Along with this database there is a publisher in the segregated ATS environment that reads the database and publishes the static data to the aforementioned ATS systems.
+
+-- REAL TIME MONITORING: The UBS ATS Desk and Support use three different ATS real time monitoring applications to monitor the health of the UBS ATS. One system is specifically focused on order and execution information as well as Subscriber connectivity. The second system is specifically focused on system health and alerting. The third system is specifically focused on Subscriber and system latency monitoring. These tools use CTI such as Subscriber names and session information, market access limits, connectivity, as well as order and execution information to ensure proper performance of the UBS ATS. These systems contain CTI and are located within the segregated ATS environment, which is only accessible via segregated virtual desktops that access the dedicated and segregated environment.
+
+-- TRANSACTIONAL DATABASE: The UBS ATS maintains multiple databases containing CTI relating to transactions executed in the UBS ATS. Access to these databases is restricted to the UBS ATS Desk and the shared employees discussed in Part II, Item 6a. Those individuals with access to CTI use this information to run queries, generate reports (as described in the beginning of Part II, Item 6a), investigate historic trading activity, and for other bona fide purposes.
+
+NON-ATS SYSTEMS: Non-ATS systems with access to CTI in the normal course of business include systems that either send orders and trading interest to the UBS ATS or systems that perform a service for the UBS ATS but are not dedicated to the ATS.
+
+-- ORDER MANAGEMENT SYSTEM: UBS' order management system (OMS), including the UBS algorithmic platform (UBS Algo) and UBS Smart Order Router (SOR), transmit CTI to the extent orders are routed to the ATS. This system communicates information to personnel within UBS that have the appropriate permissions to view the orders sent to the UBS ATS and identifies the Trading Center(s) to which clients' orders were routed and/or executed, including the UBS ATS. The only CTI that is available in this instance of the system is for Class A Direct and Indirect Subscribers. Class B Direct and Indirect Subscriber CTI will never be passed back to this system.
+
+-- CLIENT CONNECTIVITY PROXY: The Broker-Dealer Operator has a system for managing the client connectivity layer that is separate from that of the UBS ATS. The Broker-Dealer Operator's client connectivity system is specifically dedicated to clients of the Broker-Dealer Operator and sits outside the segregated UBS ATS environment. The only CTI that is available in this instance of the system is for Class A Direct and Indirect Subscribers. Class B Direct and Indirect Subscriber CTI will never be passed back to this system.
+
+-- REAL TIME MONITORING: The Broker-Dealer Operator has a real time monitoring system for all clients of the Broker-Dealer Operator that is specifically focused on order and execution information. This system resides in the Broker-Dealer Operators environment and not inside the UBS ATS. It provides a view into order and execution information for clients across all trading venues, including the UBS ATS, and is permissioned by desk/role so that client information and CTI are only viewable by the appropriate employees. The only CTI that is available in this instance of the system is for Class A Direct and Indirect Subscribers. Class B Direct and Indirect Subscriber CTI will never be passed back to this system.
+
+-- TRANSACTIONAL DATABASE: The Broker-Dealer Operator maintains multiple databases containing CTI relating to transactions executed in the UBS ATS. These databases are not solely dedicated to the UBS ATS and contain order and execution information for all clients of the Broker-Dealer Operator. These databases will only contain CTI for Class A Direct and Indirect Subscribers. Class B Direct and Indirect Subscriber CTI will never be stored in these databases.
+
+-- THIRD PARTY TECHNOLOGY PLATFORM: UBS offers a third-party direct market access platform to clients of the Broker-Dealer Operator that are Class A Indirect Subscribers to transmit orders and/or CIs to UBS ATS. This platform communicates to employees of the third-party responsible for managing the platform real-time information about where Subscribers' orders and/or CIs were routed and executed, which could be the UBS ATS or any other market center.</taPart2Item7aDescrOfSafeGaurdsAndProcedures>
+      <part2Item7bCanSubscriberConsentToDisclosure rbPart2Item7bCanSubscriberConsentToDisclosure="Y">
+        <taPart2Item7bExplainHowAndConditions>A Subscriber may consent in writing to the disclosure of its confidential trading information (CTI) to any Person for purposes of supplying execution messages for clearing and/or risk management, or other bona fide business purposes as agreed between UBS ATS and the Subscriber. Subscribers can send this consent in writing to ats@ubs.com.
+
+When written consent is received, the UBS ATS Supervisor or delegate will use that consent to request configuration changes on behalf of the Subscriber so that CTI is sent to the Persons requested by the Subscriber. These configuration changes are coordinated between UBS
+ATS, the Subscriber and Persons receiving CTI.
+
+As noted in Part II, Items 6 and 7, UBS does not consider information of an aggregated and anonymized nature (e.g., aggregated and anonymous order and execution statistics (see Part III, Item 26), advertisements, etc.) to be CTI. Post-Trade CTI can be aggregated across the entire ATS, by sector, by order type, by market capitalization, by size, by symbol or any other criteria deemed appropriate by the ATS Desk. This Post-Trade CTI can be aggregated and anonymized on a daily, weekly, monthly, quarterly, semi-annually, or annual basis.  Although not considered CTI, the UBS ATS does allow Subscribers to restrict advertisement of their aggregated and anonymous execution information. Subscribers can send an email to ats@ubs.com to opt out of advertising their execution information in an aggregated and anonymous manner. When written notice to restrict advertisements is received, the UBS ATS
+Supervisor or delegate will use that notice to request configuration changes on behalf of the Subscriber to restrict their execution information from being included in the aggregated and anonymous execution information that is advertised. These configuration changes will be reviewed by the ATS Desk to ensure proper completion, and the Subscriber will be notified once complete.</taPart2Item7bExplainHowAndConditions>
+        <part2Item7cCanSubscriberWithdrawConsent rbPart2Item7cCanSubscriberWithdrawConsent="Y">
+          <taPart2Item7cExplainHowAndConditions>At any time and for any reason, a Subscriber may notify UBS ATS in writing to withdraw its consent regarding the disclosure of its confidential trading information (CTI) to other Persons. Notice to UBS ATS must be in writing and sent to ats@ubs.com.
+
+When written notice is received, the UBS ATS Supervisor or delegate will use that notice to request configuration changes on behalf of the Subscriber to stop the communication of CTI to the Persons as requested by the Subscriber. These configuration changes will be reviewed by the ATS Desk to ensure proper completion and the Subscriber will be notified once complete.
+
+As noted in Part II, Items 6 and 7, UBS does not consider information of an aggregated and anonymized nature (e.g., aggregated and anonymous order and execution statistics (see Part III, Item 26), advertisements, etc.) to be CTI. Post-Trade CTI can be aggregated across the entire ATS, by sector, by order type, by market capitalization, by size, by symbol or any other criteria deemed appropriate by the ATS Desk. This Post-Trade CTI can be aggregated and anonymized on a daily, weekly, monthly, quarterly, semi-annually, or annual basis.  Although not considered CTI, the UBS ATS does allow Subscribers to restrict advertisement of their aggregated and anonymous execution information. Subscribers can send an email to ats@ubs.com to opt out of advertising their execution information in an aggregated and anonymous manner. When written notice to restrict advertisements is received, the UBS ATS Supervisor or delegate will use that notice to request configuration changes on behalf of the Subscriber to restrict their execution information from being included in the aggregated and anonymous execution information that is advertised. These configuration changes will be reviewed by the ATS Desk to ensure proper completion and the Subscriber will be notified once complete.</taPart2Item7cExplainHowAndConditions>
+        </part2Item7cCanSubscriberWithdrawConsent>
+      </part2Item7bCanSubscriberConsentToDisclosure>
+      <taPart2Item7dSummaryOfRolesRespOfPersons>The Broker-Dealer Operator operates the UBS ATS trading systems and is involved in the execution, processing, clearing and settling of transactions executed on UBS ATS, including the provision of clearing broker services.
+
+The UBS ATS Desk and the shared employees described in response to Part II, Item 6(a) have access to Subscriber confidential trading information (CTI).
+
+Access to real time monitoring tools for the UBS ATS is restricted and only granted to the UBS ATS Desk and those shared employees described in response to Part II, Items 6a on a "need to know" basis. Individuals may receive access to UBS ATS information and systems only if such access is necessary for the proper performance of their duties. Furthermore, such access must be specifically authorized by the UBS ATS Supervisor (or delegate) using a standard bank access tool. The UBS ATS Supervisor (or delegate) is responsible for reviewing the current list of UBS ATS systems users within the standard bank access tools at least annually (or when necessary due to a leaver or change of role) to ensure that all users with access have a legitimate "need to know" to perform their daily responsibilities.
+
+THIRD-PARTY EXTERNAL MARKET ACCESS PLATFORM: As noted in response to Part II, Item 7(a), UBS works with external third-party direct market access platforms, which are managed by UBS, but can transmit Class A Indirect Subscriber CTI. These platforms receive information about Class A Indirect Subscribers' orders, CIs, and executions to the extent such information is routed to the UBS ATS. Similar to systems used by UBS Sales and Trading personnel, these platforms handle orders and CIs that may, based on the instructions of the Subscriber, be routed directly to the UBS ATS. Dedicated support personnel for these platforms are responsible for addressing UBS inquiries related to Subscribers' orders or CIs routed to the UBS ATS and for managing the platform. These employees can access real-time order, CI, and execution information through the respective activity logs for Subscribers using the respective platform. However, they do not have access to the UBS ATS order book.</taPart2Item7dSummaryOfRolesRespOfPersons>
+    </partTwo>
+    <partThree>
+      <taPart3Item1SubscriberType>Investment Companies</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Brokers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>NMS Stock ATSs</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Asset Managers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Principal Trading Firms</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Hedge Funds</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Market Makers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Banks</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Dealers</taPart3Item1SubscriberType>
+      <rbPart3Item2aRegisteredBD>N</rbPart3Item2aRegisteredBD>
+      <part3Item2bSummaryOfConditions rbPart3Item2bIsThereOtherConditions="Y">
+        <taPart3Item2bSummaryOfCndtns>Class A Indirect Subscribers are clients of the Broker-Dealer Operator that direct orders or CIs to the UBS ATS through the Electronic Trading Services provided by the Broker-Dealer Operator.
+They must undergo UBS' standard onboarding and KYC review processes.
+
+Class B Direct Subscribers are US registered broker-dealers and members of at least one self-regulatory organization. They must provide information via an ATS onboarding questionnaire, which is reviewed by the ATS Desk, Legal, and Compliance. If approved, they must undergo UBS' standard onboarding and KYC review processes. Upon satisfactory completion of these processes, they must then sign a UBS ATS Subscriber Agreement, which requires them (and indirectly requires any Class B Indirect Subscriber) to comply with applicable rules and regulations as a condition for using the UBS ATS.
+
+Class B Indirect Subscribers are US based clients of a Class B
+Direct Subscriber that are fully disclosed to and approved by the UBS ATS. To become a Class B Indirect Subscriber, they must provide information via an ATS onboarding questionnaire, which is reviewed by the ATS Desk, Legal, and Compliance, and if approved, they must undergo UBS' standard onboarding and KYC review processes. Upon satisfactory completion of these processes, they may be given the ability to direct orders to the UBS ATS through that Class B Direct Subscriber.</taPart3Item2bSummaryOfCndtns>
+        <part3Item2cSummaryOfConditions rbPart3Item2cIsConditionsSameForAll="N">
+          <taPart3Item2cSummaryOfDifferences>The Class A Direct Subscribers are not required to complete an ATS specific questionnaire.
+
+Class A Indirect Subscribers do not need to fill out a specific ATS questionnaire as they are already clients of the Broker-Dealer Operator and have gone through UBS' general onboarding and KYC review process. Also, Class A Indirect Subscribers must sign an Electronic Trading Agreement (ETA) with the Broker-Dealer Operator but do not sign a UBS ATS specific agreement.
+
+Class B Direct Subscribers must be a US registered broker-dealer and a member of at least one self-regulatory organization. They must provide information via an ATS questionnaire, which is reviewed by the ATS Desk, Legal, and Compliance. If approved, they must undergo UBS' onboarding and KYC review processes and sign a specific UBS ATS
+Subscriber Agreement.
+
+Class B Indirect Subscribers must be US based and fully disclosed to and approved by the UBS ATS. They must provide information via an ATS questionnaire, which is reviewed by the ATS Desk, Legal, and Compliance. If approved, they must undergo UBS' onboarding and KYC review processes, but Class B Indirect Subscribers do not sign a specific UBS ATS Subscriber Agreement.</taPart3Item2cSummaryOfDifferences>
+        </part3Item2cSummaryOfConditions>
+      </part3Item2bSummaryOfConditions>
+      <rbPart3Item2dIsThereWrittenAgreement>N</rbPart3Item2dIsThereWrittenAgreement>
+      <part3Item3aSumryOfExcludngCondtns rbPart3Item3aIsExcludeSubscriber="Y">
+        <taPart3Item3aExcludngSumryDtls>For purposes of this Form ATS-N, UBS has defined exclusion from UBS ATS services as follows:
+--  Whole exclusion means any flow (or subset of flow) eligible for grading that is completely excluded from accessing the UBS ATS.
+--  Partial exclusion means any flow (or subset of flow) eligible for grading that has its interactions in the UBS ATS limited by virtue of a contra-party crossing restriction and/or the Source Category assigned to that flow (or subset of flow).
+
+The UBS ATS will suspend/wholly exclude any flow (or subset of flow) which is eligible for grading if the associated reversion metric exceeds 100% reversion for three consecutive monthly reviews. The UBS ATS reserves the right to suspend or wholly exclude any flow (or subset of flow) for reputational, regulatory, conduct, or other similar reasons.
+
+A Subscriber's partial exclusion from ATS services is determined by the Subscriber's assigned Source Category, and by the crossing restrictions associated with contra-party orders or CIs. A Subscriber's Source Category (if eligible for grading) is determined by the grading process described in Part III, Item 13. Crossing restrictions are also described in Part III, Item 13.
+
+Similarly, the Conditional Indication (CI) handling process allows for partial exclusions dependent on the crossing restrictions entered on the contra order or CI. Handling and scoring of CIs is described further in Part III, Item 9.</taPart3Item3aExcludngSumryDtls>
+        <part3Item3bSummaryOfConditions rbPart3Item3bIsCondtnsSameForAll="N">
+          <taPart3Item3bSummaryOfDifferences>For the purpose of this Form ATS-N, the term Subscriber Flow refers to a subset of orders and CIs originated by a Subscriber and attributed to such subset on an a-priori basis.
+
+Orders and CIs received through the UBS SOR (i.e., all Class A Direct Subscriber Flow and certain Class A Indirect Subscriber Flow) are not subject to reversion analysis and Source Category grading or Conditional Scoring, and therefore are not subject to exclusion from ATS Services. Details of the grading process and the definition of the term "Source Category" are available in Part III, Item 13.</taPart3Item3bSummaryOfDifferences>
+        </part3Item3bSummaryOfConditions>
+      </part3Item3aSumryOfExcludngCondtns>
+      <taPart3Item4aHrsOfOperation>The UBS ATS is operational during regular US market hours, generally 9:30 AM to 4:00 PM Eastern Time.  The UBS ATS observes the holiday schedule (including shortened market hours preceding or following certain holidays) published by the NYSE.
+
+The UBS ATS will not accept an order or CI outside of the trading hours described above.
+
+The UBS ATS will not match in a security until a transaction in such security has been executed on a national securities exchange, the UBS ATS has opened for trading, and Limit Up/Limit Down price bands ("LULD bands") for the security have been publicly disseminated.</taPart3Item4aHrsOfOperation>
+      <rbPart3Item4bIsHrsOfOperationsame>Y</rbPart3Item4bIsHrsOfOperationsame>
+      <part3Item5aProtocolDetails rbPart3Item5aIsPermitOrdrTradng="Y">
+        <taPart3Item5aProtocolused>The UBS ATS is equipped to receive orders directly entered through via industry standard FIX 4.2 protocol and via UBS Binary Protocol ("UBP").  Conditional Indications (CIs) can only be directed to the UBS ATS via FIX 4.2 protocol. CIs are first defined in Part III, Item 9. Orders and CIs may also be entered into the ATS through the UBS SOR, which sends orders to the UBS ATS using FIX 4.2.</taPart3Item5aProtocolused>
+        <rbPart3Item5bIsProtclsameForAll>Y</rbPart3Item5bIsProtclsameForAll>
+      </part3Item5aProtocolDetails>
+      <part3Item5cOthrDtls rbPart3Item5cIsAnyOtherMeans="Y">
+        <taPart3Item5cOthrMeansDtls>Class A Direct Subscribers may enter orders, CIs and trading interest into the UBS ATS through the UBS Algorithmic Trading platform (e.g., VWAP algorithm, UBS Select algorithm, etc.), and/or via a UBS SOR tactic (e.g., DarkPost, SmartSeek, etc.). Note that clients of Class A Direct Subscribers may connect to the UBS Algorithmic platform and/or the UBS SOR using FIX 4.2.
+
+Class A Indirect Subscribers direct the entry of orders, CIs, or trading interest into the UBS ATS through the UBS SOR and/or a UBS developed FIX 4.2 client connectivity proxy and/or through a UBS controlled third party technology platform utilizing UBP or FIX 4.2. The path chosen by the Class A Indirect Subscriber to send orders to the UBS ATS may affect the latency experienced, and latency may vary due to conditions. The experienced latency for any individual order or CI may materially differ from the median times typically observed. In general, Class A Indirect Subscribers accessing the UBS ATS through the UBS SOR will typically have the highest latency followed by the UBS developed FIX 4.2 client connectivity proxy followed by the UBS controlled third party technology platform utilizing UBP or FIX 4.2 which will typically have the least latency.
+
+Class B Direct and Indirect Subscribers connect directly to the ATS without utilizing any additional Services from the Broker-Dealer Operator outside of the UBS ATS.  They may choose to use either FIX 4.2 or UBP to enter their orders but CIs may only be entered via FIX 4.2.
+
+Latency is the total amount of time it takes for a message to reach the UBS ATS, be processed by the UBS ATS, and be responded to by the UBS ATS. The protocol chosen by a Subscriber may affect the latency experienced, and latency may vary due to conditions. The experienced latency for any individual order or CI may materially differ from the median times typically observed. For more information on latency please refer to the UBS ATS FAQ document which can be found on our website at www.ubs.com/ats.</taPart3Item5cOthrMeansDtls>
+        <part3Item5dTnCDetails rbPart3Item5dIsTnCSameForAll="N">
+          <taPart3Item5dTnCSumryDtls>Class A Direct Subscribers do not have direct connectivity to the UBS ATS and can only enter orders and CIs through the UBS SOR (orders and CIs can be sent to the SOR either directly, or via the UBS Algorithmic Trading platform, or via the US Retail Market Making desk). Orders and CIs from the UBS SOR enter the UBS ATS via FIX 4.2.
+
+Class B Direct and Indirect Subscribers as well as Class A Indirect Subscribers may connect to the UBS ATS utilizing FIX 4.2 and/or UBP either directly or through a UBS managed third party technology platform.</taPart3Item5dTnCSumryDtls>
+        </part3Item5dTnCDetails>
+      </part3Item5cOthrDtls>
+      <part3Item6aProtocolDetails rbPart3Item6aIsCoLocRltdSrvcsOfrd="Y">
+        <taPart3Item6aCoLocRltdSrvcsDtls>The UBS ATS does not offer co-location or data center services, but it does offer either 1 or 10 gigabit/sec fiber cross-connects (i.e., a physical wire connecting  to the UBS ATS).
+
+All orders and CIs to the UBS ATS, including orders and CIs from Class A Direct Subscribers, enter the UBS ATS through the same client-facing firewall so as to provide a similar experience to all Subscribers.
+
+Additional information is available in Part III, Item 5d.</taPart3Item6aCoLocRltdSrvcsDtls>
+        <rbPart3Item6bIsTNCsameForAll>Y</rbPart3Item6bIsTNCsameForAll>
+      </part3Item6aProtocolDetails>
+      <rbPart3Item6cIsAnyOtherMeans>N</rbPart3Item6cIsAnyOtherMeans>
+      <rbPart3Item6eIsAnyRducdSpOfCom>N</rbPart3Item6eIsAnyRducdSpOfCom>
+      <taPart3Item7AOrdrTypExplain>The following order and CI types are offered by the UBS ATS:
+
+-- Pegged Orders and CIs - A pegged order may be pegged to the near, midpoint, or far side of the national best bid or offer (NBBO), and may be executed at any price at or within the NBBO. Pegged orders may optionally have a limit price.
+
+-- Limit Orders and CIs - An order to buy or sell a stated amount of a security at a specified price or better. A marketable limit order is a limit order to buy (sell) at or above (below) the lowest (highest) Protected Offer (Bid) for the security.
+
+-- Market Orders - An order to buy or sell a stated amount of a security that is to be executed at or better than the NBBO at the time the order reaches the UBS ATS. Market Orders are treated the same as market Pegged Orders.
+
+
+i. The priority of an order is determined first by its effective price, and next by the time of receipt by the UBS ATS. The priority of a Conditional Indication (CI) is determined by its effective price, then by its quantity, and then by its time of receipt by the UBS ATS. For priority purposes, the effective price of an order or CI is defined based on its type:
+
+-- For Pegged Orders and CIs: The effective price is considered to be the less aggressive of the limit price (if provided) and the pegged price (near, mid, or far). For midpeg orders, there is an additional option, 'PeggedMidpointMode', which is described below.
+
+-- For Limit Orders and CIs: The effective price is considered to be the limit price.
+
+In all cases, the effective price of an order or CI will not be allowed to exceed the far price (i.e., for buy orders or CIs, the NBO, and for sell orders or CIs, the NBB). Limit orders or CIs with limit prices that exceed the far price (i.e., marketable limit order or CI) will be treated as though they are at equivalent prices (i.e., the far price) for priority purposes.
+
+An order will be matched with the highest priority order(s) that would not violate any crossing restrictions. So, for example, the highest priority buy order may cross against the second-highest priority sell order if there is a crossing restriction on the highest priority buy order or the highest priority sell order that prevents crossing between those two orders.
+
+All modifications of orders and CIs processed by UBS will cause an order or CI
+to lose its original time priority. The time priority of a modified order or CI will correspond to the time when the modified order or CI is received by the UBS
+ATS. In all cases, the timestamp used by the UBS ATS is measured in microseconds.
+
+When two orders are matched in the UBS ATS, they will be matched at the earlier received order's effective price ("Price Determining Order"), which may be modified based on the LULD bands for execution, but not for priority purposes.
+
+Upon receiving an order, or upon a market data update, the UBS ATS will attempt to match orders. After that process completes, the UBS ATS will then combine and sort all remaining orders and CIs according to priority (order priority is price/time and CI priority is price/size/time) to generate invitations to CIs (an "Invite" or "Invitation").
+
+Invites will only be generated if the Invite would not violate any crossing restrictions (e.g., minimum quantity, Source Category restrictions, conditional invite grade restriction, etc.).
+
+ii. If the Price Determining Order's limit price is more aggressive than the far band, and the relevant band is inside the NBBO, the effective price will be either adjusted to be equal to the far band for Price Determining Orders that are Limit Orders or excluded from execution consideration for Price Determining Orders that are Pegged Orders.
+
+iii. The UBS ATS does not currently support an order type designed solely for the purpose of not removing liquidity.
+
+iv. The UBS ATS supports Pegged Orders and Pegged CIs, which may or may not have a limit price. For the avoidance of doubt, the priority of a Pegged Order or CI can be determined either by the limit price, or the peg price, depending on which price is less aggressive. Therefore, two Pegged Orders or CIs pegged to the same price but with different limit prices may have different priority based on where the limit prices are with respect to the pegged price.
+
+PeggedMidPointMode: The UBS ATS supports two variants of midpoint Pegged Orders or CIs: (1) FillToLimit (default), and (2) FillToMidpoint. For orders, the variant only affects execution price if the limit price on the order is less aggressive than the midpoint (i.e., a buy order with a limit price below the midpoint or a sell order with a limit price above the midpoint). If FillToLimit is selected, these orders may fill away from the midpoint, whereas orders with FillToMidpoint selected will not. For CIs, the variant affects whether an Invite can be generated.
+
+v. The UBS ATS does not route orders or CIs to other trading centers.
+
+vi. The UBS ATS accepts orders with an instruction that the order post within the UBS ATS until executed, canceled, or expired at day's end ("Day Orders") or with an instruction that the order be immediately crossed with other orders in the UBS ATS or cancelled ("IOC Orders"). CIs can only be sent as Day Orders because IOC Orders are not supported.
+
+vii. The UBS ATS does not support replacing the order type of an order or CI.
+
+viii. UBP does not support the sending of market peg orders or CIs. Both market pegged orders and CIs are supported via FIX 4.2.</taPart3Item7AOrdrTypExplain>
+      <rbPart3Item7bIsTnCSameForAll>Y</rbPart3Item7bIsTnCSameForAll>
+      <part3Item8aSizeReqrmnts rbPart3Item8aIsMinOrMaxSizeReqd="Y">
+        <taPart3Item8aOtiSizeReqrmns>The UBS ATS does not require or enforce minimum sizes for orders or CIs but does have restrictions on the maximum order and CI sizes allowed. The maximum allowable size of orders or CIs may be limited for various factors (e.g. pre-set limits put in place by the UBS ATS as part of risk management controls, technical limitations of a message protocol; average daily volume checks, etc.).</taPart3Item8aOtiSizeReqrmns>
+        <part3Item8bReqProcDetails rbPart3Item8bIsReqProcSameForAll="N">
+          <taPart3Item8bDiffrncsInOtiReqrmnts>The Broker-Dealer Operator is subject to its own market access checks/limits as the Broker-Dealer Operator (but not ATS specific financial risk management controls), in addition to other limitations (e.g. technical limitations of a message protocol; average daily volume checks, etc.).</taPart3Item8bDiffrncsInOtiReqrmnts>
+        </part3Item8bReqProcDetails>
+      </part3Item8aSizeReqrmnts>
+      <part3Item8cOddltOrdrReqs rbPart3Item8cIsOddLotsAcptdExecutd="Y">
+        <taPart3Item8cOddLtOrdrReqsnProcdurs>Odd-lot orders or CIs entered with an instruction (i.e., crossing restriction) to only interact in round-lots will be rejected.  All odd-lot orders accepted may execute with a price/time priority, subject to applicable crossing restrictions. All odd-lot CIs accepted may invite or be invited with a price/size/time priority, subject to applicable crossing restrictions.</taPart3Item8cOddLtOrdrReqsnProcdurs>
+        <rbPart3Item8dIsReqsProcdurSameForAll>Y</rbPart3Item8dIsReqsProcdurSameForAll>
+      </part3Item8cOddltOrdrReqs>
+      <part3Item8eMixltOrdrDetails rbPart3Item8eIsMixLotOrdrsAcptdExecutd="Y">
+        <taPart3Item8eMixltOrdrReqsProcDtls>Mixed-lot orders and CIs entered with an instruction (i.e., crossing restriction) to only interact in round-lots will be rejected.  All mixed-lot orders accepted may execute with a price/time priority, subject to applicable crossing restrictions. All mixed-lot CIs accepted may invite or be invited with a price/size/time priority, subject to applicable crossing restrictions.</taPart3Item8eMixltOrdrReqsProcDtls>
+        <rbPart3Item8fIsRecProcSameForAll>Y</rbPart3Item8fIsRecProcSameForAll>
+      </part3Item8eMixltOrdrDetails>
+      <part3Item9aMsgDtls rbPart3Item9aIsAnyMsgToIndicTI="Y">
+        <taPart3Item9aMsgUsgDtls>Conditional Indications (CIs) represent an intent to trade, specifying a security, a side (buy or sell), a price, a quantity and a minimum executable quantity. A CI will be held by the UBS ATS until cancelled or expired at the end of the day.  CIs can only be sent to the UBS ATS via FIX 4.2 protocol.
+
+If either two CIs or an order and a CI match in criteria, the  UBS ATS will send a message to one (or more) CI sender(s) indicating that there is a potential opportunity to trade (an "Invite" or "Invitation"), but will not provide any information on price or quantity available. An Invite message is represented as an Unsolicited Cancel Execution Report (FIX 4.2 Tag 35=8 and Tag 39=4). The Invite is sent to the sender of the CI by the UBS ATS to notify them that an eligible contra (i.e. CI or order) is present.
+
+Upon receipt of the Invite, the CI sender is expected to respond to an Invite message by sending a Day Order (a "Firm-Up Order") (NewOrderSingle, FIX 4.2 Tag 35=D) message to the UBS ATS with a reference to the Invite ID in the Invite message. The Firm-Up Order may be for a quantity different than the quantity of the CI (although UBS reasonably expects Firm-Up Orders to be at least equal to the minimum executable quantity) and should be received by UBS within 100 milliseconds. While the UBS ATS will still accept Firm-Up orders received more than 100 milliseconds after the Invite was sent, for scoring purposes a late response will be considered as not responding at all. Regardless of if/when the CI sender responds to an Invite, the CI is always cancelled after the UBS ATS sends an Invite. The sending of an Invite will not delay or prevent any orders from matching in the UBS ATS prior to receipt of a responding Firm-Up Order.
+
+Firm-Up Orders are not required or destined to match with the contra order or CI that generated the Invite. Firm-Up Orders, from a matching logic perspective, will match in a price/time priority taking into account applicable crossing restrictions.
+
+All Firm-Up Orders entered into the UBS ATS will expire and be cancelled back to the sender after 500 milliseconds if not fully filled or cancelled by the sender. During the lifecycle of a Firm-Up Order, it may execute against any eligible contra order, but the Firm-Up Order will never generate an Invite to another CI.
+
+Senders of CIs will be subject to a monthly evaluation in which the quality of their CIs and subsequent Firm-Up Orders are measured and assigned a Conditional Score (the "Score"). The metrics used to measure the quality of CIs are: 1) a blended reversion metric that assesses impact to the quote five (5) seconds after an Invite is sent or an execution occurs, 2) percentage of responses to Invites within 100 milliseconds, 3) Firm-Up Order quantity as a percentage of CI quantity, and 4) Firm-Up Order minimum quantity as a percentage of CI minimum quantity. A Score will be assigned based on consideration of these measurements. A new sender of CIs that has not been previously assigned a Score will be categorized as Medium during an initial phase, and a new Score (which may be the same or different) will be assigned when the requisite evaluation is performed.
+
+At any time in its reasonable discretion, UBS ATS through an ad-hoc or regularly scheduled governance meeting may revise a Score by changing it to a lower category (i.e. from High to Medium). Such a revision would generally occur in response to a significant intra-month change in CI metrics and/or behavior.
+
+Any change to a Score, regardless of the reason, will be communicated to the affected Subscriber at least one business day before the change is effective.
+
+The UBS ATS does not generate Invites on orders unless indicated to do so by a Subscriber. Senders of CIs are required to send an Invite Grade (as described below) on each CI to indicate what contra CIs an Invite may be sent to. CIs without an Invite Grade will be rejected.
+
+Conditional Indication Restrictions (Invite Grade):
+
+CI restrictions can be used to limit interactions to certain types of CIs on an order by order basis. More specifically, the CI restrictions are available by inserting one of the below values in the Conditional Invite Grade field on a CI or an order:
+--  Generate Invites to all Conditional Indications (Invite Grade = 1)
+--  Generate Invites to Conditional Indications with a Medium Score or better (Invite Grade = 2)
+--  Generate Invites to Conditional Indications with a High Score or better (Invite Grade = 3)
+--  Generate Invites to Conditional Indications from UBS Algorithms only (Invite Grade = 4)</taPart3Item9aMsgUsgDtls>
+      </part3Item9aMsgDtls>
+      <part3Item9bMsgDtls rbPart3Item9bIsIndIntrstSameForAll="N">
+        <taPart3Item9bMsgUsgDtls>Class A Direct Subscriber CIs are excluded from the UBS ATS monthly evaluation process in which the quality of the CIs and subsequent Firm-Up Orders are measured and assigned a Score. Class A Indirect Subscriber CIs are included in the UBS ATS monthly evaluation process only when not received through the UBS SOR.</taPart3Item9bMsgUsgDtls>
+      </part3Item9bMsgDtls>
+      <taPart3Item10aOpenReOpenDtls>The UBS ATS is operational during regular US market hours, generally 9:30 AM to 4:00 PM Eastern Time; any orders and CIs received outside of this timeframe are rejected.  The UBS ATS will not match in a security until a transaction in such security has been executed on a national securities exchange, the UBS ATS has opened for trading, LULD bands for the security have been publicly disseminated, and there is a valid two-sided quote available (valid, non-crossed, non-locked NBB and NBO are present).
+
+With respect to IPO securities, the UBS ATS will reject orders and CIs in IPO securities received prior to 9:30 AM Eastern Time, and will not match in an IPO security until a transaction in such security has been executed on the security's listing exchange, the UBS ATS has opened for trading, LULD bands for the security have been publicly disseminated, and there is a valid two-sided quote available (valid, non-crossed and non-locked NBB and NBO are present).
+
+Limit Up/Limit Down Bands:
+Rights and Warrants are currently exempt from LULD, and UBS ATS will match in such securities without regard to LULD bands.
+
+For all other eligible securities, UBS ATS will match only if LULD bands are present and the effective price of a potential match is not constrained by a LULD band.
+
+Trading Halts:
+The UBS ATS will promptly react to "halt" or "pause" messages it receives from the direct market data feeds or the SIP from all U.S. equities exchanges.  Upon receipt and processing of halt messages, the UBS ATS will not match in a security during periods in which a security is halted (e.g., subject to a LULD Trading Pause, Single Stock Circuit Breaker, or regulatory halt). The UBS ATS will resume matching when it receives a message from the SIP or direct market data feed of the primary market indicating that trading has resumed in the security (a transaction has occurred on at least one exchange), LULD bands are present, and there is a valid two-sided quote available (valid, non-crossed and non-locked NBB and NBO are present).
+
+Pricing Methodology:
+Matches in the UBS ATS are priced based on the NBBO as calculated by UBS by aggregating the "top of book" quotations of all U.S. equities exchanges using direct market data feeds maintained by the UBS ATS. If quotations from one or more exchanges are not available from the UBS direct market data feeds for any reason, the UBS ATS will rely on quotation data from the SIP (for the affected exchange feed(s)) to calculate an NBBO. For example, if UBS's direct market data feed from an exchange is not available the UBS ATS will use the attributed quote for that exchange from the SIP.
+
+Additionally, when aggregating the top of book quotations to determine the NBBO, the UBS ATS seeks to mitigate quote flickering through performance optimizations. As an example, if an individual network data packet received from an exchange contains multiple price updates for a security, UBS ATS will recognize and use only the last sequential price update contained in the packet.
+
+In the case of the Broker-Dealer Operator declaring "self-help" against a trading center's protected quote due to inaccurate or inaccessible quotes, the UBS ATS NBBO may exclude all quotes from that trading center from the calculation of the NBBO until "self-help" is revoked. The UBS ATS uses the Limit-Up/Limit-down (LULD) bands communicated through the Securities Information Processor (SIP) market data feeds.
+
+Both Day Orders and IOC Orders are eligible to receive price improvement. Incoming orders are executed against the best priced (lowest seller, or highest buyer) eligible order that is not constrained by a LULD band. When a Day Order is eligible for crossing with an IOC Order, the crossing price is determined by the Day Order's price.
+
+In the case of Conditional Indications (CIs), if a CI sender receives an Invite and responds by sending a Day Order, a match may occur as described above.
+
+The UBS ATS will prevent matches at a price that is determined to be excessively wide. More specifically, if the spread is greater than $0.01 and larger than 10 percent of the offer, the UBS ATS will prevent a match from occurring.</taPart3Item10aOpenReOpenDtls>
+      <rbPart3Item10bIsOpnReopnSameForAll>Y</rbPart3Item10bIsOpnReopnSameForAll>
+      <taPart3Item10cUnexeOrdrTIDtls>Handling of orders and CIs at the start of regular trading:
+The UBS ATS will not match in a security until a transaction in such security has been executed on a national securities exchange, the UBS ATS has opened for trading, LULD bands for the security have been publicly disseminated, and there is a valid two-sided quote available (valid, non-crossed and non-locked NBB and NBO are present). Furthermore, Invitations will not be sent to CIs until the above conditions have been met.
+
+Handling of orders for IPOs (Initial Public Offerings):
+The UBS ATS will reject orders and CIs in IPO securities received prior to 9:30 AM Eastern Time. The UBS ATS will reject orders and CIs in an IPO security until a transaction in the IPO security has been executed on the listing national securities exchange, the UBS ATS has opened for trading, LULD bands for the security have been publicly disseminated, and there is a valid two-sided quote available (valid, non-crossed and non-locked NBB and NBO are present).
+
+Handling of orders following a stoppage of trading:
+The UBS ATS will promptly react to "halt" or "pause" messages it receives from the direct market data feeds or the SIP from all U.S. equities exchanges.  Upon receipt and processing of halt messages, the UBS ATS will not match in a security during periods in which a security is halted (e.g., subject to a LULD Trading Pause, Single Stock Circuit Breaker, or regulatory halt). The UBS ATS will resume matching when it receives a message from the SIP or direct market data feed of the primary market indicating that trading has resumed in the security (a transaction has occurred on at least one exchange), LULD bands are present, and there is a valid two-sided quote available (valid, non-crossed and non-locked NBB and NBO are present).</taPart3Item10cUnexeOrdrTIDtls>
+      <rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>Y</rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>
+      <rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>N</rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>
+      <taPart3Item11aStrucOfNmsStk>The UBS ATS is a proprietary non-displayed system for continuous matching of orders in NMS Stocks. The UBS ATS matching algorithm searches all buy and sell orders in the UBS ATS to identify orders that may be matched at a price at or better than the NBBO as calculated by UBS ATS by aggregating the "top of book" quotations of all U.S. equities exchanges using direct market data feeds maintained by the UBS ATS. If quotations from one or more exchanges are not available from the UBS ATS direct market data feeds for any reason, the UBS ATS will rely on quotation data from the SIP (for the affected exchange feed(s)) to calculate an NBBO.
+
+The UBS ATS also offers Conditional Indication functionality as explained in Part III, Item 9.</taPart3Item11aStrucOfNmsStk>
+      <rbPart3Item11bIsMeansFeciltsSameForAll>Y</rbPart3Item11bIsMeansFeciltsSameForAll>
+      <taPart3Item11cRulsProcsOfNmsStk>Trade Execution:
+In the event a match occurs, the UBS ATS will record the NBBO and LULD bands at the time of the match.
+
+If only a partial match of an IOC Order occurs, the remainder of the IOC Order will be cancelled. If a partial match of a Day Order occurs, the remainder of the Day Order will stay open in the UBS ATS (and retain its original time priority) until it is matched, cancelled or expires. Once a match occurs, the UBS ATS sends electronic messages containing execution reports to the sender of the order.
+
+NBBO on EXECUTIONS: In the event a match occurs, the UBS ATS will record the NBBO and LULD bands at the time of match.
+
+LOCKED/CROSSED MARKETS: The UBS ATS will not execute a transaction if the NBBO is either locked or crossed.
+
+PARTIAL EXECUTION: If only a partial execution of an IOC Order occurs, the remainder will be cancelled. If a partial execution of a Day Order occurs, the remainder will remain in the UBS ATS (and retain its original time priority) until it is executed, cancelled or expires. Once an execution occurs, the UBS ATS sends electronic messages containing execution reports to the original sender of the order.
+
+REGULATION NMS: The UBS ATS will reject any order that violates Rule 612 of Regulation NMS (the "Sub-Penny Rule"), and all matches in the UBS ATS will be at or within the NBBO as required by Rule 611 of Regulation NMS (the "Order Protection Rule"). The UBS ATS will accept orders outside of the LULD bands; however, it will not execute if the effective match price were to be outside of the LULD bands.
+
+ERRORS and CLEARLY ERRONEOUS EXECUTIONS: The UBS ATS handles execution errors in accordance with the Global Equities Handbook (the "Handbook"). The Handbook requires notification of errors to the relevant Supervisor, and applies the standards of the risk management framework. The UBS ATS will determine a course of action based on the facts and circumstances surrounding such errors. For instance, one or both sides of the trade could be cancelled. The UBS ATS will apply the same standard of review to potentially clearly erroneous executions ("CEEs") as set forth in the applicable rules of the self-regulatory organizations. Following a determination of a CEE by the primary market, UBS ATS will cancel both sides of any match impacted by the CEE determination. Additionally, requests for the UBS ATS to review a potential CEE must be submitted to the UBS ATS via email (submitted to ats@ubs.com) within 30 minutes of the subject match.
+
+PRINCIPAL NO SELF-MATCH: The UBS ATS will not effect a match when both sides of the potential match are principal orders from the same legal entity of a Class B Direct or Class B Indirect Subscriber.
+
+MINIMUM QUANTITY: Orders may be routed to the UBS ATS with a minimum quantity value specified; the quantity may be managed by Subscribers on an order-by-order basis. When a minimum quantity is used, the UBS ATS will only perform a match if the specified number of shares or greater are available from a single eligible contra side order. By default, when the leaves quantity on an order becomes smaller than the specified minimum quantity, the minimum quantity constraint will no longer be in effect. Subscribers have the ability to change that behavior by sending a specific MinQuantityLeaveMode value in the order message. The available options are to have the leaves quantity become the minimum quantity or the order can be cancelled. In the latter case, an unsolicited cancel message is sent to the sender of the order and the order is removed from the ATS book.
+
+UBS PIN: The UBS Price Improvement Network in the US ("UBS PIN (US)") is a differentiated segment of liquidity operated within the UBS ATS. UBS PIN (US) facilitates interaction between any combination of UBS Retail Orders, UBS institutional algorithmic order flow, and UBS Principal Orders. Executions on crosses between Source Category 1 and Source Category 2 orders, or between two Source Category 2 orders, will include an identifier describing the execution as a "UBS PIN" execution from the UBS ATS. All other executions from the UBS ATS will not use this identifier.
+
+For other rules and procedures of the UBS ATS as it pertains to this section please see Part III, Item 10.</taPart3Item11cRulsProcsOfNmsStk>
+      <rbPart3Item11dIsProcsRulsSameForAll>Y</rbPart3Item11dIsProcsRulsSameForAll>
+      <rbPart3Item12aIsAnyFrmlInfrmlArngmnts>N</rbPart3Item12aIsAnyFrmlInfrmlArngmnts>
+      <part3Item13aSegmntDtls rbPart3Item13aIsOrdrTiSegmntd="Y">
+        <taPart3Item13aSegProcdurDtls>UBS ATS segments incoming order flow into one of five Source Categories (named Source Category 1 through 5). Source Categories are used by the UBS ATS when applying certain crossing restrictions.
+
+Grading Eligibility
+--  Orders not received from the UBS SOR are eligible for grading.
+--  Orders received from the UBS SOR are not eligible for grading.
+
+Qualitative Attributes for Source Categories 1 and 2:
+--  Source Category 1: Retail Orders from RMM received through the UBS SOR. "Retail Orders" are held orders submitted to RMM, irrespective of whether the orders have been attested as meeting the definition in NYSE Rule 107C(a)(3).
+--  Source Category 2: Certain orders received from the UBS SOR (e.g., institutional, retail broker-dealer, UBS Affiliate, UBS Principal); or through Sponsored Access where the underlying client is an institutional client of UBS (this includes clients transacting with full attribution through "Single Ticket" clearing arrangements administered by other broker-dealer firms). A Single Ticket clearing arrangement refers to an institutional client using a broker-dealer to reduce clearing costs and operational complexity around account allocations.
+
+ATS Execution Committee
+
+The ATS Execution Committee, consisting of representatives from the ATS Desk, Quant/Analytics, and Compliance &amp; Operational Risk Control, is the recognized forum within the UBS Investment Bank which governs execution quality of the UBS ATS. The ATS Execution Committee meets monthly, and examines and evaluates the activity of Subscribers that are eligible for grading within the ATS, including, but not limited to:
+--  Subscriber Source Category Segmentation
+--  Subscriber Grading of Conditional Indications
+--  Reversion Based Subscriber Suspension
+
+Initial Source Category Placement:
+
+Class A Indirect Subscribers, Class B Direct Subscribers, and Class B Indirect Subscribers may request to have their order flow split into separate Subscriber Flows for the purposes of grading by sending an email request to the UBS ATS. Initial Source Category placements will remain in effect until the UBS ATS Execution Committee has sufficient data to provide a statistically significant analysis and decision.
+--  All Class A Direct Subscriber orders will be placed into the Source Category determined by the Broker-Dealer Operator depending on client type. The Broker-Dealer Operator does not split Subscriber Flows for grading purposes.
+--  All Subscriber Flows that are new business from clients defined as a Class A Indirect Subscriber, a Class B Direct Subscriber, or a Class B Indirect Subscriber will initially be placed in Source Category 5.
+--  All new Subscriber Flows that are created by separating existing business, for the purpose of Source Category Grading will initially be placed in the current Source Category of the existing Subscriber Flow.
+
+Grading Process and Reversion Analysis
+
+The ATS Execution Committee performs a quantitative review of reversion metrics (the "Grading Process") for Subscriber Flow eligible for grading for the prior 3 months of trading activity (the "Review Period") and utilizes several reversion metrics, all of which involve a notionally weighted price difference expressed as a percentage of the spread at time of execution, where the price difference can be based on:
+
+--  The difference between the midpoint at time of execution and the midpoint one second after the trade ("mid-to-mid").
+--  The difference between the execution price and the midpoint one second after the trade ("exec-to-mid").
+
+Eligibility for a specific source category is determined by one or more reversion metrics ("eligibility reversion"):
+
+--  PIN Eligibility Reversion: This determines whether a Subscriber Flow that is qualitatively eligible for access to Source Category 2 can be assigned to that Source Category. It is calculated by looking at the exec-to-mid reversion against UBS Algo Midpeg Day Orders.
+--  Source Category 3 Anchor Set Eligibility Reversion: This determines eligibility for inclusion in the Source Category 3 Anchor Set, which is further described below. It is calculated by looking at the mid-to-mid reversion against Source Category 3 Anchor Set flow, as described below.
+--  Source Category 3 Eligibility Reversion: This determines whether a Subscriber Flow is eligible to be categorized as Source Category 3. It is calculated by looking at executions against the Source Category 3 Anchor Set, using a combination of metrics as described below.
+--  Source Category 4 Eligibility Reversion: This determines whether a Subscriber Flow can be categorized as Source Category 4. It is calculated by looking at the aggregate mid-to-mid reversion of all executions for a given Subscriber Flow.
+
+As mentioned above, eligibility for inclusion in Source Category 3 is determined by looking at reversion against the Source Category 3 Anchor Set ("Anchor Set"), which consists of UBS Algo Flow, and certain Class B Direct and Indirect Subscriber Flow.  Class B Subscriber Flow is re-evaluated for inclusion in the Anchor Set on a monthly basis by reviewing executions during the Review Period. The first step of the process of constructing the Anchor Set for a given Review Period involves identifying the Class B Anchor Set Candidate Flow, which consists of all Class B Subscribers that have been assigned to Source Category 3 for the entirety of the Review Period. The Anchor Set is then constructed using the UBS Algo Flow, and some or all of the Class B Anchor Set Candidate Flow such that all Class B Subscriber Flow in the Anchor Set has an Anchor Set Eligibility Reversion of less than or equal to 10(percent) (in other words, all Class B Subscriber Flow in the Anchor Set has an aggregate mid-to-mid reversion against the rest of the Anchor Set that is less than or equal to 10(percent) and has also been categorized as Source Category 3 for the entirety of the Review Period). If a Class B Subscriber is included in the Anchor Set for a given Review Period, it is kept in Source Category 3 and will be re-evaluated for continued inclusion in the Anchor Set at the next monthly review
+
+Order flow not received from the UBS SOR that is not in the Anchor Set, but is categorized as being in Source Category 3 or Source Category 4 at the time of the current monthly review is then evaluated for subsequent inclusion in Source Category 3 by looking at the Source Category 3 Eligibility Reversion, which is defined as the more impactful of the following two metrics:
+--  The Subscriber's mid-to-mid reversion against all Anchor Set flow where the Anchor Set is willing to interact with Source Category 4, as determined by the crossing restriction on the Anchor Set order. (Note that, as described in Part III Item 14, of all Anchor Set flow, only the UBS Algos are able to restrict crossing against Source Category 4.)
+--  A blended reversion looking at the Subscriber's executions against all Anchor Set flow, where the exec-to-mid metric is used when the Anchor Set order is a Midpeg Day Order, and the mid-to-mid metric is used otherwise.
+
+Additional elements of the reversion analysis:
+--  Material outliers are excluded from the analysis.
+--  Any execution where either side is a Firm-Up in response to a Conditional Invitation is excluded from the analysis.
+--  Measurement is based on a notional weighted average over a trailing three (3) month period.
+--  The analysis considers both Day and IOC Orders
+--  When a Subscriber Flow is moved to a less restrictive Source Category (e.g., from Source Category 5, to Source Category 4), to remain in the new Source Category the Subscriber Flow's reversion metrics must meet the thresholds described below for its first month in the new Source Category as well as for the entirety of the Review Period. In subsequent months, only the reversion during the Review Period is considered.  For example, if a Subscriber Flow is in Source Category 5, and its Source Category 4 Eligibility Reversion is less than 25% for the current Review Period, and it is moved into Source Category 4, its Source Category 4 Eligibility Reversion must be less than 25% for its first month in Source Category 4 in addition to the normal Review Period. After the first month in Source Category 4, the Source Category 4 Eligibility Reversion would be allowed to exceed 25% as long as the Reversion for the duration of the Review Period is still less than 25%.
+
+A revision to Source Category can only move lower one grade at a time (e.g., from Source Category 5 to Source Category 4, or from Source Category 4 to Source Category 3)
+
+At any time in its reasonable discretion, UBS ATS management may revise a Source Category for any Subscriber Flow regardless of grading eligibility by changing it to a higher grade (e.g., from Source Category 3 to Source Category 4). Such a revision would generally occur in response to a significant change in client behavior or a consistent fluctuation of a Source Category grade, and the determination would be documented in the UBS ATS Execution Committee meeting minutes.
+
+Source Categories used in the UBS ATS are defined as follows:
+
+--  Source Category 1: Order flows that meet the qualitative attributes for Source Category 1.
+--  Source Category 2: Order flows that (i) meet the qualitative attributes for Source Category 2 and are not eligible for grading; or (ii) meet the qualitative attributes for Source Category 2 and are eligible for grading as defined above where the PIN Eligibility Reversion level of the order flow is less than or equal to 2% and the Source Category 3 Eligibility Reversion is less than or equal to 10% and the Source Category 4 Eligibility Reversion is less than 25%.
+--  Source Category 3: Consists of (i) Order flows that meet the qualitative attributes for Source Category 2 and are eligible for grading as defined above where the PIN Eligibility Reversion level is greater than 2% and the Source Category 3 Eligibility Reversion is less than or equal to 10% and Source Category 4 Eligibility Reversion is less than 25%; (ii) Class B Subscribers that are included in the Source Category 3 Anchor Set; (iii) Order flows that do not meet the qualitative attributes for Source Category 2 and are eligible for grading as defined above, and that are not included in the Source Category 3 Anchor Set, where the Source Category 3 Eligibility Reversion level is less than or equal to 10% and the Source Category Eligibility Reversion level is less than or equal to 25%; or (iv) all other order flows received that do not meet the qualitative attributes for Source Category 1 and Source Category 2 and are not eligible for grading.
+--  Source Category 4: Any order flows eligible for grading where the Source Category 3 Eligibility Reversion level is greater than 10% and the Source Category 4 Eligibility Reversion level is less than or equal to 25%.
+--  Source Category 5: Any order flows eligible for grading where the Source Category 4 Eligibility Reversion level is greater than 25%.
+
+Restricting Crossing Against a Specific Source Category
+
+For information on counter-party selection please see Part III, Item 14a of this Form ATS-N under the headline "Restricting Crossing Against a Specific Source Category" which dictates the permitted crossing restrictions that can be placed on orders for Class A Direct and Class A Indirect Subscribers as well as all Subscribers.</taPart3Item13aSegProcdurDtls>
+        <part3Item13bSegmntDtls rbPart3Item13bIsSegmntatnSameForAll="N">
+          <taPart3Item13bSegDiffDtls>Class A Direct Subscriber orders may be designated as Source Category 1, 2, 3, 4, or 5. For Class A Direct Subscriber orders entered through the UBS SOR, the Broker Dealer Operator will indicate to the UBS ATS the Source Category that the order should be placed in.
+
+Class A Indirect Subscriber orders may be designated as Source Category 2, 3, 4, or 5. For Class A Indirect Subscriber orders entered through the UBS SOR, the Broker Dealer Operator will indicate to the UBS ATS the Source Category that the order should be placed in.
+
+All Class B Subscriber orders are eligible for grading and may only be designated as Source Category 3, 4, or 5.</taPart3Item13bSegDiffDtls>
+        </part3Item13bSegmntDtls>
+        <part3Item13dDsclrContntDtls rbPart3Item13dIsSegCatgDisclosd="Y">
+          <taPart3Item13dDsclosrContntDtls>All Class B Direct and Indirect Subscribers are informed at the outset of their initial Source Category.
+
+All Class A Indirect and Class B Subscribers' Score will start at medium quality.
+
+All Subscribers eligible for grading will be informed in writing when the Source Category or Score attributed to each Subscriber Flow originated by them, as the case may be, has been revised to a different Source Category or Score.
+
+Any changes to Source Category or Score will be communicated via email, sent directly to Person(s) designated by the Subscriber. Changes to Source Category or Score cannot be contested.</taPart3Item13dDsclosrContntDtls>
+          <rbPart3Item13eIsDsclosrSameForAll>Y</rbPart3Item13eIsDsclosrSameForAll>
+        </part3Item13dDsclrContntDtls>
+      </part3Item13aSegmntDtls>
+      <rbPart3Item13cIsCustmrOrdr>Y</rbPart3Item13cIsCustmrOrdr>
+      <part3Item14aCntrPrtySelectnDtls rbPart3Item14aIsDsgToIntrctOrNot="Y">
+        <taPart3Item14aCntrPrtyDtls>Crossing Restrictions:
+
+The UBS ATS allows all Subscribers to use the following optional crossing restrictions to limit interactions with certain orders, CIs and trading interest:
+
+--  No Self Cross: To prevent crossing against a Subscribers "own  orders or CIs" (orders or CIs sent that have the same flow  identifying name).  The No Self Cross restriction can be  configured at the UBS ATS upon request to prevent self-crossing  across multiple flow identifying names ("Family Group"). It can  also be managed by the Subscriber on an order-by-order basis  within the same flow identifying name. However, no self cross is  always assumed to have been sent if the flow identifying name is
+in a Family Group.
+
+--  No UBS Principal: To prevent crossing against UBS Principal Orders or CIs; managed by Subscribers on an order-by-order basis.
+
+--  Round Lot Only: To prevent crossing in other than round lot  quantities; managed by Subscribers on an order-by-order basis.
+
+--  PeggedMidPointMode: The UBS ATS supports two variants of  midpoint Pegged Orders or CIs: (1) FillToLimit (default), and (2) FillToMidpoint. For orders, the variant only affects execution  price if the limit price on the order is less aggressive than the  midpoint (i.e., a buy order with a limit price below the midpoint or a sell order with a limit price above the midpoint). If FillToLimit is selected, these orders may fill away from the  midpoint, whereas orders with FillToMidpoint selected will not. For CIs, the variant may affect if an Invite can be generated.
+
+--  Enable Conditionals: To enable a Day Order to interact with Conditional Indications; this crossing restriction can be managed by Subscribers on an order-by-order basis.
+
+--  Minimum Quantity: Orders and CIs may be sent to the UBS ATS  with a minimum quantity value specified, and managed by Subscribers on an order-by-order basis. When used, UBS ATS will  only match or generate an Invite when at least the specified  number of shares is available from a single eligible contra side  order or CI. By default, when the leaves quantity on an order  becomes smaller than the specified minimum quantity, the minimum  quantity constraint will no longer be in effect. Subscribers have  the ability to change that behavior by sending a specific MinQuantityLeaveMode value in the order message. The available  options are to have the leaves quantity become the minimum  quantity or the order can be cancelled. In the latter case, an  unsolicited cancel message is sent to the sender of the order and  the order is removed from the ATS book.
+
+Restricting Crossing Against a Specific Source Category
+
+The below crossing restrictions may be sent to the UBS ATS by each Subscriber on an order by order basis by sending the appropriate crossing restriction value on each order, or by the UBS SOR on behalf of the Subscriber. For details regarding available values please see the UBS ATS Specification at www.ubs.com/ats.
+--  Class A Direct Subscriber orders originating from RMM could be opted out of crossing with contras in Source Categories 3, 4 and/or 5. These crossing restrictions are determined by RMM and sent to the UBS ATS by the UBS SOR on behalf of RMM.
+--  Class A Direct Subscriber orders categorized as Source Category 2 could be opted out of crossing with contras in Source Categories 3, 4 and/or 5. These crossing restrictions are sent to the UBS ATS by the UBS SOR on behalf of the Subscriber. For this case, the Subscriber may only determine to opt out of crossing with contras in Source Categories 4 and/or 5. Only the UBS SOR may determine to opt out of crossing with contras in Source Category 3.
+--  Class A Direct Subscriber orders categorized as Source Category 3 could be opted out of crossing with contras in Source Categories 4 and/or 5. These crossing restrictions could be sent to the UBS ATS by the Subscriber and/or by the UBS SOR on behalf of the Subscriber, and may be determined by the Subscriber or the UBS SOR.
+--  Class A Indirect Subscriber orders categorized as Source Category 2 or 3 could be opted out of crossing with contras in Source Category 4 and/or 5. These crossing restrictions could be sent to the UBS ATS by the Subscriber and/or by the UBS SOR on behalf of the Subscriber and may be determined by the Subscriber or the UBS SOR.
+--  Class A Indirect Subscriber orders categorized as Source Category 2 could be opted out of crossing with contras in Source Category 3, 4 and/or 5. For this case, the Subscriber may only request UBS to opt out of crossing with contras in Source Categories 4 and/or 5. Only the UBS SOR may determine to opt out of crossing with contras in Source Category 3.
+--  All Subscribers in the UBS ATS could opt out of crossing with contras in Source Category 5. These crossing restrictions could be determined and sent to the UBS ATS by Subscribers and/or by the UBS SOR on behalf the Subscriber.
+
+Conditional Indication Restrictions:
+
+Conditional Indication restrictions can be used to limit interactions to certain types of Conditional Indications. More specifically, the Conditional Indication restrictions are available for Conditional Indications and firm order messages, on an order-by-order basis,  by inserting one of the below designated values in the Conditional Invite Grade field:
+--  Generate Invites to all Conditional Indications (Invite Grade = 1)
+--  Generate Invites to Conditional Indications with a Medium Score or better (Invite Grade = 2)
+--  Generate Invites to Conditional Indications with a High Score or better (Invite Grade = 3)
+--  Generate Invites to Conditional Indications from UBS Algorithms  only (Invite Grade = 4)</taPart3Item14aCntrPrtyDtls>
+        <part3Item14bSelectDtls rbPart3Item14bIsSelectnSameForAll="N">
+          <taPart3Item14bSelectnDiffDtls>Restricting Crossing Against a Specific Source Category
+
+For information on counter-party selection please see Part III, Item 14a of this Form ATS-N under the headline "Restricting Crossing Against a Specific Source Category" which dictates the permitted crossing restrictions that can be placed on orders for Class A Direct and Class A Indirect Subscribers as well as all Subscribers.</taPart3Item14bSelectnDiffDtls>
+        </part3Item14bSelectDtls>
+      </part3Item14aCntrPrtySelectnDtls>
+      <rbPart3Item15aIsElectrncCommu>N</rbPart3Item15aIsElectrncCommu>
+      <part3Item15bSubSctbDtls rbPart3Item15bIsSubScrbOrdBnd="Y">
+        <taPart3Item15bSubscrBndDtls>The UBS ATS does not display the ATS order book to any Persons. When handling Conditional Indications (CIs), however, the UBS ATS will communicate an Invite message to the sender of a CI making them aware that eligible contra trading interest exists (see Part III, Item 9).
+
+Class A Indirect Subscribers may direct an order to the UBS ATS through the UBS SOR, thus the UBS SOR is aware of an order being sent to the UBS ATS. For orders that are flagged as DMA where the UBS SOR has no discretion on child order routing, the UBS SOR does not use any information for routing decisions.</taPart3Item15bSubscrBndDtls>
+        <rbPart3Item15cIsDsplyProcSameForAll>Y</rbPart3Item15cIsDsplyProcSameForAll>
+      </part3Item15bSubSctbDtls>
+      <rbPart3Item16aIsInstRoutd>N</rbPart3Item16aIsInstRoutd>
+      <rbPart3Item17aIsDiffBtwnOrdTITrtmnt>N</rbPart3Item17aIsDiffBtwnOrdTITrtmnt>
+      <rbPart3Item17bIsTrtmntSameForAll>Y</rbPart3Item17bIsTrtmntSameForAll>
+      <rbPart3Item18aIsOutsdeTrdingHrs>N</rbPart3Item18aIsOutsdeTrdingHrs>
+      <taPart3Item19aSrvcUsgFees>Class B Direct and Indirect Subscriber fees are standard and publicly disclosed on the UBS ATS website at www.ubs.com/ats. Class B Direct and Indirect Subscriber fees are as follows:
+
+--  Agency Broker-Dealers are charged a fee of $0.0010 per share to add liquidity or remove liquidity.
+--  Proprietary Broker-Dealers are charged a fee of $0.0005 per share to add liquidity and $0.0010 per share to remove liquidity.
+--  Retail Broker-Dealers are not charged a fee for either adding or removing liquidity.
+
+Class A Direct Subscribers are not charged an ATS fee.
+
+There are no additional fees charged by UBS for connectivity to the UBS ATS  Please note, however, that a third party service provider, such as Equinix, may charge Subscribers a fee to establish connectivity.</taPart3Item19aSrvcUsgFees>
+      <taPart3Item19bBundldSrvcUsgFees>The UBS ATS fees charged to Class A Indirect Subscribers and clients of Class A Direct Subscribers are negotiated by the Broker-Dealer Operator with the respective client based on the client's use of the Broker-Dealer Operator Services. Some of the factors that may determine a client's commission rate could include, but are not limited to, the amount of trading the specific client executes with UBS, the characteristics of the client's orders (e.g., average order size, aggressiveness, etc.), and the specific services UBS offers in aggregate to the client (e.g., research, prime brokerage financing, capital introduction, etc.).</taPart3Item19bBundldSrvcUsgFees>
+      <taPart3Item19cRbtDiscOfFees>UBS ATS does not offer to Class B Direct or Indirect Subscribers any rebates or discounts of fees or charges. As mentioned, Class A Direct and Indirect Subscriber ATS fees are negotiated by the Broker Dealer Operator with the respective client.</taPart3Item19cRbtDiscOfFees>
+      <taPart3Item20aSuspndProcdur>The UBS ATS is programmed to promptly react to "halt" or "pause" messages it receives from the direct market data feeds or the SIP from all U.S. equities exchanges. Upon receipt and processing of halt messages, the UBS ATS will not execute transactions in a subject security during periods in which trading in such security is halted (e.g., subject to a LULD Trading Pause, Single Stock Circuit Breaker, or regulatory halt).
+
+The UBS ATS may, in its sole discretion, suspend operation of UBS ATS at any time for good reason including, but not limited to, operational issues. The UBS ATS may also suspend trading in any given security at any time for a variety of reasons including, but not limited to, operational issues and considerations relating to Regulation ATS Rule 301(b)(3) and 301(b)(5).  A list of the UBS ATS disabled symbols is determined monthly.  The list is publicly disclosed on the UBS ATS website (www.ubs.com/ats) under the "UBS ATS Disabled Symbol List" identifier, and an email communication is sent to requesting parties. Participants may request to be added to the email communication by contacting UBS at ats@ubs.com.
+
+In the event of a complete or partial suspension of trading within the UBS ATS, or the suspension of trading in one or more individual securities within the UBS ATS, the UBS ATS will make reasonable best efforts to notify participants in a timely manner.</taPart3Item20aSuspndProcdur>
+      <rbPart3Item20bIsSuspndProcdurSameFrAll>Y</rbPart3Item20bIsSuspndProcdurSameFrAll>
+      <taPart3Item21aMtrlArngmntDtls>When a match occurs, the UBS ATS will report the trade to a recognized trade reporting facility (TRF) operated by a self-regulatory organization using the UBSA MPID. The UBS ATS has the ability to report trades to the NYSE TRF and the NASDAQ TRF. Both are used as primary and backup for each other and both are actively used on a regular basis.
+
+The UBS ATS does not submit a trade report for a match between two orders for principal accounts owned by the Broker-Dealer Operator.
+
+The Broker-Dealer Operator has a centralized process for performing OATS reporting inclusive of transactions executed in the UBS ATS. Equities trading and order management systems of the Broker-Dealer Operator submit individual books and records files detailing all transactional events, including orders, amended orders, cancelled orders, order routes, executions, amended executions and cancelled executions. These records are used in connection with certain regulatory reports made by the Broker-Dealer Operator, including OATS. The UBS ATS does not submit OATS reports for Conditional Indications, which is consistent with FINRA's OATS guidance.
+
+For purposes of Rule 605 of Regulation NMS, UBS compiles and prepares a monthly report addressing execution quality and publishes the report in accordance with the rule.</taPart3Item21aMtrlArngmntDtls>
+      <rbPart3Item21bIsMtrlArngmtSameFrAll>Y</rbPart3Item21bIsMtrlArngmtSameFrAll>
+      <taPart3Item22aMtrlArngmntDtls>The Broker-Dealer Operator is a self-clearing broker-dealer and a member of the National Securities Clearing Corporation ("NSCC") and the Depository Trust Company ("DTC").
+
+The Class A Direct Subscribers clear and settle via internal booking mechanisms.
+
+Class A Indirect Subscribers must have an established clearing method and provide the appropriate settlement instructions to enable the UBS ATS or the Broker-Dealer Operator to submit the transactions for settlement.
+
+Class A Indirect Subscriber executions without an MPID are cleared and settled via internal booking mechanisms and allocated back to such institutional clients or the Broker-Dealer Operator.
+
+Class A Indirect Subscriber executions with an MPID, for single ticket clearing purposes, clear via NSCC through Qualified Service Representative ("QSR") arrangements directly to NSCC and settle through DTC. As such, an established clearing relationship between UBS and the Subscriber (or the Subscriber's clearing broker) is required to be set up at NSCC and DTC and trades are submitted by the UBS ATS on behalf of the Broker-Dealer Operator.
+
+Class B Direct Subscribers, as broker-dealers, are required to clear via NSCC through Qualified Service Representative ("QSR") arrangements directly to NSCC and settle through DTC. As such, an established clearing relationship between UBS and the Subscriber (or the Subscriber's clearing broker) is required to be set up at NSCC and DTC and trades are submitted by the UBS ATS on behalf of the Broker-Dealer Operator.
+
+Class B Indirect Subscribers, which are sponsored by a Class B Direct Subscriber and utilize that broker-dealer's MPID, are required to clear via NSCC through Qualified Service Representative ("QSR") arrangements directly to NSCC and settle through DTC. As such, an established clearing relationship between UBS and the Subscriber (or the Subscriber's clearing broker) is required to be set up at NSCC and DTC and trades are submitted by the UBS ATS on behalf of the Broker-Dealer Operator.
+
+For the purposes of clearance and settlement, UBS is the contracting counterparty using the MPID "UBSA" which allows the UBS ATS to clear and settle both sides of a transaction while keeping the identities of the matched counterparties anonymous.
+
+UBS will only be a trading counterparty to a transaction if a UBS Principal Order matches in the UBS ATS against an agency Subscriber order.</taPart3Item22aMtrlArngmntDtls>
+      <part3Item22bMtrlArngmntDiffDtls rbPart3Item22bIsMtrlArngmtSameFrAll="N">
+        <taPart3Item22bDiffDtls>Please refer to Part III, Item 22a for more information on clearance and settlement.</taPart3Item22bDiffDtls>
+      </part3Item22bMtrlArngmntDiffDtls>
+      <taPart3Item23aMrktDatSrc>The UBS ATS consumes three functionally identical sources of direct market data for Nasdaq, Nasdaq PSX, Nasdaq BX, NYSE, NYSE ARCA, and NYSE National where, weather permitting, the third source uses a faster transport layer over wireless technology. All other exchange direct market data feeds are transmitted over landline only.
+
+All events that require market data use the direct feeds when possible, but may alternatively use the Securities Information Processor (SIP) when necessary. As an example, the UBS ATS uses the SIP for the Limit-Up Limit-Down bands. Matches in the UBS ATS are priced based on a Best Bid Offer ("BBO") aggregated from the "top of book" quotations of all U.S. equities exchanges using direct market data feeds maintained by the UBS ATS. If quotations from one or more exchanges are not available from the UBS direct market data feeds for any reason, the UBS ATS will rely on quotation data from the SIP for the affected exchange feed(s) to calculate the BBO. For example, if UBS's direct market data feed from an exchange is not available, the UBS ATS will use the attributed quote for that exchange from the SIP.
+
+Additionally, when aggregating the top of book quotations to determine the BBO, the UBS ATS seeks to mitigate quote flickering through performance optimizations. As an example, if an individual network data packet received from an exchange contains multiple price updates for a security, UBS ATS will recognize and use only the last sequential price update contained in the packet.
+
+In the case of the Broker-Dealer Operator declaring "self-help" against a trading center's protected quote due to inaccurate or inaccessible quotes, the UBS ATS BBO may exclude all quotes from that trading center from the calculation of the BBO until "self-help" is revoked.
+
+LULD bands will be taken from the most direct source, which typically will be the SIP that calculates the bands for the particular security.</taPart3Item23aMrktDatSrc>
+      <rbPart3Item23bIsSrcSameFrAll>Y</rbPart3Item23bIsSrcSameFrAll>
+      <rbPart3Item24aIsSubScrbrOrdr>N</rbPart3Item24aIsSubScrbrOrdr>
+      <rbPart3Item25aIsAvgDlyTradinVolExcd>N</rbPart3Item25aIsAvgDlyTradinVolExcd>
+      <part3Item26PlatFrmData rbPart3Item26IsOrdrFloExecStatsPublshd="Y">
+        <cbPart3Item26iInfoRqstdUndrExbt4AvlblAtWebst>true</cbPart3Item26iInfoRqstdUndrExbt4AvlblAtWebst>
+        <cbPart3Item26iiInfoRqstdUndrExbt5AvlblAtWebst>true</cbPart3Item26iiInfoRqstdUndrExbt5AvlblAtWebst>
+      </part3Item26PlatFrmData>
+    </partThree>
+  </formData>
+</edgarSubmission>

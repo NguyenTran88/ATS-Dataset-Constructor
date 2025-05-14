@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/sbse/sbsecfiler">
+  <headerData>
+    <submissionType>SBSE-C</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <filerCik>0000042352</filerCik>
+          <filerCcc>XXXXXXXX</filerCcc>
+        </filerCredentials>
+      </filer>
+      <flags>
+        <returnCopyFlag>false</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <certificationOne>
+      <applicantName>GOLDMAN SACHS &amp; CO. LLC</applicantName>
+      <cerApplicantName>GOLDMAN SACHS &amp; CO. LLC</cerApplicantName>
+      <cerDate>10-27-2021</cerDate>
+      <signature>/s/ JOHN EDWARD WALDRON</signature>
+      <name>JOHN EDWARD WALDRON</name>
+      <title>CHIEF EXECUTIVE OFFICER</title>
+    </certificationOne>
+    <certificationTwo>
+      <applicantName>GOLDMAN SACHS &amp; CO. LLC</applicantName>
+      <cerApplicantName>GOLDMAN SACHS &amp; CO. LLC</cerApplicantName>
+      <cerDate>10-27-2021</cerDate>
+      <signature>/s/ MICHAEL MARY BROADBERY</signature>
+      <name>MICHAEL MARY BROADBERY</name>
+    </certificationTwo>
+  </formData>
+</edgarSubmission>

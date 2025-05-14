@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/seventeenafiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>X-17A-5/A</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <filerCik>0000042352</filerCik>
+          <filerCcc>XXXXXXXX</filerCcc>
+        </filerCredentials>
+      </filer>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <returnCopyFlag>true</returnCopyFlag>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <submissionInformation>
+      <periodBegin>01-01-2021</periodBegin>
+      <periodEnd>12-31-2021</periodEnd>
+      <typeOfRegistrant>
+        <typeOfBDRegistrant>Broker-dealer</typeOfBDRegistrant>
+        <typeOfSDRegistrant>Security-based swap dealer</typeOfSDRegistrant>
+      </typeOfRegistrant>
+      <materialWeakness>Y</materialWeakness>
+      <amendmentDescription>We have uploaded a revised copy of the Goldman Sachs &amp; Co. LLC 12/31/21 audited year-end financial statements, which include an amended 17a-5 Compliance Report and report from our independent public auditors. There have been no other revisions to the audited year-end financial statements.</amendmentDescription>
+    </submissionInformation>
+    <registrantIdentification>
+      <brokerDealerName>GOLDMAN SACHS &amp; CO. LLC</brokerDealerName>
+      <businessAddress>
+        <com:street1>200 WEST STREET</com:street1>
+        <com:city>NEW YORK</com:city>
+        <com:stateOrCountry>NY</com:stateOrCountry>
+        <com:zipCode>10282-2198</com:zipCode>
+      </businessAddress>
+      <contactPersonName>Thomas J. Favia</contactPersonName>
+      <contactPersonPhoneNumber>2129021710</contactPersonPhoneNumber>
+    </registrantIdentification>
+    <accountantIdentification>
+      <accountantName>PricewaterhouseCoopers LLP</accountantName>
+      <accountantAddress>
+        <com:street1>300 Madison Avenue</com:street1>
+        <com:city>New York</com:city>
+        <com:stateOrCountry>NY</com:stateOrCountry>
+        <com:zipCode>10017</com:zipCode>
+      </accountantAddress>
+      <accountantType>Certified Public Accountant</accountantType>
+    </accountantIdentification>
+    <oathSignature>
+      <signPersonName>Brian Doyle</signPersonName>
+      <entityName>GOLDMAN SACHS &amp; CO. LLC</entityName>
+      <signDate>12-31-2021</signDate>
+      <explanation>Receivables from customers and counterparties includes $10,761,252 receivable from Executive Officers and payables to customers and counterparties includes $68,081,210 payable to Executive Officers. Additionally, the account balances of certain affiliates are included in receivables from customers and counterparties or payables to customers and counterparties for purposes of financial statement presentation. In addition, pursuant to Financial Industry Regulatory Authority Rule 4140, we affirm that the attached consolidated financial statements and supplemental financial information as of December 31, 2021, have been or will be made available to Executive Officers of The Goldman Sachs Group, Inc.</explanation>
+      <signature>Brian Doyle</signature>
+      <oathTitle>Chief Financial Officer</oathTitle>
+      <confirmNotarizedFlag>Y</confirmNotarizedFlag>
+    </oathSignature>
+  </formData>
+</edgarSubmission>

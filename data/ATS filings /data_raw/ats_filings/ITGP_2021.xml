@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ats="http://www.sec.gov/edgar/atsncommon">
+  <headerData>
+    <submissionType>ATS-N/UA</submissionType>
+    <accessionNumber>0001457716-21-000013</accessionNumber>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <filerCredentials>
+          <com:cik>0001457716</com:cik>
+          <com:ccc>XXXXXXXX</com:ccc>
+        </filerCredentials>
+        <fileNumber>013-00140</fileNumber>
+      </filer>
+      <flags>
+        <ats:overrideInternetFlag>false</ats:overrideInternetFlag>
+        <ats:confirmingCopyFlag>false</ats:confirmingCopyFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <cover>
+      <txNMSStockATSName>Virtu MatchIt</txNMSStockATSName>
+      <taStatementAboutAmendment>Changes have been made to Part I, Item 7 to remove a secondary location. Revisions to this item applies to the Broker Dealer Operator and its Subscribers.</taStatementAboutAmendment>
+    </cover>
+    <partOne>
+      <rbPart1Item1IsBd>Y</rbPart1Item1IsBd>
+      <txPart1Item2ATSName>VIRTU AMERICAS LLC</txPart1Item2ATSName>
+      <atsNames>
+        <atsName txPart1Item3ATSName="Virtu MatchIt ATS"/>
+        <atsName txPart1Item3ATSName="MatchIt"/>
+      </atsNames>
+      <txPart1Item4aBdFileNumber>008-68193</txPart1Item4aBdFileNumber>
+      <txPart1Item4aBdCrdNumber>000149823</txPart1Item4aBdCrdNumber>
+      <txPart1Item5aNsaFullName>Financial Industry Regulatory Authority, Inc. (FINRA)</txPart1Item5aNsaFullName>
+      <part1Item5bEffectiveMembershipDate>02/06/2009</part1Item5bEffectiveMembershipDate>
+      <txtPart1Item5cNmsStockMPID>KCGM</txtPart1Item5cNmsStockMPID>
+      <txtPart1Item6uwebsite>https://www.virtu.com/about/transparency/</txtPart1Item6uwebsite>
+      <part1Item7PrimarySite>
+        <ats:street1>Equinix NY5 Data Center - Matching Engine</ats:street1>
+        <ats:street2>800 Secaucus Rd</ats:street2>
+        <ats:city>Secaucus</ats:city>
+        <ats:zip>07094</ats:zip>
+        <ats:state>US-NJ</ats:state>
+      </part1Item7PrimarySite>
+      <cbPart1Item8Exhibit1atWebsite>false</cbPart1Item8Exhibit1atWebsite>
+      <cbPart1Item9Exhibit2atWebsite>false</cbPart1Item9Exhibit2atWebsite>
+    </partOne>
+    <partTwo>
+      <part2Item1aArePermittedToEnterInterest rbPart2Item1aArePermittedToEnterInterest="Y">
+        <taPart2Item1aUnitNamesEnterInterest>Virtu Americas LLC ("VAL" or the "Firm") operates two MatchIt ATS ("MatchIt" or the "ATS")
+crossing sessions, a Main Session (the "Main Session") and a Conditional Session (the
+"Conditional Session"), as well as several other business units, which are described below.  Any
+of the Firm's other business units may enter or direct orders to either session.  The Firm's business
+units each use one or more technology platforms that have MPIDs associated with the platform.  A
+single business unit can enter or direct orders to the ATS through more than one technology
+platform and consequently under more than one MPID.
+
+Virtu Electronic Trading ("VET").  VET provides algorithms that are used by clients and the Firm's
+business units.  VET algorithms enter or direct the entry of orders to MatchIt as agent when those
+orders are entered by clients into the algorithms or as principal or riskless principal when one of
+the other business units enters orders into the algorithms using the MPIDs: VALR,
+VALX and ITGI.
+
+Virtu Client Market Making ("VCMM").  VCMM handles held and not held orders transmitted by
+other broker-dealers and held orders transmitted by institutions.  The majority of these orders are
+SEC Rule 605 eligible orders and are handled and executed on a fully automated basis.  VCMM
+sales and trading personnel handle larger and less liquid orders manually and can use VET
+algorithms in connection with their market making activities.  VCMM enters or directs the entry of
+orders to MatchIt as principal, riskless principal and agent to acquire inventory to fill orders or to
+acquire positions for its own account using the following MPIDs: NITE, VALR and
+VALX.
+
+Virtu Institutional Trading ("Institutional Trading").  Institutional Trading handles not held orders
+transmitted by institutional clients and facilitates block transactions in single stocks.  Institutional
+Trading uses VET algorithms to enter or direct the entry of orders as principal or riskless principal
+in connection with its client facilitation activities using the following MPIDs: NITE,
+VALX and ITGI.
+
+Virtu Hi-Touch Portfolio Trading: Traders on this desk handle not held orders in baskets of stocks
+and ETFs. Traders can enter or direct the entry of orders through VAL Electronic Systems into the
+ATS as agent under the MPID ITGI.
+
+Virtu ETF Trading ("ETF Trading").  ETF Trading makes markets on exchanges and facilitates
+block transactions in exchange traded products for broker-dealer and institutional clients.  ETF
+Trading uses VET algorithms to enter or direct the entry of orders as principal or riskless principal
+in ETFs and singles stocks using the MPID VALX.
+
+Virtu Principal Market Making ("VPMM"). VPMM is a market maker in NMS equity securities.
+VPMM enters or directs the entry of orders as principal to both MatchIt crossing sessions utilizing
+the MPID VIRT.</taPart2Item1aUnitNamesEnterInterest>
+        <part2Item1bAreSevicesSametoAllSubscribers rbPart2Item1bAreSevicesSametoAllSubscribers="N">
+          <taPart2Item2bExplainDiff>As is described in Part II, Item 1(a) and Part III, Item 5(c), the Firm's business units utilize electronic algorithms that can enter or direct orders to the ATS. As is described in Part III, Item 9(b), only VAL and VAL Affiliates are permitted to enter conditional orders and interests into the Conditional Session. As is described in Part III, Item 14(b), only VAL business units and VAL Affiliates are permitted to utilize order instructions that limit interactions with certain principal orders of VAL and its Affiliates ("Virtu Principal Opt Out"). See Part II, item 3(a). These instructions are not available to subscribers who enter orders directly into MatchIt ("Direct Subscribers").</taPart2Item2bExplainDiff>
+        </part2Item1bAreSevicesSametoAllSubscribers>
+        <rbPart2Item1cAreThereArrangements>N</rbPart2Item1cAreThereArrangements>
+      </part2Item1aArePermittedToEnterInterest>
+      <rbPart2Item1dCanOATInterestBeRouted>N</rbPart2Item1dCanOATInterestBeRouted>
+      <affiliatesPermittedToEnterInterest rbPart2Item2aAreAfflPermittedToEnterInterest="Y">
+        <taPart2Item2aAfflThatEnterInterest>"VAL's Canadian, EU and Asia Pacific Affiliates are broker-dealers that offer products and
+services similar to ""VET and have hi-touch desks, all of which can enter or direct the entry of
+orders to MatchIt through VAL'.  VAL enters or directs orders to the ATS for these Affiliates as
+agent or riskless principal using the VAL MPIDs VALR, VALX or ITGI.</taPart2Item2aAfflThatEnterInterest>
+        <part2Item2bAreSevicestoAfflSametoSubscribers rbPart2Item2bAreSevicestoAfflSametoSubscribers="N">
+          <taPart2Item2bExplainDiff>Only VAL and VAL Affiliates are permitted to enter orders into the Conditional Session. See, Part III, Items 7, 9, and 11 for information about the Conditional Session. Only VAL business units and VAL Affiliates are permitted to utilize order instructions that limit interactions with certain Virtu principal order flow. These instructions are not available to Direct Subscribers. See Part III, Item 7 for information on order types and available instructions.</taPart2Item2bExplainDiff>
+        </part2Item2bAreSevicestoAfflSametoSubscribers>
+        <rbPart2Item2cAreThereArrangementsWithAffl>N</rbPart2Item2cAreThereArrangementsWithAffl>
+      </affiliatesPermittedToEnterInterest>
+      <rbPart2Item2dCanOATIBeRoutedByAffl>N</rbPart2Item2dCanOATIBeRoutedByAffl>
+      <part2Item3aCanSubscrOptOutWithOATIOfBD rbPart2Item3aCanSubscrOptOutWithOATIOfBD="Y">
+        <taPart2Item3aExplianOptOut>The Firm and its Affiliates provide algorithms to clients which enter or direct the entry of orders to MatchIt and other trading centers. These clients are Indirect Subscribers of the ATS. The Firm makes the Virtu Principal Opt Out available only to these Indirect Subscribers. This opt out will prevent interaction with VAL orders submitted by VPMM, as described in Part II, Item 1(a). See, Part III, Item 7 addressing order types and instructions; and Part III, Item 14 addressing counterparty selection.
+Indirect Subscribers may not opt out of interaction with principal orders related to the facilitation of client orders. Direct Subscribers are broker-dealers, including VAL, VAL affiliates, and clients that have been approved to send orders directly to MatchIt. Clients acting as a Direct Subscribers do not have the option to opt out of interacting with the orders and trading interest of the Broker-Dealer Operator.
+For Indirect Subscribers opting out of interacting with eligible orders, the Firm sets a configuration in the Indirect Subscriber's algorithmic profile settings. When the algorithms enter or direct an order to MatchIt, the configuration is checked and an opt-out instruction is placed on the FIX Protocol message. The ATS's matching logic reads these messages to determine which orders are eligible for matching.</taPart2Item3aExplianOptOut>
+      </part2Item3aCanSubscrOptOutWithOATIOfBD>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>N</rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>
+      <part2Item3cAreOptOutSametoAllSubscribers rbPart2Item3cAreOptOutSametoAllSubscribers="N">
+        <taPart2Item3cExplainDiff>The option to opt out is not available to Direct Subscribers of the ATS. It is only available to clients of the ATS Broker-Dealer Operator and its Affiliates who use algorithms provided by the ATS Broker-Dealer Operator and its Affiliates.</taPart2Item3cExplainDiff>
+      </part2Item3cAreOptOutSametoAllSubscribers>
+      <part2Item4aAreThereArrangementsBtwBDAndTC rbPart2Item4aAreThereArrangementsBtwBDAndTC="Y">
+        <taPart2Item4aTDAndATSServices>VAL and the following Trading Centers have each entered into electronic access arrangements
+with one another which permit each to effect transactions on their respective trading centers:
+BAML Instinct X ATS, Barclays LX ATS, CBOE Bats Y, CBOE Bats X, CBOE Direct Edge A,
+CBOE Direct Edge X, Citigroup Global Markets CitiBLOC ATS, Citadel Securities - Citadel
+Connect, Coda Markets ATS, Credit Suisse Crossfinder ATS, Deutsche Bank SuperX ATS,
+Fidelity CrossStream ATS, Goldman Sachs SigmaX2 ATS, Instinet BlockCross ATS, Instinet
+CBX ATS, Jane Street Capital - JX, JP Morgan JPM-X ATS, Liquidnet H2O ATS, Morgan
+Stanley MS Pool ATS, UBS ATS, Virtu POSIT ATS, and Virtu VEQ.
+These agreements do not provide for preferential access or require either party to route any orders.</taPart2Item4aTDAndATSServices>
+        <rbPart2Item4bAreThereArrangementsBtwAfflAndTC>N</rbPart2Item4bAreThereArrangementsBtwAfflAndTC>
+      </part2Item4aAreThereArrangementsBtwBDAndTC>
+      <part2Item5aDoesOfferProductsAndServices rbPart2Item5aDoesOfferProductsAndServices="Y">
+        <taPart2Item5aProductsAndServices>Direct Subscribers: VAL offers Direct Subscribers the ability to enter orders directly into MatchIt utilizing a standard FIX Application Programming Interface ("API") (see Part III, Item 5), and Equinix NY5 Data Center cross connects to MatchIt (see Part III, Item 6).
+Indirect Subscribers: VAL offers algorithms to its clients that send orders and conditional trading interests to MatchIt and other market centers. See Part II, Items 1 and 2; and Part III, Item 5 and 6. Orders routed by Direct Subscribers and by algorithms access MatchIt through the same API. See Part III, Item 5.</taPart2Item5aProductsAndServices>
+        <part2Item5bAreSevicesSametoAllSubscribersAndBD rbPart2Item5bAreSevicesSametoAllSubscribersAndBD="N">
+          <taPart2Item5bExplainDiff>VAL is a broker-dealer, is the operator of the ATS, and provides direct and indirect access to the ATS to internal desks, to Affiliates and to Indirect Subscribers who use the Firm's algorithms. VAL does not require its internal desks or its Affiliates to enter into contractual arrangements or otherwise meet the eligibility requirements for access to ATS Services. See, Part III, Item 2. All other Subscribers must meet eligibility requirements for access to ATS Services, including the requirement to enter into a standard electronic access agreements and meet VAL on-boarding requirements in order to access the ATS. See, Part III, Item 2(b).
+VAL requires all Direct Subscribers to be broker-dealers. See, Part III, Item 2(a). VAL only permits Direct Subscribers to choose the available ATS order types and instructions and to enter or direct the entry of orders through the API that VAL makes available for access to the ATS. See, Part III, Item 5(a) and (b). Direct Subscribers can also utilize available segmentation instructions but cannot opt out of interacting with principal orders of VAL and its Affiliates. See, Part III, Item 13 and 14.
+VAL permits Indirect Subscribers to be either broker-dealers or institutional type customers. VAL does not permit Indirect Subscribers to directly choose the available ATS order types and instructions or to directly enter or direct the entry of orders through the API VAL makes available to Direct Subscribers. VAL algorithms make all decisions about when and how to enter or direct the entry of orders and conditional interest into the ATS. See, Part II, Items 1; and Part III, Item 5(c). VAL accepts requests from Indirect Subscribers to opt out of interacting with certain principal orders of VAL and VAL Affiliates but does not accept requests to utilize segmentation instructions. See, Part II, Item 3 and Part III, Item 13 and 14.
+Except as noted above, the terms and conditions for access are otherwise the same for all Subscribers.</taPart2Item5bExplainDiff>
+        </part2Item5bAreSevicesSametoAllSubscribersAndBD>
+      </part2Item5aDoesOfferProductsAndServices>
+      <part2Item5cDoesAfflOfferProductsAndServices rbPart2Item5cDoesAfflOfferProductsAndServices="Y">
+        <taPart2Item5cAfflProvidedProductsAndServices>The Firm's Affiliates operate business units that offer products and services, including trading
+desks and algorithms, that result in the orders of Indirect Subscribers being entered on MatchIt.
+See Part II, Item 2 for a description of these Affiliates.     VAL and its Affiliates require clients to
+enter into electronic access agreements to use algorithms and be on-boarded by the legal entity
+providing the services on similar terms and conditions as those described in Part II, Item 5(b).</taPart2Item5cAfflProvidedProductsAndServices>
+        <part2Item5dAreTCOfSevicesSametoAll rbPart2Item5dAreTCOfSevicesSametoAll="N">
+          <taPart2Item5dExplainDiff>VAL does not permit Direct Subscribers to access the Conditional Session or use conditional order types. As described in Part 2 Item II, (b), only VAL and VAL Affiliates are permitted to enter orders into the Conditional Session. Only VAL business units and VAL Affiliates are permitted to utilize order instructions that limit interactions with certain principal order flow of VAL and its Affiliates. VAL does not make these instructions available to Direct Subscribers.</taPart2Item5dExplainDiff>
+        </part2Item5dAreTCOfSevicesSametoAll>
+      </part2Item5cDoesAfflOfferProductsAndServices>
+      <part2Item6aDoesEmployeeAccessConfidentialInfo rbPart2Item6aDoesEmployeeAccessConfidentialInfo="Y">
+        <taPart2Item6aUnitAfflEmployeeServices>VAL does not have any personnel whose sole responsibility is for MatchIt.  The Firm considers
+information relating to Subscriber's live orders, trading interests and recent executions in MatchIt
+that the Firm reasonably believes may suggest a Subscriber continues at that moment in time to
+have the same or additional live orders and trading interests in MatchIt to be ATS confidential
+information ("Confidential Information").  As is more fully discussed in Part III, Item 7(a), the
+Firm does not consider all post trade data to be Confidential Information, particularly when the
+information is anonymized, aggregated or both.
+
+Below is a summary of the shared personnel that provide services to both MatchIt, the Firm, and
+its Affiliates and have access to Confidential Information.
+*	Compliance and Legal:  Compliance and Legal personnel support all of the Firm's business
+units and those of the Firm's Affiliates and perform a variety of compliance and legal
+activities related to their roles.  They have access to Subscriber historical order and
+execution information and as necessary they can be provided with access to intra-day
+information.
+*	Finance and Management Reporting Group:  Finance and Management Reporting
+personnel support all of the Firm's business units and those of the Firm's Affiliates.  These
+personnel are involved in accounting, billing, analyzing revenues, and providing
+management reporting information.  They have access to Subscribers' historical post-trade
+execution information and data.
+*	Operations:  Operations personnel support the Firm's middle and back office processes for
+clearance and settlement and related activities and have access to Subscribers' real time
+intra-day, post-trade, and historical execution information for clearing, settlement, and
+regulatory reporting purposes.
+*	Core Operations:  Core Operations are technical personnel who have access to the Firm's
+and its Affiliates' trading infrastructure, which includes MatchIt, to monitor the
+functionality, health, and wellness of the Firm's trading infrastructure and take action as
+necessary to maintain the systems and manage issues.  They have access to Subscribers'
+real-time and historical order and execution information.  This group supports all trading
+infrastructure and applications for the Firm.
+*	Software Developers:  Software Developers have access to the Firm's and its Affiliates'
+trading infrastructure, which includes MatchIt, to maintain and enhance the software for
+the Firm's trading applications.  They have access to Subscribers' real-time and historical
+order and execution information.  This group supports all trading infrastructure and
+applications for the Firm.
+*	Product Management: Product Management are personnel who manage the day-to-day
+business activities for products such as MatchIt, the algorithms the Firm provides to
+clients, and other trading-related applications the Firm and its Affiliates provide to clients.
+These personnel monitor the trading applications, enhance their product features, and
+create new features.  Product Management compile and analyze statistics and metrics
+related to the ATS and other electronic products and services.  Product Management works
+with Software Developers, and in some instances are also Software Developers themselves.
+The Product Manager responsible for supervising MatchIt is also the Product Manager
+responsible for supervising 'VAL's other ATS, POSIT, and also provides support to both
+VAL's VET business and 'execution services applications. Product Management have
+access to Subscribers' real-time and historical order and execution information.
+*	Relationship Management:  Relationship Management personnel are responsible for
+managing the Firm's relationship with its clients, including clients who are Direct
+Subscribers of the ATS, and for cross-selling the Firm's other products and services.  They
+have access to historical order and execution information.
+*	Sales and/or Trading Personnel:  To the extent Sales or Trading personnel are responsible
+for handling an order, a portion of which is directed to MatchIt as a child order, such
+personnel would have real time access to such child order and any of its executions in
+MatchIt analogous to the access they would have to information about orders and
+executions that were directed to external market centers in order to monitor executions and
+provide order-related services.</taPart2Item6aUnitAfflEmployeeServices>
+      </part2Item6aDoesEmployeeAccessConfidentialInfo>
+      <part2Item6bDoesAnyEntitySupportServices rbPart2Item6bDoesAnyEntitySupportServices="Y">
+        <taPart2Item6bServiceProvider>The MatchIt matching engine is hosted in Equinix's NY5 Data Center in Secaucus, N.J. The API that acts as the hub to receive orders from Subscribers is hosted in the Equinix's NY4 Data Center in Secaucus, N.J. The Data Centers provide services that include, building security; air conditioning; access to electricity and telecommunication services; and cages for computer equipment. The Firm owns and maintains its own computer hardware and network devices within the data center. MatchIt submits trades to the FINRA NASDAQ Carteret TRF and NYSE TRF for submission to the consolidated tape and for submission to NSCC for clearance for Subscribers who are broker-dealers and have elected to entered into Agreements to Give Up ("AGUs") and have their locked-in transactions submitted to the NSCC though the TRF.</taPart2Item6bServiceProvider>
+        <rbPart2Item6cDoesServiceProviderUseATSServices>N</rbPart2Item6cDoesServiceProviderUseATSServices>
+      </part2Item6bDoesAnyEntitySupportServices>
+      <taPart2Item7aDescrOfSafeGaurdsAndProcedures>GENERAL BACKGROUND AND SCOPE OF CONFIDENTIAL INFORMATION. The Firm
+operates MatchIt on a matching engine that runs on a standalone server in the NY5 Data Center.
+See Part I, Item 7; and Part III, Item 6(a).  The MatchIt matching engine communicates with
+shared systems to book trades, to report executed trades to the tape, to facilitate clearance and
+settlement, for financial reporting and billing, and to facilitate other post-trade processes.  See Part
+II, Item 6 for information on personnel that have access to Confidential Information.
+AGGREGATED ANONYMOUS DATA.  Data which has been aggregated and which does not
+identify any Subscribers is not Confidential Information ("Aggregated Anonymous Data").  The
+Firm publishes firm-wide aggregated anonymous execution data to market wide trade
+advertisement systems after the transaction has been reported to the consolidated tape.  The data
+does not include any client identities but does include symbol level executed volumes.  'While the
+Firm does not consider this data to be Confidential Information, it does not include MatchIT
+Aggregated Anonymous data in these reports.
+The Firm posts monthly statistics on its website and disseminates this data to Subscribers ("the
+Monthly MatchIt Statistics").  The Monthly MatchIt Statistics are available at
+https://www.virtu.com/about/transparency and provide aggregate and anonymous information
+about MatchIt, including total volume; volume by sector; volume by market cap; fill size
+distribution; and distribution of executions at the bid, mid and offer.  The Firm produces market
+commentary from time-to-time that discusses general market trends.  The statistical data described
+in this paragraph can be used to produce market commentary.  The Firm considers this data to be
+Aggregated Anonymous Data and not Confidential Information.  The Firm does not permit
+Subscribers to opt out of having their data included in these reports.
+SALES DATA.  Sales Data is aggregated information about the products and services the Firm's
+clients use and includes the client's name, the product or service they use, aggregate executed
+volume, and revenues ("Sales Data").  Sales Data includes aggregated ATS data as described in the
+preceding sentence.  The Firm provides Sales Data to management personnel, Sales or Trading
+personnel and Relationship Management personnel who are involved in handling relationships
+with the Firm's clients.  Sales Data is provided for the purpose of allowing these personnel to keep
+abreast of the client's business activities to manage the client relationship and to cross sell the
+Firm's products and services to the client.  The Firm does not consider Sales Data to be
+Confidential Information when distributed internally for the above described purposes.  The Firm
+makes this information available in end of day reports and in sales systems (i.e., systems that
+support activities of Sales or Trading personnel and Relationship Management personnel for the
+purposes described above) on T+1.  The Firm prohibits personnel from disclosing Sales Data to
+third parties.  The Firm does not permit Subscribers to opt out of having this data made available
+to personnel involved in handling client relationships, as defined in Part II, Item 6(a).
+PERSONNEL WITH ACCESS TO CONFIDENTIAL INFORMATION.  The Firm does not have
+any personnel whose sole responsibility is for the operations of MatchIt.  The shared personnel
+discussed in response to Part II, Item 6(a), have access to Confidential Information.
+SAFEGUARDS AND OVERSEEING CONFIDENTIAL INFORMATION.  The Firm maintains
+written policies and procedures regarding use and protection of Confidential Information.  Firm
+personnel are subject to its parent, Virtu Financial Inc.'s Code of Conduct and Employee Manual.
+Firm personnel are also subject to the Firm's Information Security Policy, Compliance Manual,
+and Written Supervisory Procedures.
+These policies prohibit the personnel listed in Part II, Item 6(a), from sharing Confidential
+Information with other personnel who are not in one of these permitted categories or with any
+other person.  The exception is that Compliance and Legal personnel may provide information to
+regulators in response to regulatory requests or to third parties pursuant to subpoena.  Personnel
+who violate the Firm's policies concerning Confidential Information are subject to discipline,
+including termination of their employment.  The Firm performs email reviews and employs data
+loss software as a means of safeguarding Confidential Information.
+The Firm procedures require that personnel make requests for access to its systems through the
+Firm's access ticketing system and to receive approval from a supervisor prior to being granted
+access to any systems.  The Firm's supervisory personnel grant access to systems on the premise
+that it is necessary to perform their duties and to carry out the purpose for which the information is
+provided to them.  The supervisor responsible for MatchIt approves requests for access to the
+MatchIt matching engine.  The Firm only permits approved personnel in the categories described
+in Part II, Item 6(a), to have access to Confidential Information and only permits these personnel
+to access the systems and the Confidential Information contained therein using approved means of
+access and credentials.  Supervisors do not grant access to Confidential Information. The Firm
+maintains a process that sends notifications to designated personnel to disable systems access for
+personnel who are no longer employed by the Firm.  Supervisors are responsible for instructing the
+technology personnel to disable access when employees change roles.  The Firm provides reports
+to the supervisors that show personnel with access to the MatchIt matching engine on a monthly
+basis.  Supervisors review these reports to ensure that these personnel still require access to carry
+out responsibilities related to the ATS.
+PERSONAL TRADING RESTRICTIONS.  The Firm maintains employee trading policies that
+require personnel to disclose their own personal accounts and the accounts of close family
+members, that prohibit personnel from trading based on any client Confidential Information, that
+require personnel to pre-clear transactions and attest at the time of trade entry that they are not
+trading on Confidential Information, and that prescribe holding periods for securities purchases.
+The Firm conducts reviews of employee trading to determine whether trades were pre-cleared and
+whether holding periods were observed.</taPart2Item7aDescrOfSafeGaurdsAndProcedures>
+      <part2Item7bCanSubscriberConsentToDisclosure rbPart2Item7bCanSubscriberConsentToDisclosure="Y">
+        <taPart2Item7bExplainHowAndConditions>By virtue of their use of MatchIt, VAL considers all Subscribers to have consented to the disclosure of Confidential Information as described in Part II, Item 6(a) and consented to the disclosure of aggregated and anonymous data to the public and Sales Data to management personnel, Sales or Trading personnel and Relationship Management personnel internally as described in Part II, Item 7(a) above.
+Subscribers may consent to disclosure of their own Confidential Information to any person they choose by submitting a written request to their Sales or Trading person, Relationship Management person describing the nature of the information the wish to disclose and the scope of the disclosure they wish to make. For example, a Subscriber may wish to request that their data be disclosed to a Sales or Trading person to monitor their activity or for analysis.</taPart2Item7bExplainHowAndConditions>
+        <part2Item7cCanSubscriberWithdrawConsent rbPart2Item7cCanSubscriberWithdrawConsent="Y">
+          <taPart2Item7cExplainHowAndConditions>To the extent a Subscriber has made a request to disclose Confidential Information that is ongoing, See Part II, Item 7(b), or wishes to opt out of the disclosure of Aggregated Anonymous Data that is reported market-wide dissemination systems, See Part II, Item 7(a), the subscriber may submit a written request to their sales person. The sales person will create a ticket for operation staff to carry out the request. In most cases, the request will be honored on the next business day, but could take effect either the same day or greater than the next business day, depending upon the time of day the request is submitted. Sales and Operations will verify that the request has been implemented.
+Otherwise, the Firm does not permit Subscribers to opt out of having their Aggregated Anonymous Data included in the Monthly MatchIt, in market commentary that uses this data, or from having Sales Data provided to management personnel, Sales or Trading personnel and Relationship Management personnel, for the purposes noted in Part II, Item 6(a).</taPart2Item7cExplainHowAndConditions>
+        </part2Item7cCanSubscriberWithdrawConsent>
+      </part2Item7bCanSubscriberConsentToDisclosure>
+      <taPart2Item7dSummaryOfRolesRespOfPersons>The shared personnel described in response to Part II, Item 6(a) have access to Confidential Information, as described in Part II, Item 6(a). These personnel have access to that information for the purpose of carrying out their job functions.
+To the extent Sales and Trading personnel direct orders to the ATS, those orders and related executions are available to Sales and Trading personnel who may analyze the data for the purposes of understanding the performance of the algorithms.
+As described in Part II, Item 7(a), the Firm makes public Aggregated Anonymous Data to further the Firm's efforts to market its products and services. The Firm does not consider Aggregated Anonymous Data to be Confidential Information. The Firm provides Sales Data to management personnel, Sales or Trading personnel and Relationship Management personnel so that they may keep abreast of their clients' activities and coordinate the Firm's sales efforts. The Firm does not make this information available to third parties. The Firm does not consider Sales Data to be Confidential Information when it is provided to management personnel, Sales or Trading personnel and Relationship Management personnel for these purposes.</taPart2Item7dSummaryOfRolesRespOfPersons>
+    </partTwo>
+    <partThree>
+      <taPart3Item1SubscriberType>Investment Companies</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Retail Investors</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Issuers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Brokers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>NMS Stock ATSs</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Asset Managers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Principal Trading Firms</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Hedge Funds</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Market Makers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Banks</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Dealers</taPart3Item1SubscriberType>
+      <rbPart3Item2aRegisteredBD>Y</rbPart3Item2aRegisteredBD>
+      <part3Item2bSummaryOfConditions rbPart3Item2bIsThereOtherConditions="Y">
+        <taPart3Item2bSummaryOfCndtns>VAL permits applicants who satisfy eligibility requirements to become Direct Subscribers. Specifically, in addition to being registered broker-dealers, Direct Subscribers must execute an electronic access agreement, and submit the standard on-boarding documentation that all clients of VAL must submit. Such documentation includes "know your customer" information, financial information to assess counterparty risk and establish a trading limit, and relevant agreements such as AGUs or Qualified Service Representative (QSR) to facilitate trade clearance. VAL performs reviews to assess a client's prior disciplinary history. A disciplinary history related to market abuse, for example, would potentially preclude a prospective client from being on-boarded to VAL and consequently would preclude the client from being permitted access to the ATS. A client that does not have sufficient net capital or a clearing firm with sufficient net capital to satisfy the Firm's counterparty risk criteria would similarly be precluded from becoming a client of the Firm's and consequently not be permitted access to the ATS. A client who holds less than $500,000 in capital will only be granted access if: there is a formal request with business head approval; the nature of the business flow is such that large MTM exposures are unlikely; and the revenues provide sufficient risk vs. reward ratios, or the company is part of a larger group and there are explicit or implicit guarantees, or there is a high degree of confidence the company will grow.
+The Product Manager for the ATS approves or denies access to the ATS. Clients who are not approved for access to the ATS would generally also not be approved for any other VAL services.
+Indirect Subscribers are not required to be broker-dealers but would otherwise go through the same on-boarding process. VAL generally only on-boards clients to use algorithms that are broker-dealers or institutional type clients and does not accept natural persons as clients.</taPart3Item2bSummaryOfCndtns>
+        <rbPart3Item2cIsConditionsSameForAll>Y</rbPart3Item2cIsConditionsSameForAll>
+      </part3Item2bSummaryOfConditions>
+      <rbPart3Item2dIsThereWrittenAgreement>Y</rbPart3Item2dIsThereWrittenAgreement>
+      <part3Item3aSumryOfExcludngCondtns rbPart3Item3aIsExcludeSubscriber="Y">
+        <taPart3Item3aExcludngSumryDtls>VAL has discretion to exclude Subscribers for any reason. Subscribers may be excluded as a result of regulatory or counterparty risk concerns which would generally result in the Subscriber being excluded from all services provided by the Broker-Dealer Operator of the ATS. The same criteria listed in Part III, Item 2 which would preclude a prospective client from a client of VAL and being granted access to the ATS could also result in an existing Subscriber from being excluded from access to the ATS and from other services provided by VAL. For example, a disciplinary history related to market abuse or a change in financial condition such that the Subscriber fails to satisfy VAL's counterparty risk criteria could preclude a Subscriber from continued access to the ATS.
+Direct Subscribers do not have access to the Conditional Session, See, Part III, Item 11. Segmentation and counterparty selection, See Part III, Items 13 and 14, can serve to limit access to the full breadth of liquidity available in MatchIt.</taPart3Item3aExcludngSumryDtls>
+        <rbPart3Item3bIsCondtnsSameForAll>Y</rbPart3Item3bIsCondtnsSameForAll>
+      </part3Item3aSumryOfExcludngCondtns>
+      <taPart3Item4aHrsOfOperation>MatchIt accepts orders beginning at 7:00 a.m. EST. MatchIt executes orders from 9:30 a.m. to 4:00 p.m. EST, Monday through Friday, except for during partial trading days and during United States equity market holidays.</taPart3Item4aHrsOfOperation>
+      <rbPart3Item4bIsHrsOfOperationsame>Y</rbPart3Item4bIsHrsOfOperationsame>
+      <part3Item5aProtocolDetails rbPart3Item5aIsPermitOrdrTradng="Y">
+        <taPart3Item5aProtocolused>VAL, VAL Affiliates, and Direct Subscribers can enter orders directly to the MatchIt Main Session through an API in in the NY4 Datacenter. See, Part II, Item 5. All orders must be submitted electronically via FIX. VAL provides a MatchIt FIX Specification document for the MatchIt Main Session describing the transmission formats for order messages. MatchIt supports FIX versions up to V4.2.
+MatchIt only accepts orders that satisfy clearly defined parameters which include:
+Orders must satisfy certain security parameters - for example, orders must be transmitted from a known IP address that has been permissioned by MatchIt.
+Orders must adhere to the parameters provided in the FIX specification document.
+VAL and VAL Affiliates access the Conditional Session through the same API. VAL provides Direct Subscribers with a FIX specification document that contains message formats for the main session. VAL utilizes a FIX specification document that contains message formats for both the main session and the conditional session.</taPart3Item5aProtocolused>
+        <part3Item5bProtocolDetails rbPart3Item5bIsProtclsameForAll="N">
+          <taPart3Item5aProtocolSumryDtls>All Subscribers and VAL and VAL Affiliates submit orders to the MatchIt Main Session using the same MatchIt Fix specification formats and the same API. The MatchIt Conditional Session is only available to VAL and VAL Affiliated broker-dealers. VAL and VAL Affiliates utilize a different FIX specification document than the one provided to Direct Subscribers which contains message formats for conditional orders.</taPart3Item5aProtocolSumryDtls>
+        </part3Item5bProtocolDetails>
+      </part3Item5aProtocolDetails>
+      <part3Item5cOthrDtls rbPart3Item5cIsAnyOtherMeans="Y">
+        <taPart3Item5cOthrMeansDtls>VAL and its Affiliates provide algorithms that are used by its business units and by clients, i.e. Indirect Subscribers, which enter or direct the entry of orders to the MatchIt Main Session and orders and conditional interests to the Conditional Session. The conditions described in Part III, Item 2 are the only conditions for entering orders through the algorithms provided by VAL and its Affiliates. Specifically, Subscribers must execute an electronic access agreement, and submit standard on-boarding documentation that all clients must submit, including know your customer information, financial information to assess counterparty risk and establish a trading limit, and relevant agreements information to facilitate trade clearance and settlement, and be approved as a client of VAL or its Affiliates.</taPart3Item5cOthrMeansDtls>
+        <part3Item5dTnCDetails rbPart3Item5dIsTnCSameForAll="N">
+          <taPart3Item5dTnCSumryDtls>The Broker-Dealer Operator and its Affiliates are not required to execute contracts or meet the on-boarding requirements.</taPart3Item5dTnCSumryDtls>
+        </part3Item5dTnCDetails>
+      </part3Item5cOthrDtls>
+      <part3Item6aProtocolDetails rbPart3Item6aIsCoLocRltdSrvcsOfrd="Y">
+        <taPart3Item6aCoLocRltdSrvcsDtls>All Subscribers submit orders through a hub located in the Equinix NY4 Data Center in Secaucus, NJ. Thereafter, VAL transmits all orders to the MatchIt matching engine which is located in the Equinix NY5 Data Center in Secaucus, NJ. All VAL network and system equipment is kept in VAL's cage, which is owned and operated by VAL. VAL does not permit Subscribers to co-locate within VAL's cage.
+VAL offers cross connects in Equinix NY4 to all Direct Subscribers who wish to connect to MatchIt via cross connect. Clients can also leverage extranet connectivity providers in order to connect to MatchIt. Connecting via extranet vs directly via cross connect could affect the speed at which client orders reach MatchIt. Direct Subscribers connecting to MatchIt via direct cross connection would reach the MatchIt matching system faster than a Direct Subscribers connecting via an extranet connection. Direct connectivity to MatchIt via cross connections are available by request, which are made to Equinix in NY4. Equinix may charge a fee for the cross connect. VAL supports 1 Gigabit (copper/multi-mode fiber/single-mode fiber) and 10 Gigabit (single-mode fiber) connections. Direct Subscriber cross connects terminate on VAL owned and managed network switches. VAL maintains all of its VAL network and system equipment in its own cage within the data centers. All of the equipment in the cabinets hosting MatchIt infrastructure is solely owned and managed by VAL.</taPart3Item6aCoLocRltdSrvcsDtls>
+        <part3Item6bTNCDetails rbPart3Item6bIsTNCsameForAll="N">
+          <taPart3Item6bTNCSumryDtls>The only difference in the terms and conditions are that in some instances VAL had agreed to assume the cost of the data center cross connections.</taPart3Item6bTNCSumryDtls>
+        </part3Item6bTNCDetails>
+      </part3Item6aProtocolDetails>
+      <rbPart3Item6cIsAnyOtherMeans>N</rbPart3Item6cIsAnyOtherMeans>
+      <rbPart3Item6eIsAnyRducdSpOfCom>N</rbPart3Item6eIsAnyRducdSpOfCom>
+      <taPart3Item7AOrdrTypExplain>For the Main Session, MatchIt accepts Peg orders, Day orders and Immediate or Cancel (IOC) orders.
+Peg and Day orders may cross with contra-side Peg orders, contra-side Day orders or with IOC orders.
+IOC orders may only cross with contra-side Peg orders or contra-side Day orders. These order types may
+be entered with other instructions that will be used by the matching algorithm to determine whether and
+how they will interact with other orders.
+
+For the Conditional Session, MatchIt accepts Peg orders and IOC orders.  Peg orders may cross with contra-side
+Peg orders or with IOC orders.  IOC orders may only cross with contra-side Peg orders.  These order types may be
+entered with other instructions that will be used by the matching algorithm to determine whether and how they
+will interact with other orders.
+
+Priority in the MatchIt Main Session for all order types is price, then time.  If a Subscriber modifies the
+terms of a previously transmitted order, the order will receive a new order time stamp for matching
+purposes (i.e. the order will lose queue spot). The only exception is a reduction in order quantity which,
+absent any other changes to the terms of the order, will not update the order time stamp for matching
+purposes.
+
+Priority in the MatchIt Conditional Session for all order types is price, then size, then time.   If the
+algorithm modifies the terms of a previously transmitted order, the order will receive a new order time
+stamp for matching purposes (i.e., the order will lose queue spot). The only exception is a reduction in
+order quantity which, absent any other changes to the terms of the order, will not update the order time
+stamp for matching purposes.
+
+The following instructions are available for orders entered in both the Main Session and the Conditional
+Session.  The instructions placed on orders will affect whether an order is eligible to be executed against
+contra-side orders.
+(1) Peg Orders: Peg orders remain open until executed, canceled by the Subscriber or until the end of the
+daily matching session. Peg orders can be designated with the following execution instruction:
+
+      (i) Market: A Market instruction designates that the order can pay the full spread. For example, a
+buy order can be executed up to the national best offer and a sell order can be executed down to the
+national best bid.
+
+      (ii) Mid-Point: A Mid-Point instruction designates that an order can pay up to the mid-point
+between the national best bid and national best offer ("NBBO").
+
+      (iii) Primary: A Primary instruction designates that the order can only be executed at the national
+best bid in the case of a buy order and the national best offer in the case of a sell order.
+
+A Limit Price instruction can be specified for Peg orders in conjunction with the above referenced
+execution instruction.
+
+(2) Day Orders: Day orders remain open until executed, canceled by the Subscriber or until the end of the
+daily matching session. Day orders can also include a Market, Mid-Point, Primary or Limit Price
+instruction.
+
+(3) IOC Orders: IOC orders will either execute if an eligible contra side order exists against which the
+order can be executed or if not the order is canceled.  IOC orders can also include a Market, Mid-Point,
+Primary, or Limit Price instruction.   IOC orders will default to Primary Peg if a peg instruction is not
+specified.
+
+Other available Instructions and Designations for the Main and Conditional Sessions: The following
+instructions may be applied to the above order types unless otherwise indicated. These instructions may be
+implemented by transmitting specified values on the order or by requesting configurations that will apply
+particular instructions after receipt of the order:
+
+(i)	Minimum Execution Quantity (MEQ): An MEQ instruction specifies the minimum
+number of shares that must be available for a contra side order to be eligible for execution.
+
+(ii)	Locked Market: A Locked Market instruction specifies that an order is not eligible for
+execution during locked markets. IOC orders entered with a Locked Market instruction
+will be rejected if the NBBO is locked. Peg orders will be accepted but ineligible for
+execution until the NBBO unlocks.
+
+(iii)	Peg Order Add-Only Liquidity Instruction ("Add Only"): An Add-Only instruction
+specifies that the order is only eligible for execution when it adds liquidity to MatchIt upon
+entry. Peg orders that would remove liquidity from MatchIt will be accepted by MatchIt
+and remain open but ineligible for execution until such a time as the order adds liquidity to
+MatchIt. Contra-side Peg orders on the book at the time a Peg order with an Add Only
+instruction is entered will not interact with the Peg Add Only order.
+
+(iv)	Soft Dollar Instruction: A Soft Dollar instruction will only allow riskless principal or
+agency crossing. To the extent that an order with a Soft Dollar instruction interacts with an
+order submitted by VCMM, MatchIt will pass information on the execution message so
+that the market maker's systems transact with its underlying client according to FINRA's
+definition of "riskless principal," i.e., at the same price, as the execution received in
+MatchIt.
+
+(v)	Virtu Principal Opt Out: VAL and VAL Affiliates may submit instructions on orders
+that prevent interactions with Virtu principal orders, as described in Part II, item 3(a).
+This instruction is not available to Direct Subscribers.
+
+(vi)	MatchIt Subscriber Profiles and Limits on Interaction: This instruction specifies the
+types of counterparties that an order may interact with based on the counterparty's
+Liquidity Profile. MatchIt uses quantitative metrics to create one or more Liquidity
+Profiles for each MatchIt Subscriber. The metrics include execution performance relative
+to the market over different time horizons when removing liquidity from MatchIt.
+MatchIt makes discretionary decisions in assigning a Liquidity Profile to a new or
+previously uncategorized Subscribers. MatchIt will inform Subscribers about their own
+profile information upon request.
+(vii)	Self-Match Prevention: Subscribers may provide instructions that will prevent
+orders from crossing if the resulting cross may result in a transaction with no change
+in beneficial ownership.
+
+See Attachment for Part III, 7a for details on available instructions and designations for the Conditional Session only.</taPart3Item7AOrdrTypExplain>
+      <part3Item7bTnCDetails rbPart3Item7bIsTnCSameForAll="N">
+        <taPart3Item7bTnCSumryDtls>The Virtu Principal Opt Out and Soft Dollar Instruction are only available on orders transmitted by VAL and VAL Affiliate algorithms. The Conditional Crossing Session and Conditional Session Order Types are only available to VAL and VAL Affiliates.</taPart3Item7bTnCSumryDtls>
+      </part3Item7bTnCDetails>
+      <rbPart3Item8aIsMinOrMaxSizeReqd>N</rbPart3Item8aIsMinOrMaxSizeReqd>
+      <part3Item8cOddltOrdrReqs rbPart3Item8cIsOddLotsAcptdExecutd="Y">
+        <taPart3Item8cOddLtOrdrReqsnProcdurs>Odd lot orders are treated and handled in the same manner as round and mixed lot orders.</taPart3Item8cOddLtOrdrReqsnProcdurs>
+        <rbPart3Item8dIsReqsProcdurSameForAll>Y</rbPart3Item8dIsReqsProcdurSameForAll>
+      </part3Item8cOddltOrdrReqs>
+      <part3Item8eMixltOrdrDetails rbPart3Item8eIsMixLotOrdrsAcptdExecutd="Y">
+        <taPart3Item8eMixltOrdrReqsProcDtls>Mixed lot orders are treated and handled in the same manner as round and odd lot orders.</taPart3Item8eMixltOrdrReqsProcDtls>
+        <rbPart3Item8fIsRecProcSameForAll>Y</rbPart3Item8fIsRecProcSameForAll>
+      </part3Item8eMixltOrdrDetails>
+      <part3Item9aMsgDtls rbPart3Item9aIsAnyMsgToIndicTI="Y">
+        <taPart3Item9aMsgUsgDtls>The MatchIt Conditional Session accepts Conditional Orders and IOC orders. Direct Subscribers do not have access to the Conditional Session. See, Part III, Item 7 and Item 11 for additional information regarding Conditional Orders and the Conditional Session. Only VAL, its Affiliates, and algorithms offered by VAL or its Affiliates can direct the entry of all orders entered into the Conditional Session.
+Conditional Orders rest in the Conditional Session but are not firm or executable. VAL transmits In-bound Retail Orders as IOC Orders. VAL and its Affiliates' algorithms can also transmit IOC orders. VAL or its Affiliate's algorithms also transmit Conditional Orders.
+When contra-side conditional orders reside in the Conditional Session or when one or more Conditional Orders and a contra-side IOC order reside in the Conditional Session such that there is a potential matching opportunity, MatchIt will send an invitation to Firm-Up to the algorithm that entered a Conditional Order. When multiple Conditional Orders are present on the same side, MatchIt will transmit the invitation to Firm-Up to one Conditional Order based on price, size, and time priority. For an execution to occur, the algorithm that has entered a Conditional Order and received an invitation to Firm-Up must respond to the invitation by transmitting an automated Firm-Up Response Order.
+MatchIt will transmit an invitation to Firm-Up that contains the number of shares that are potentially available for execution and a response time within which the Firm-Up Response Order must be received for an execution to occur. The response time will be in a range of single digit to hundreds of milliseconds. The algorithm receiving an invitation to Firm-Up may then respond by sending a Firm-Up Response Order that references the invitation and matches the attributes of the invitation in terms of symbol, side and quantity. A Firm-Up Response Order may be transmitted with a quantity less than the invited quantity. An execution will occur to the extent that a Firm-Up Response Order is received by MatchIt within the designated response time.
+MatchIt will only execute IOC orders against contra-side Firm-Up Response Orders. A Firm-Up Response Order to buy and a Firm-Up Response Order to sell may be executed against one another. Firm-Up Response Orders will only interact with the specific contra-side orders that caused MatchIt to transmit the invitation to Firm-Up.
+When multiple conditional orders are resting in the Conditional Session, MatchIt will send an invitation to Firm-up to one algorithm that placed the Conditional Order based upon price, size, and time priority. IOC orders interact based on time priority. MatchIt will utilize any limit price, Peg and Peg Offset instructions when determining price. IOC Orders and Firm-Up Response Orders that result from Conditional Orders that cause an invitation sequence to begin are considered removal orders and receive price improvement, i.e., resting orders pay any additional portion of the spread to the extent the price or peg instructions of the contra side orders overlap.</taPart3Item9aMsgUsgDtls>
+      </part3Item9aMsgDtls>
+      <part3Item9bMsgDtls rbPart3Item9bIsIndIntrstSameForAll="N">
+        <taPart3Item9bMsgUsgDtls>The Conditional Crossing Session is available to VAL and VAL affiliates only.</taPart3Item9bMsgUsgDtls>
+      </part3Item9bMsgDtls>
+      <taPart3Item10aOpenReOpenDtls>MatchIt begins accepting all order types at 7:00 AM EST. MatchIt does not execute orders before the U.S. market's open, after the U.S. market's close, and during a trading halt. There are no limitations on the types of orders MatchIt will accept prior to the start of regular trading hours or during a trading halt; however, IOC orders will be cancelled back and Peg orders will remain on the MatchIt order book until trading begins. Unexecuted orders will be cancelled at the market's close time.
+MatchIt does not have an opening auction or have any specific procedures to reopen after a stoppage of trading in either the Main Session or the Conditional Session. Prior to the market's open, and during a trading halt, Peg orders will remain on the book and be prioritized by price, then time, for the Main Session, subject to the constraints placed on an order by a Subscriber. For the Conditional Session, orders will remain on the book and be prioritized by price, then size, then time, subject to the constraints placed on an order. After the market opens, MatchIt will execute orders to the extent there are contra-side matches.</taPart3Item10aOpenReOpenDtls>
+      <rbPart3Item10bIsOpnReopnSameForAll>Y</rbPart3Item10bIsOpnReopnSameForAll>
+      <taPart3Item10cUnexeOrdrTIDtls>MatchIt does not have an opening auction or have any specific procedures to reopen after a stoppage of trading in either the Main Session or the Conditional Session.
+For the Main Session, unexecuted Peg orders are prioritized by price and then time and are executed to the extent there is contra-side liquidity and subject to the constraints placed on an order by a Subscriber. For the Conditional Session, unexecuted Conditional Orders are prioritized by price, size and then time and are executed to the extent there is contra-side liquidity and subject to the constraints placed on an order by a Subscriber.
+Once the market opens or resumes after a stoppage, MatchIt will execute orders to the extent there are contra-side matches.</taPart3Item10cUnexeOrdrTIDtls>
+      <rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>Y</rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>
+      <rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>N</rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>
+      <taPart3Item11aStrucOfNmsStk>MatchIt is an electronic crossing system that does not display orders and executes all orders at or within the NBBO as determined by VAL's Market Data Systems. MatchIt consists of two crossing sessions, the Main Session and the Conditional Session which operate independently of each other. VAL business units, VAL Affiliates and Direct Subscribers enter or direct the entry of orders into the Main Session. The Main Session employs a price, time priority crossing methodology. VAL business units and VAL Affiliates enter orders and conditional interests into the Conditional Session. The Conditional Session employs a price, size, time priority crossing methodology. All NMS securities listed on a national securities exchange are eligible for trading in MatchIt, except MatchIt does not make Virtu Financial, Inc., symbol VIRT, available for trading, and may, in its sole discretion, stop trading certain symbols from time to time for, among other reasons, the purpose of remaining below the volume thresholds for (i) classification as an "SCI Entity" under Regulation SCI and (ii) certain regulatory requirements as set forth in Rules 301(b)(3) and (5) of Regulation ATS.</taPart3Item11aStrucOfNmsStk>
+      <rbPart3Item11bIsMeansFeciltsSameForAll>Y</rbPart3Item11bIsMeansFeciltsSameForAll>
+      <taPart3Item11cRulsProcsOfNmsStk>Main Session:  MatchIt will execute Peg and Day orders against eligible contra-side IOC, Day and Peg
+orders.  For Peg and Day orders, priority is determined on a price, time basis. If a Subscriber modifies
+the terms of a previously transmitted order, the order will receive a new order time for matching
+purposes (i.e. the order will lose queue spot).  The only exception is a reduction in order quantity
+which, absent any other changes to the terms of the order, will not update the order time for matching
+purposes.  For IOC orders priority is based on a first in time basis.
+Removers receive price improvement.  In the case of an IOC order, the IOC order is always the
+removing order.  In the case of two Peg and/or Day orders, the second in time is the removing order.
+
+For the Main Session, MatchIt makes risk configuration options available to Direct Subscribers.  These are
+Max Order Size and Max Order Notional, Max Order Notional and Max Daily Value.  MatchIt will reject
+Direct Subscribers orders once the Subscribers requested thresholds are reached.
+
+Conditional Session: The MatchIt Conditional Session accepts Conditional Orders and IOC orders.
+Conditional Orders rest in the Conditional Session but are not firm or executable.  MatchIt will send an
+invitation to Firm-Up to the algorithm that entered a Conditional Order when a potential matching
+opportunity exists. When multiple Conditional Orders are present the invitation to Firm-Up will be
+transmitted to one Conditional Order based on price, size, time, priority.  For an execution to occur, the
+algorithm that has entered a Conditional Order and received an invitation to Firm-Up must respond to the
+invitation by transmitting an automated Firm-Up Response Order.
+
+MatchIt will transmit an invitation to Firm-Up that contains the number of shares that are potentially
+available for execution and a response time within which the Firm-Up order must be received for an
+execution to occur.  The response time will be in a range of single digit to hundreds of milliseconds.  The
+algorithm receiving an invitation to Firm-Up may then respond by sending a Firm-Up Response Order
+that references the invitation and matches the attributes of the invitation in terms of symbol, side and
+quantity. A Firm-Up Response order may be transmitted with a quantity less than the invited quantity.
+An execution will occur to the extent that Firm-Up Response Orders are received by MatchIt within the
+designated response time.
+
+IOC orders may only be executed against contra-side Firm-Up Response Orders. A Firm?Up Response
+Order to buy and a Firm-Up Response Order to sell may be executed against one another. Firm-Up
+Response Orders will only interact with the specific contra-side orders that caused MatchIt to transmit
+the invitation to Firm-Up.
+
+MatchIt will send invite messages to systems that have transmitted eligible Conditional Orders based
+upon price, size, and time priority when multiple Conditional Orders are present. IOC orders interact
+based on time priority. MatchIt will utilize any limit price, Peg and Peg Offset instructions when
+determining price. IOC Orders and Firm-Up Response Orders that result from Conditional Orders that
+cause an invitation sequence to begin are considered removal orders and receive price improvement, i.e.
+resting orders pay any additional portion of the spread to the extent the price or peg instructions of the
+contra side orders overlap.
+
+If a Subscriber modifies the terms of a previously transmitted order, the order will receive a new order
+time for matching purposes (i.e. the order will lose queue spot).  The only exception is a reduction in
+order quantity which, absent any other changes to the terms of the order, will not update the order time
+for matching purposes.  For IOC orders priority is based on a first in time basis.
+In the case of an IOC order matching against a Conditional Order, the Conditional Order is always the
+liquidity adding order.  In the case of Conditional Orders, the first in time is the liquidity adding order.
+For adders that have entered short sell Market Peg order instructions in securities subject to a Reg
+SHO Rule 201 price restriction, the adding order will receive a de minimis amount of price
+improvement of $0.0001, such that the execution price is compliant with the Reg SHO price
+restriction.  However, if the order has a price restriction that would prevent it from receiving an
+execution above the NBB then no execution will occur.
+
+Both Sessions:
+
+Locked and Crossed Markets: MatchIt does not execute in a crossed market, but will execute in a
+locked market.  Subscribers have the option of not executing in a locked market on an order by order
+basis.
+
+Errors and Accommodations:  MatchIt reserves the right to review any transaction based upon the
+request of a Subscriber or on its own motion and declare any transaction executed by MatchIt null and
+void in the event that the transaction occurred at a price that was within the numerical guidelines for
+erroneous transactions of any exchange or was the result of a significant systems disruption.  In reviewing
+transactions resulting from significant systems disruptions, in addition to the price of the transactions,
+MatchIt may also take into account the volume of transactions as compared to the normal volume of
+transactions for the relevant security as executed by MatchIt.  MatchIt reserves the right to use its
+discretion to provide price accommodations in circumstances that are not clearly errors or erroneous
+transactions but where the circumstances are appropriate, such as minor systems latency, to make a price
+adjustment as an accommodation to an effected client(s).
+
+Price Protection: There are no Price Protection mechanisms.
+
+Short Sales: Subscribers are required to mark short sale orders as ?sell short? or ?sell short exempt?.  For
+adders that have entered short sell Market Peg order instructions in securities subject to a Reg SHO Rule
+201 price restriction, the adding order will receive a de minimis amount of price improvement of $0.0001,
+such that the execution price is compliant with the Reg SHO price restriction, unless the amount of price
+improvement would exceed any limit price placed on the order.</taPart3Item11cRulsProcsOfNmsStk>
+      <part3Item11dDiffDtls rbPart3Item11dIsProcsRulsSameForAll="N">
+        <taPart3Item11dDiffDtls>The Conditional Crossing Session is only available to VAL and VAL Affiliates. Direct Subscribers are not able to transmit orders to this crossing session.
+The Soft Dollar Instruction and Virtu Principal Opt Out are not available to Direct Subscribers.</taPart3Item11dDiffDtls>
+      </part3Item11dDiffDtls>
+      <rbPart3Item12aIsAnyFrmlInfrmlArngmnts>N</rbPart3Item12aIsAnyFrmlInfrmlArngmnts>
+      <part3Item13aSegmntDtls rbPart3Item13aIsOrdrTiSegmntd="Y">
+        <taPart3Item13aSegProcdurDtls>There is no segmentation in the Conditional Session. In the Main Session, VAL segments Direct Subscribers into five distinct Liquidity Profiles based upon their removal orders. Direct Subscribers may enter instructions that when present on liquidity adding orders will prevent interaction with liquidity taking orders from Subscribers who fall into specified Liquidity Profiles. VAL scores and segments Direct Subscribers at the MPID level. VAL and its Affiliates' own MPIDs are scored and segmented. VAL does not score and segment Indirect Subscribers. To the extent that VAL, its Affiliates or Direct Subscriber's transmit the orders of multiple Indirect Subscribers through a single MPID, the Liquidity Profile will be the composite of all of the Indirect Subscribers. An exception is that VAL permits Direct Subscribers to have different order flows scored independently based upon a Segment ID FIX tag. The Current MatchIt FIX Specification Document provides Direct Subscribers the ability to use up to four Segment IDs labeled Segment 1, Segment 2, Segment 3 and Segment 4.
+VAL uses a scoring methodology to determine a Subscriber's Liquidity Profiles that is derived from the price move of a stock from the midpoint price at the time of fill to a weighted average of midpoint prices of various durations after the time of fill, divided by the stock's spread (a "mark out"). Only a Subscriber's removal flow (IOC orders and Peg orders that remove liquidity) are included in the Liquidity Profile computation. Liquidity Profiles are generated monthly, based on the prior 3 months of trading activity. There is no de minimis volume rule in the Liquidity Profile generation.
+VAL creates Liquidity Profiles by sorting Subscribers by their mark-out score. The five Liquidity Profile tiers are called Highest, High, Neutral, Low, and Lowest, where the Highest Liquidity Profile contains Subscribers who exhibit the lowest mark outs relative to other Subscribers' taking flow, and the Lowest Liquidity Profile contains Subscribers who exhibit the largest mark outs (in the Subscribers favor) relative to other Subscribers' taking flow. The Liquidity Profiles are constructed such that approximately 40% of the taking share volume is placed into the Highest category, 20% of the taking share volume is placed in the High category, 20% of the taking share volume is placed in the Neutral category, 10% of the taking share volume is placed in the Low category, and 10% of the taking share volume is placed in the Lowest category. The percentages are approximations. Based on the mix of Subscribers' share volume, they may not perfectly fit into a quintile such that the percentages are exact. MatchIt will use its discretion in these circumstances and typically will elect to include more Subscribers in a higher quintile. Subscribers that rest Peg orders in MatchIt can elect to prevent various combinations of the quintiles from interacting with their resting orders on an order by order basis via FIX tag. VAL uses its own discretion to place new Subscribers into a quintile. Quintile selection for new Subscribers is based on VAL's subjective judgment of the trading and investment process employed by the new Subscriber. VAL reserves the right to move a Subscriber's liquidity profile bucket intra-month if that Subscriber's mark outs during the month deviate widely from prior trading activity.
+Direct Subscribers who add liquidity can block any of the liquidity profile buckets from interacting with their add flow. As an example, if a Subscriber specifies that their Peg order only interact with the Highest Liquidity Profile, then any contra-side removal flow that is not from a Subscriber designated as Highest will not interact with the resting Peg order. Liquidity removal orders may be blocked from interacting with resting orders based on the adding Subscriber's preferences. Liquidity removal orders cannot specify Liquidity Profile blocking. Other than what has been described, no other order interaction is effected by the Liquidity Profile designation of a particular Subscriber.
+Liquidity Profiles only apply to order interaction in the Main Session and have no influence on order interaction in the Conditional Session.</taPart3Item13aSegProcdurDtls>
+        <rbPart3Item13bIsSegmntatnSameForAll>Y</rbPart3Item13bIsSegmntatnSameForAll>
+        <part3Item13dDsclrContntDtls rbPart3Item13dIsSegCatgDisclosd="Y">
+          <taPart3Item13dDsclosrContntDtls>Upon request, MatchIt will disclose to a Subscriber their own profile information and provide summary information concerning the Subscriber's trading with each Liquidity Profile quintile. Subscriber identities, however, will remain confidential. This communication is provided either verbally or through email to the party that originally requested the information. Liquidity Profile designations cannot be contested.</taPart3Item13dDsclosrContntDtls>
+          <rbPart3Item13eIsDsclosrSameForAll>Y</rbPart3Item13eIsDsclosrSameForAll>
+        </part3Item13dDsclrContntDtls>
+      </part3Item13aSegmntDtls>
+      <rbPart3Item13cIsCustmrOrdr>N</rbPart3Item13cIsCustmrOrdr>
+      <part3Item14aCntrPrtySelectnDtls rbPart3Item14aIsDsgToIntrctOrNot="Y">
+        <taPart3Item14aCntrPrtyDtls>Virtu Principal Opt Out: VAL and VAL Affiliates may submit instructions on orders that prevent interactions with Virtu principal orders. This instruction is not available to Direct Subscribers. See Part III, Item 7 which lists order instructions including this instruction.
+MatchIt Liquidity Profile Interaction: All Direct Subscribers have the option to block interaction against specific Liquidity Profiles, as described in Part III, Item 13. VAL programs its algorithms to use blocking when analysis suggests it may improve execution outcomes. VAL implements the logic of the algorithms such that decisions are made on specific child orders in specific circumstances. Indirect Subscribers cannot make decisions to block based on Liquidity Profiles. MatchIt will prevent liquidity removing orders from matching with liquidity adding orders from counterparties falling into the specified liquidity profiles when Subscribers place the blocking instruction on their liquidity adding orders. Subscribers can send instructions designating which Liquidity Profiles to interact with on an order by order basis via FIX tag. These Profiles are only created for the Main Session and only effect counterparty interaction in the Main Session. See Part III, Item 7 which lists order instructions including this instruction.
+Self-Match Prevention: Direct Subscribers may provide instructions that will prevent order from crossing if the resulting cross may result in a transaction with no change in beneficial ownership.
+Other Order Attributes: Direct Subscribers can place other attributes on orders that could limit an order's ability to interact with certain contra side interest. These additional attributes include: Minimum Execution Quantity, Do Not Execute In A Locked Market, and Add Only.</taPart3Item14aCntrPrtyDtls>
+        <part3Item14bSelectDtls rbPart3Item14bIsSelectnSameForAll="N">
+          <taPart3Item14bSelectnDiffDtls>The Virtu Principal Opt Out is only available to VAL and VAL affiliates.</taPart3Item14bSelectnDiffDtls>
+        </part3Item14bSelectDtls>
+      </part3Item14aCntrPrtySelectnDtls>
+      <rbPart3Item15aIsElectrncCommu>N</rbPart3Item15aIsElectrncCommu>
+      <part3Item15bSubSctbDtls rbPart3Item15bIsSubScrbOrdBnd="Y">
+        <taPart3Item15bSubscrBndDtls>For MatchIt's Conditional Session, when there is a potential match of conditional placements, the MatchIt matching engine will send a Firm-Up invite message, which includes the side, symbol, and quantity of the contra-side placement. This information is only sent to the algorithms of VAL and its Affiliates, as Direct Subscribers are not eligible to send orders to the Conditional Session. The messages and the response are all automated and occur in milliseconds.</taPart3Item15bSubscrBndDtls>
+        <part3Item15cDsplyProcDtls rbPart3Item15cIsDsplyProcSameForAll="N">
+          <taPart3Item5cDsplyProcDiffDtls>The information described in Part III, Item 15(b) above is only sent to the algorithms of VAL and its Affiliates as Direct Subscribers are not eligible to send orders to the Conditional Session.</taPart3Item5cDsplyProcDiffDtls>
+        </part3Item15cDsplyProcDtls>
+      </part3Item15bSubSctbDtls>
+      <rbPart3Item16aIsInstRoutd>N</rbPart3Item16aIsInstRoutd>
+      <rbPart3Item17aIsDiffBtwnOrdTITrtmnt>N</rbPart3Item17aIsDiffBtwnOrdTITrtmnt>
+      <rbPart3Item17bIsTrtmntSameForAll>Y</rbPart3Item17bIsTrtmntSameForAll>
+      <rbPart3Item18aIsOutsdeTrdingHrs>N</rbPart3Item18aIsOutsdeTrdingHrs>
+      <taPart3Item19aSrvcUsgFees>MatchIt does not charge any subscription or connectivity fees. Historically, execution charges, if any, were individually negotiated with each Direct Subscriber. Currently, Direct Subscribers pay fees between $.0005 and $.0025 per share with most Subscribers paying $.001 per share. Any new Subscribers will be charged $.001 per share. VAL and VAL Affiliates are not assessed a fee for MatchIt trades. Indirect Subscribers pay bundled fees, See Section III, Item 19(b). VAL will consider a number of factors in determining the fee an individual Subscriber will be assessed, including, but not limited to, the client's overall relationship with VAL, the type of trading flow, the amount of trading flow, and the markets that will be traded.</taPart3Item19aSrvcUsgFees>
+      <taPart3Item19bBundldSrvcUsgFees>VAL establishes fees for use of its execution products and services, which could include executions in MatchIt, on an individual client basis. VAL will consider a number of factors in determining the fee an individual client will be assessed, including, but not limited to, the client's overall relationship with VAL, the type of trading flow, the amount of trading flow, and the markets that will be traded. Client specific clearing arrangements, as specified in Section III, Item 22, are not considered when establishing a fee for that client. VAL will consider a number of factors in determining whether an Indirect Subscriber can access orders designated as Inbound Retail including, but not limited to, the overall commission rates an Indirect Subscriber pays to the Firm, the client's overall relationship with the Firm, the type of trading flow, and the amount of trading flow.</taPart3Item19bBundldSrvcUsgFees>
+      <taPart3Item19cRbtDiscOfFees>MatchIt may pay the cost of cross connects for Direct Subscribers to connect to the NY 4 Hub based upon the overall relationship with the client and or the perceived value of having the Subscriber enter or direct the entry of orders to MatchIt.</taPart3Item19cRbtDiscOfFees>
+      <taPart3Item20aSuspndProcdur>VAL may in its sole discretion, stop trading certain symbols from time to time for, among other reasons, the purpose of remaining below the volume thresholds for (i) classification as an "SCI Entity" under Regulation SCI and (ii) certain regulatory requirements as set forth in Rules 301(b)(3) and (5) of Regulation ATS.
+VAL uses a proprietary market data system to consolidate the best bids and offers to determine the NBBO at which executions occur on MatchIt. See Part III, Item 23 for a description of this system. VAL has programmed its market data system to disseminate an alert when it detects a certain level of disparity from normative messages received by the systems. The MatchIt system is programmed to shift to utilizing only the SIP BBOs when there is a certain level of disparity between the exchange book feeds and the SIP. If the Firm's Core Operations staff determines that there appears to be a significant delay or issue with the Firm's market data, they will cause MatchIt to suspend trading in the impacted symbol or in all symbols in the case that they determine there is a more severe systems issue. In either event, the Core Operations staff will cause MatchIt to cancel impacted orders. Cancellation reports will be sent to clients as soon as possible and MatchIt's client services personnel will attempt to contact Subscribers. Where there is a severe systems interruption that prevents MatchIt from recovering for the remainder of the day, MatchIt will instruct Subscribers to route their orders to other market centers.
+MatchIt will not execute orders if the NBBO is crossed, if the NBB is below the LULD Lower Limit Price Band, if the NBO is above the LULD Upper Limit Price Band, or if the security is in a LULD Trading Pause.
+MatchIt will reject orders in certain NMS Stocks, including any symbols on VAL's restricted list or symbols for which VAL seeks to remain below certain volume thresholds. In those circumstances MatchIt will provide clients with notice of the symbol(s) that will be unavailable by posting information on the MatchIt page on the Virtu Financial, Inc. website (http://www.virtu.com).</taPart3Item20aSuspndProcdur>
+      <rbPart3Item20bIsSuspndProcdurSameFrAll>Y</rbPart3Item20bIsSuspndProcdurSameFrAll>
+      <taPart3Item21aMtrlArngmntDtls>VAL reports MatchIt transactions to the FINRA NASDAQ Carteret TRF. MatchIt may also report transactions to the FINRA NYSE TRF at the request of a client or in the event of an outage of the FINRA NASDAQ Carteret TRF.</taPart3Item21aMtrlArngmntDtls>
+      <rbPart3Item21bIsMtrlArngmtSameFrAll>Y</rbPart3Item21bIsMtrlArngmtSameFrAll>
+      <taPart3Item22aMtrlArngmntDtls>VAL is the counterparty to all trades that occur in the ATS and VAL initiates the process to clear and settle with each counterparty. VAL requires Direct Subscribers to be self-clearing or have an arrangement with a clearing firm. VAL submits all transactions of Direct Subscribers to NSCC for clearance and NSCC submits entries to DTC for settlement. Direct Subscribers may elect to clear their transactions via a QSR agreement which allows for VAL to submit a locked in trade to NSCC for clearance or via an AGU Agreement which allows VAL to submit locked in trades to the FINRA NASDAQ Carteret or NYSE TRF for submission to NSCC for clearance. VAL submit transactions for clearance and settlement trades with Indirect Subscriber's that are broker-dealers in the same manner as described above. For Indirect Subscribers that are Customers, i.e., they are not broker-dealers, VAL will submit their transactions through the facilities of the DTC for RVP/DVP settlement.</taPart3Item22aMtrlArngmntDtls>
+      <part3Item22bMtrlArngmntDiffDtls rbPart3Item22bIsMtrlArngmtSameFrAll="N">
+        <taPart3Item22bDiffDtls>Executions between VAL business units will not be cleared and settled through the facilities of the National Securities Clearing Corporation ("NSCC") but rather they will be booked via journal entries between the units.</taPart3Item22bDiffDtls>
+      </part3Item22bMtrlArngmntDiffDtls>
+      <taPart3Item23aMrktDatSrc>MatchIt employs a proprietary market data system that uses direct market data feeds from exchanges to determine the NBBO. MatchIt utilizes this proprietary system to price, prioritize, and match orders in both the Main and Conditional Sessions, in compliance with regulations, including Reg NMS and Reg SHO.
+
+SIP data is used as a backup feed, and is used in place of a direct feed from a particular exchange if that exchange is experiencing a technical issue. Switching to the SIP data feed is done via an automated process that compares direct feed data to SIP data. Additionally, Core Operations have the ability to switch to the SIP data feed on a discretionary basis. Switching back to direct feed data from the SIP data feed is done purely on a discretionary basis, and is performed by the Core Operations team once this team has confirmed that direct feed data in question is correct. The SIP data feed is also used for regulatory items, including limit up/limit down bands, trading halts, and Reg SHO designations.</taPart3Item23aMrktDatSrc>
+      <rbPart3Item23bIsSrcSameFrAll>Y</rbPart3Item23bIsSrcSameFrAll>
+      <rbPart3Item24aIsSubScrbrOrdr>N</rbPart3Item24aIsSubScrbrOrdr>
+      <rbPart3Item25aIsAvgDlyTradinVolExcd>N</rbPart3Item25aIsAvgDlyTradinVolExcd>
+      <part3Item26PlatFrmData rbPart3Item26IsOrdrFloExecStatsPublshd="Y">
+        <cbPart3Item26iInfoRqstdUndrExbt4AvlblAtWebst>true</cbPart3Item26iInfoRqstdUndrExbt4AvlblAtWebst>
+        <cbPart3Item26iiInfoRqstdUndrExbt5AvlblAtWebst>true</cbPart3Item26iiInfoRqstdUndrExbt5AvlblAtWebst>
+      </part3Item26PlatFrmData>
+    </partThree>
+  </formData>
+</edgarSubmission>

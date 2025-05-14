@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/sbse/sbsebdfiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>SBSE-BD/A</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <cik>0000782124</cik>
+          <ccc>XXXXXXXX</ccc>
+        </filerCredentials>
+      </filer>
+      <flags>
+        <returnCopyFlag>true</returnCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <applicantOne>
+      <fullApplicantName>J.P. MORGAN SECURITIES LLC</fullApplicantName>
+      <crdNo>000000079</crdNo>
+      <contactEmployee>
+        <contactEmployeeName>
+          <com:firstName>Heather</com:firstName>
+          <com:lastName>Emmert</com:lastName>
+        </contactEmployeeName>
+        <title>Executive Director</title>
+        <phone>614-217-5492</phone>
+        <emailAddress>heather.k.emmert@jpmchase.com</emailAddress>
+      </contactEmployee>
+      <chiefComplianceOfficer>
+        <officerName>
+          <com:firstName>Krista</com:firstName>
+          <com:lastName>Santoro</com:lastName>
+        </officerName>
+        <title>Chief Compliance Officer</title>
+        <phone>212-272-4928</phone>
+        <emailAddress>krista.santoro@jpmchase.com</emailAddress>
+      </chiefComplianceOfficer>
+      <isSwapDealer>Y</isSwapDealer>
+      <isSwapParticipant>N</isSwapParticipant>
+      <registeredAs>Swap Dealer</registeredAs>
+      <isSubjectToRegulator>N</isSubjectToRegulator>
+      <isDerivativesDealer>N</isDerivativesDealer>
+      <describeBusiness>J.P. Morgan Securities LLC is a U.S. securities broker-dealer and investment advisor registered with the Securities and Exchange Commission, a futures commission merchant registered with the Commodity Futures Trading Commission, and a swap dealer provisionally registered with the Commodity Futures Trading Commission.</describeBusiness>
+      <isForeignRegulatory>N</isForeignRegulatory>
+    </applicantOne>
+    <execution>
+      <date>11-15-2022</date>
+      <nameOfApplicant>J.P. MORGAN SECURITIES LLC</nameOfApplicant>
+      <signature>Krista Santoro</signature>
+      <nameOfPersonSigning>Scott Stevens</nameOfPersonSigning>
+      <titleOfPersonSigning>Compliance Manager</titleOfPersonSigning>
+    </execution>
+    <scheduleF>
+      <applicantName>J.P. MORGAN SECURITIES LLC</applicantName>
+      <foreignFinancialReg>
+        <regulatoryAuthName>Ontario Securities Commission</regulatoryAuthName>
+        <foreignRegistrationNo>2510</foreignRegistrationNo>
+        <regulatoryAuthCountry>Z4</regulatoryAuthCountry>
+      </foreignFinancialReg>
+    </scheduleF>
+  </formData>
+</edgarSubmission>

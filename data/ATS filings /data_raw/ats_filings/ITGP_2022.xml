@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:ats="http://www.sec.gov/edgar/atsncommon">
+  <headerData>
+    <submissionType>ATS-N/UA</submissionType>
+    <accessionNumber>0001457716-22-000011</accessionNumber>
+    <filerInfo>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <filer>
+        <filerCredentials>
+          <com:cik>0001457716</com:cik>
+          <com:ccc>XXXXXXXX</com:ccc>
+        </filerCredentials>
+        <fileNumber>013-00175</fileNumber>
+      </filer>
+      <flags>
+        <ats:overrideInternetFlag>false</ats:overrideInternetFlag>
+        <ats:confirmingCopyFlag>false</ats:confirmingCopyFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <cover>
+      <txNMSStockATSName>POSIT</txNMSStockATSName>
+      <taStatementAboutAmendment>Changes have been made to Part II, Items 1(a), 2(a) and 3(a) to remove references to the ITGI MPID which no longer routes orders to the POSIT ATS and adjust general language to align to the Firm's disclosures for its other ATS, MatchIt. Changes have also been made to Part II Item 4a to remove a trading center, and Part III Item 19(a) to adjust the fees paid by direct subscribers.  Revisions to these items apply to the Broker Dealer Operator and its Subscribers.</taStatementAboutAmendment>
+    </cover>
+    <partOne>
+      <rbPart1Item1IsBd>Y</rbPart1Item1IsBd>
+      <txPart1Item2ATSName>VIRTU AMERICAS LLC</txPart1Item2ATSName>
+      <atsNames>
+        <atsName txPart1Item3ATSName="POSIT"/>
+      </atsNames>
+      <txPart1Item4aBdFileNumber>008-68193</txPart1Item4aBdFileNumber>
+      <txPart1Item4aBdCrdNumber>000149823</txPart1Item4aBdCrdNumber>
+      <txPart1Item5aNsaFullName>FINRA</txPart1Item5aNsaFullName>
+      <part1Item5bEffectiveMembershipDate>02/06/2009</part1Item5bEffectiveMembershipDate>
+      <txtPart1Item5cNmsStockMPID>ITGP</txtPart1Item5cNmsStockMPID>
+      <txtPart1Item6uwebsite>https://www.virtu.com/about/transparency</txtPart1Item6uwebsite>
+      <part1Item7PrimarySite>
+        <ats:street1>Equinix NY5 Data Center</ats:street1>
+        <ats:street2>800 Secaucus Rd</ats:street2>
+        <ats:city>Secaucus</ats:city>
+        <ats:zip>07094</ats:zip>
+        <ats:state>US-NJ</ats:state>
+      </part1Item7PrimarySite>
+      <part1Item7SecondarySiteRecords>
+        <secondarySiteI7>
+          <ats:street1>Cyxtera NJ2 Datacenter</ats:street1>
+          <ats:street2>300 John F. Kennedy Blvd E.</ats:street2>
+          <ats:city>Weehawken</ats:city>
+          <ats:zip>07086</ats:zip>
+          <ats:state>US-NJ</ats:state>
+        </secondarySiteI7>
+      </part1Item7SecondarySiteRecords>
+      <cbPart1Item8Exhibit1atWebsite>false</cbPart1Item8Exhibit1atWebsite>
+      <cbPart1Item9Exhibit2atWebsite>false</cbPart1Item9Exhibit2atWebsite>
+    </partOne>
+    <partTwo>
+      <part2Item1aArePermittedToEnterInterest rbPart2Item1aArePermittedToEnterInterest="Y">
+        <taPart2Item1aUnitNamesEnterInterest>Virtu Americas LLC ("VAL" or the "Firm") operates two POSIT ATS ("POSIT" or the "ATS") crossing sessions, a Continuous Crossing Session and the Alert Crossing Session, as well as other business units which are described below.  The Firm's business
+units each use one or more technology platforms that have MPIDs associated with the platform.  A
+single business unit can enter or direct orders to the ATS through more than one technology
+platform and consequently under more than one MPID.  These business units are described below.
+Virtu Electronic Trading ("VET").  VET provides algorithms that are used by clients and the
+Firm's business units.  VET algorithms enter or direct the entry of orders to POSIT as agent when
+those orders are entered by clients into the algorithms or as principal or riskless principal when
+one of the other business units enters orders into the algorithms using the MPIDs:
+VALR and VALX.
+
+Virtu Client Market Making ("VCMM").  VCMM handles held and not held orders transmitted by
+other broker-dealers and held orders transmitted by institutions.  The majority of these orders are
+SEC Rule 605 eligible orders and are handled and executed on a fully automated basis.  VCMM
+sales and trading personnel handle larger and less liquid orders manually and can use VET
+algorithms in connection with their market making activities.  VCMM enters or directs the entry of
+orders to POSIT as principal, riskless principal and agent to acquire inventory to fill orders or to
+acquire positions for its own account using the following MPIDs: NITE, VALR and
+VALX.
+Virtu Institutional Trading ("Institutional Trading").  Institutional Trading handles not held orders
+transmitted by institutional clients and facilitates block transactions in single stocks.  Institutional
+Trading uses VET algorithms to enter or direct the entry of orders as principal or riskless
+principal in connection with its client facilitation activities using the following MPIDs: NITE and VALX.
+Virtu Hi-Touch Portfolio Trading: Traders on this desk handle not held orders in baskets of
+stocks and ETFs. Traders can enter or direct the entry of orders through VAL Electronic Systems
+into the ATS as agent under the MPID ITGI.
+
+Virtu ETF Trading ("ETF Trading").  ETF Trading makes markets on exchanges and facilitates
+block transactions in exchange traded products for broker-dealer and institutional clients.  ETF
+Trading uses VET algorithms to enter or direct the entry of orders as principal or riskless
+principal in ETFs and singles stocks using the MPID VALX.
+Virtu Principal Market Making ("VPMM"). VPMM is a market maker in NMS equity securities.
+VPMM enters or directs the entry of orders as principal to POSIT utilizing the MPID VIRT.</taPart2Item1aUnitNamesEnterInterest>
+        <rbPart2Item1bAreSevicesSametoAllSubscribers>Y</rbPart2Item1bAreSevicesSametoAllSubscribers>
+        <rbPart2Item1cAreThereArrangements>N</rbPart2Item1cAreThereArrangements>
+      </part2Item1aArePermittedToEnterInterest>
+      <rbPart2Item1dCanOATInterestBeRouted>N</rbPart2Item1dCanOATInterestBeRouted>
+      <affiliatesPermittedToEnterInterest rbPart2Item2aAreAfflPermittedToEnterInterest="Y">
+        <taPart2Item2aAfflThatEnterInterest>VAL's Canadian, EU and Asia Pacific Affiliates are broker-dealers that offer products and
+services similar to VET and have hi-touch desks, all of which can enter or direct the entry of
+orders to POSIT through VAL.  VAL enters or directs orders to the ATS for these Affiliates as
+agent or riskless principal using the  VAL MPIDs VALR or VALX.</taPart2Item2aAfflThatEnterInterest>
+        <part2Item2bAreSevicestoAfflSametoSubscribers rbPart2Item2bAreSevicestoAfflSametoSubscribers="N">
+          <taPart2Item2bExplainDiff>VAL provides Subscribers in the U.S. with a FIX gateway to enter orders into POSIT using FIX
+protocols 4, 4.2 and 4.4. The FIX gateway communicates with POSIT in a binary format.  VAL
+provides its Canadian Affiliate with a binary gateway to enter orders into POSIT. Subscribers in
+Canada direct orders to the Canadian Affiliate via FIX. See, Part III, Item 5(a).</taPart2Item2bExplainDiff>
+        </part2Item2bAreSevicestoAfflSametoSubscribers>
+        <rbPart2Item2cAreThereArrangementsWithAffl>N</rbPart2Item2cAreThereArrangementsWithAffl>
+      </affiliatesPermittedToEnterInterest>
+      <rbPart2Item2dCanOATIBeRoutedByAffl>N</rbPart2Item2dCanOATIBeRoutedByAffl>
+      <part2Item3aCanSubscrOptOutWithOATIOfBD rbPart2Item3aCanSubscrOptOutWithOATIOfBD="Y">
+        <taPart2Item3aExplianOptOut>VAL offers Subscribers the ability to opt out of interacting with principal orders entered into
+POSIT under the MPIDs NITE, VIRT and VALX ("the Principal Opt-Out").  Orders entered into
+POSIT by VAL under the MPID VALR are not subject to the Principal Opt-Out.
+Subscribers can request the Principal Opt-Out through their sales persons.  Following receipt of a
+request, the sales person will enter a ticket to make the request.  Thereafter, an entry is made in a
+configuration file which will take effect in most cases on the next business day, but could take
+effect either the same day or greater than the next business day, depending upon the time of day
+the request is submitted.  When the POSIT matching logic is applied, the configuration file is
+checked to determine whether orders are eligible for crossing with VAL or its Affiliate's  (see
+Part II, item 2a) principal orders entered under the above referenced MPIDs.  VAL does not
+allow POSIT Subscribers to opt out of interacting with any orders submitted to POSIT by VAL
+or its Affiliates when they are submitted under any of the other MPIDs referenced in Part II, Item
+2(a). The Principal Opt-Out configuration is applied for all crossing sessions.</taPart2Item3aExplianOptOut>
+      </part2Item3aCanSubscrOptOutWithOATIOfBD>
+      <rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>N</rbPart2Item3aCanSubscrOptOutWithOATIOfAffl>
+      <rbPart2Item3cAreOptOutSametoAllSubscribers>Y</rbPart2Item3cAreOptOutSametoAllSubscribers>
+      <part2Item4aAreThereArrangementsBtwBDAndTC rbPart2Item4aAreThereArrangementsBtwBDAndTC="Y">
+        <taPart2Item4aTDAndATSServices>VAL and the Trading Centers listed below have each entered into electronic access arrangements
+with one another which permit each to effect transactions on their respective trading centers:
+BAML Instinct X, Barclays LX, CBOE Bats Y, CBOE Bats X, CBOE Direct Edge A, CBOE
+Direct Edge X, Citadel Securities - Citadel Connect, Credit Suisse Crossfinder,
+Deutsche Bank SuperX, Fidelity CrossStream, Goldman Sachs SigmaX2, Instinet BlockCross,
+Instinet CBX, Jane Street JX, JP Morgan JPM-X, Liquidnet H2O, Two Sigma Securities,  UBS
+ATS, and Virtu MatchIt.
+These arrangements do not provide for preferential access or require either party to route any
+orders.</taPart2Item4aTDAndATSServices>
+        <rbPart2Item4bAreThereArrangementsBtwAfflAndTC>N</rbPart2Item4bAreThereArrangementsBtwAfflAndTC>
+      </part2Item4aAreThereArrangementsBtwBDAndTC>
+      <part2Item5aDoesOfferProductsAndServices rbPart2Item5aDoesOfferProductsAndServices="Y">
+        <taPart2Item5aProductsAndServices>VAL offers its clients a number of products and services for the purpose of effecting
+transactions, including transactions in POSIT.  Subscribers who can directly enter or direct the
+entry of orders into POSIT and choose the order types and instructions they use are "Direct
+Subscribers".  Subscribers that use algorithms or other electronic systems that choose whether
+and when to enter or direct the entry of orders into POSIT and which order types and instructions
+to use are "Indirect Subscribers".  Subscribers can be both Direct and Indirect Subscribers.
+1.	VAL offers a FIX Application Programming Interface ("API") that allows Subscribers
+directly enter orders into POSIT.  See Part III, Item 5(a).
+2.	VAL offers EMSs called Triton, Triton Black, and Triton Valor (collectively "Triton")
+which allows its users to view market data and enter or direct the entry of orders to
+market centers, including POSIT.  See, Part III, Item 5(c).
+3.	VAL offers algorithms and smart order routers which allow clients to indirectly enter or
+direct the entry of orders to market centers, including POSIT.  See Part III, Item 5(c).</taPart2Item5aProductsAndServices>
+        <part2Item5bAreSevicesSametoAllSubscribersAndBD rbPart2Item5bAreSevicesSametoAllSubscribersAndBD="N">
+          <taPart2Item5bExplainDiff>Certain means of order entry are only available to certain Subscribers, as discussed at Part III,
+Items 5(a) and (d).  Specifically, FIX protocols, as described in Part II, Item 5, are available to
+U.S.-based Subscribers and VAL provides its Canadian Affiliate with a binary gateway to enter
+orders into POSIT. See, Part II, Item 2(b) and Part III, Item 5(a). VAL's agency desks and clients
+of its Affiliates cannot use the GUI to view and interact with Conditional interests.  Rather, they
+send orders to algorithms that can send conditional orders through Alert.</taPart2Item5bExplainDiff>
+        </part2Item5bAreSevicesSametoAllSubscribersAndBD>
+      </part2Item5aDoesOfferProductsAndServices>
+      <part2Item5cDoesAfflOfferProductsAndServices rbPart2Item5cDoesAfflOfferProductsAndServices="Y">
+        <taPart2Item5cAfflProvidedProductsAndServices>The Firm's Affiliates operate business units that offer products and services, including trading
+desks and algorithms, that result in the orders of Indirect Subscribers being entered on POSIT.
+See Part II, Item 2 for a description of these Affiliates.</taPart2Item5cAfflProvidedProductsAndServices>
+        <rbPart2Item5dAreTCOfSevicesSametoAll>Y</rbPart2Item5dAreTCOfSevicesSametoAll>
+      </part2Item5cDoesAfflOfferProductsAndServices>
+      <part2Item6aDoesEmployeeAccessConfidentialInfo rbPart2Item6aDoesEmployeeAccessConfidentialInfo="Y">
+        <taPart2Item6aUnitAfflEmployeeServices>VAL does not have any personnel whose sole responsibility is for POSIT.  The Firm considers
+information relating to Subscriber's live orders, trading interests and recent executions in POSIT
+that the Firm reasonably believes may suggest a Subscriber continues at that moment in time to
+have the same or additional live orders and trading interests in POSIT, to be ATS confidential
+information ("Confidential Information").  As is more fully discussed in Part III, Item 7(a), VAL
+does not consider all post trade data to be Confidential Information, particularly when the
+information is anonymized, aggregated or both.
+Below is a summary of the shared personnel that provide services to both POSIT, VAL, and its
+Affiliates and have access to Confidential Information.
+*	Compliance and Legal:  Compliance and Legal personnel support all of the Firm's
+business units and those of the Firm's Affiliates and perform a variety of compliance and
+legal activities related to their roles.  They have access to Subscriber historical order and
+execution information and as necessary they can be provided with access to intra-day
+information.
+*	Finance and Management Reporting Group:  Finance and management reporting
+personnel support all of the Firm's business units and those of the Firm's Affiliates.
+These personnel are involved in accounting, billing, analyzing revenues, and providing
+management reporting information.  They have access to Subscribers' historical post-
+trade execution information and data.
+*	Operations:  Operations personnel support the Firm's middle and back office processes
+for clearance and settlement and related activities and have access to Subscribers' real
+time intra-day, post-trade, and historical execution information for clearing, settlement,
+and regulatory reporting purposes.
+*	Core Operations:  Core Operations are technical personnel who have access to the Firm's
+and its Affiliates' trading infrastructure, which includes POSIT, to monitor the
+functionality, health, and wellness of the Firm's trading infrastructure and take action as
+necessary to maintain the systems and manage issues.  They have access to Subscribers'
+real-time and historical order and execution information.  This group supports all trading
+infrastructure and applications for the Firm.
+*	Software Developers:  Software Developers have access to the Firm's and its Affiliates'
+trading infrastructure, which includes POSIT, to maintain and enhance the software for
+the Firm's trading applications.  They have access to Subscribers' real-time and historical
+order and execution information.  This group supports all trading infrastructure and
+applications for the Firm.
+*	Product Management: Product Management are personnel who manage the day-to-day
+business activities for products such as POSIT, the algorithms the Firm provides to
+clients, and other trading-related applications VAL and its Affiliates provide to clients.
+These personnel monitor the trading applications, enhance their product features, and
+create new features.  Product Management compile and analyze statistics and metrics
+related to the ATS and other electronic products and services.  Product Management
+works with Software Developers, and in some instances are also Software Developers
+themselves.  The Product Manager responsible for supervising POSIT is also the Product
+Manager responsible for supervising VAL's other ATS, MatchIt, and also provides
+support to both VAL's Affiliates' execution services applications. Product Management
+have access to Subscribers' real-time and historical order and execution information.
+*	Relationship Management:  Relationship Management personnel are responsible for
+managing the Firm's relationship with its clients, including clients who are Direct
+Subscribers of the ATS, and for cross-selling the Firm's other products and services.
+They have access to historical order and execution information.
+*	Sales and/or Trading personnel:  To the extent Sales or Trading personnel are responsible
+for handling an order, a portion of which is directed to POSIT as a child order, such
+personnel would have real time access to such child order and any of its executions in
+POSIT analogous to the access they would have to information about orders and
+executions that were directed to external market centers in order to monitor executions
+and provide order-related services.
+*	POSIT Alert ("Alert") Sales and Coverage: The Firm offers an application called Alert
+that is a conditional order application which resides outside of the POSIT Matching
+engine and which transmit orders to the Alert Crossing Session to consummate trades.
+See Part III, Item 9 and 11 for further descriptions of Alert and the Alert Crossing
+Session.  Alert Sales and Coverage personnel are responsible for the sales and day-to-day
+coverage of Alert.  Alert Sales and Coverage personnel have access to a front end
+application called Phoenix, which displays real-time order and execution information of
+Alert participants.  See, Part III, Item 9 for further discussion about Alert.  This group can
+access Alert participants' real-time and historical order and execution information, but do
+not have access to any real-time or historical order and execution information in POSIT's
+matching engines for the Continuous Crossing Session.
+*	Analytics Personnel: Analytics Personnel provide transaction cost analysis data and
+consultancy to institutional investors.  This group is separate from the business units of
+the broker dealer operator that enter or direct the entry of orders and trading interest into
+POSIT, as defined in Part II, Item 1(a). The Firm offers a product called the Analytics
+Portal ("the Portal") that provides pre-trade, real-time and post-trade analytics to the
+Firm's clients.  In order to enable and support client trade reporting in the Portal,
+Analytics personnel have access to real-time order and execution information for Alert
+participants. This group can access Alert participants' real-time and historical order and
+execution information, but do not have access to any real-time or historical order and
+execution information in POSIT's matching engines for the Continuous Crossing Session.
+See Part III, Item 9 for further discussion about Alert.</taPart2Item6aUnitAfflEmployeeServices>
+      </part2Item6aDoesEmployeeAccessConfidentialInfo>
+      <part2Item6bDoesAnyEntitySupportServices rbPart2Item6bDoesAnyEntitySupportServices="Y">
+        <taPart2Item6bServiceProvider>POSIT is hosted in the Equinix NY5 Data Center in Secaucus, N.J.  Cross-connections to POSIT
+in NY5 are available by request to Subscribers accessing POSIT directly.  POSIT's backup
+servers are hosted in the Cyxtera NJ2 Datacenter, located in Weehawken, N.J.  The Data Centers
+provide services that include, building security; air conditioning; access to electricity and
+telecommunication services; and cages for computer equipment.  The Firm owns and maintains
+its own computer hardware and network devices within the data center.  Please see Part III, Item
+6 for more detail.</taPart2Item6bServiceProvider>
+        <rbPart2Item6cDoesServiceProviderUseATSServices>N</rbPart2Item6cDoesServiceProviderUseATSServices>
+      </part2Item6bDoesAnyEntitySupportServices>
+      <taPart2Item7aDescrOfSafeGaurdsAndProcedures>GENERAL BACKGROUND AND SCOPE OF CONFIDENTIAL INFORMATION. The Firm
+operates POSIT on a matching engine that runs on a standalone server in the NY5 Data Center.
+See Part I, Item 7; and Part III, Item 6(a).  The POSIT matching engine communicates with
+shared systems to book trades, to report executed trades to the tape, to facilitate clearance and
+settlement, for financial reporting and billing, and to facilitate other post-trade processes.  The
+Firm operates the Alert application on servers that are separate from the POSIT matching engine.
+These systems contain Confidential Information.  See Part II, Item 6 for information on
+personnel that have access to Confidential Information.
+AGGREGATED ANONYMOUS DATA.  Data which has been aggregated and which does not
+identify any Subscribers is not Confidential Information ("Aggregated Anonymous Data").  The
+Firm publishes firm-wide aggregated anonymous execution data to market wide trade
+advertisement systems after the transaction has been reported to the consolidated tape.  The data
+does not include any client identities but does include symbol level executed volumes.  While the
+Firm does not consider this data to be Confidential Information, it does not include POSIT
+Aggregated Anonymous Data in these reports.
+The Firm posts monthly statistics on its website and disseminates this data to Subscribers ("the
+Monthly POSIT and Alert Statistics").  The Monthly POSIT and Alert Statistics are available at
+https://www.virtu.com/about/transparency and provide aggregate and anonymous information
+about POSIT and Alert, including total volume; volume by sector; volume by market cap; fill
+size distribution; distribution of Alert block size, and distribution of executions at the bid, mid
+and offer.  The Firm produces market commentary from time-to-time that discusses general
+market trends.  The statistical data described in this paragraph can be used to produce market
+commentary.  The Firm considers this data to be Aggregated Anonymous Data and not
+Confidential Information.  The Firm does not permit Subscribers to opt out of having their data
+included in these reports.
+SALES DATA.  Sales Data is aggregated information about the products and services the Firm's
+clients use and includes the client's name, the product or service they use, aggregate executed
+volume, and revenues ("Sales Data").  Sales Data includes aggregated ATS data as described in
+the preceding sentence.  The Firm provides Sales Data to management personnel, Sales or
+Trading personnel, Relationship Management personnel and Alert Sales and Coverage personnel
+who are involved in handling relationships with the Firm's clients.  Sales Data is provided for the
+purpose of allowing these personnel to keep abreast of the client's business activities to manage
+the client relationship and to cross sell the Firm's products and services to the client.  The Firm
+does not consider Sales Data to be Confidential Information when distributed internally for the
+above described purposes.  The Firm makes this information available in end of day reports and
+in sales systems (i.e., systems that support activities of Sales or Trading personnel, Relationship
+Management personnel and Alert Sales and Coverage personnel for the purposes described
+above) on T+1.  The Firm prohibits personnel from disclosing Sales Data to third parties.  The
+Firm does not permit Subscribers to opt out of having this data made available to personnel
+involved handling client relationships, as defined in Part II, Item 6(a).
+PERSONNEL WITH ACCESS TO CONFIDENTIAL INFORMATION.  The Firm does not
+have any personnel whose sole responsibility is for the operations of POSIT.  The shared
+personnel discussed in response to Part II, Item 6(a), have access to Confidential Information.
+SAFEGUARDS AND OVERSEEING CONFIDENTIAL INFORMATION.  The Firm maintains
+written policies and procedures regarding use and protection of Confidential Information.  Firm
+personnel are subject to its parent, Virtu Financial Inc.'s Code of Conduct and Employee Manual.
+Firm personnel are also subject to the Firm's Information Security Policy, Compliance Manual,
+and Written Supervisory Procedures.
+These policies prohibit the personnel listed in Part II, Item 6(a), from sharing Confidential
+Information with other personnel who are not in one of these permitted categories or with any
+other person.  The exception is that Compliance and Legal personnel may provide information to
+regulators in response to regulatory requests or to third parties pursuant to subpoena.  Personnel
+who violate the Firm's policies concerning Confidential Information are subject to discipline,
+including termination of their employment.  The Firm performs email reviews and employs data
+loss software as a means of safeguarding Confidential Information.
+The Firm procedures require that personnel make requests for access to its systems through the
+Firm's access ticketing system and to receive approval from a supervisor prior to being granted
+access to any systems.  The Firm's supervisory personnel grant access to systems on the premise
+that it is necessary to perform their duties and to carry out the purpose for which the information
+is provided to them.  The supervisor responsible for POSIT and Alert approves requests for
+access to the POSIT matching engine and Alert application.  The Firm only permits approved
+personnel in the categories described in Part II, Item 6(a), to have access to Confidential
+Information and only permits these personnel to access the systems and the Confidential
+Information contained therein using approved means of access and credentials.  Supervisors do
+not grant access to Confidential Information. The Firm maintains a process that sends
+notifications to designated personnel to disable systems access for personnel who are no longer
+employed by the Firm.  Supervisors are responsible for instructing the technology personnel to
+disable access when employees change roles.  The Firm provides reports to the supervisors that
+show personnel with access to the POSIT matching engine and Alert application on a monthly
+basis.  Supervisors review these reports to ensure that these personnel still require access to carry
+out responsibilities related to the ATS.
+PERSONAL TRADING RESTRICTIONS.  The Firm maintains employee trading policies that
+require personnel to disclose their own personal accounts and the accounts of close family
+members, that prohibit personnel from trading based on any client Confidential Information, that
+require personnel to pre-clear transactions and attest at the time of trade entry that they are not
+trading on Confidential Information, and that prescribe holding periods for securities purchases.
+The Firm conducts reviews of employee trading to determine whether trades were pre-cleared
+and whether holding periods were observed.</taPart2Item7aDescrOfSafeGaurdsAndProcedures>
+      <part2Item7bCanSubscriberConsentToDisclosure rbPart2Item7bCanSubscriberConsentToDisclosure="Y">
+        <taPart2Item7bExplainHowAndConditions>By virtue of their use of POSIT, VAL considers all Subscribers to have consented to the
+disclosure of Confidential Information as described in Part II, Item 6(a) and consented to the
+disclosure of Aggregated Anonymous Data to the public and Sales Data to management
+personnel, Sales or Trading personnel, Relationship Management personnel and Alert Sales and
+Coverage personnel internally as described in Part II, Item 7(a) above.
+Subscribers may consent to disclosure of their own Confidential Information to any person they
+choose by submitting a written request to their Sales or Trading person, Relationship
+Management person or Alert Sales and Coverage person describing the nature of the information
+the wish to disclose and the scope of the disclosure they wish to make.  For example, a
+Subscriber may wish to request that their data be disclosed to a Sales or Trading person to
+monitor their activity or for analysis.</taPart2Item7bExplainHowAndConditions>
+        <part2Item7cCanSubscriberWithdrawConsent rbPart2Item7cCanSubscriberWithdrawConsent="Y">
+          <taPart2Item7cExplainHowAndConditions>To the extent a Subscriber has made a request to disclose Confidential Information that is ongoing,
+See Part II, Item 7(b), or wishes to opt out of the disclosure of Aggregated Anonymous Data that
+is reported market-wide dissemination systems, See Part II, Item 7(a), the subscriber may submit
+a written request to their sales person.   The sales person will create a ticket for operation staff to
+carry out the request.  In most cases, the request will be honored on the next business day, but
+could take effect either the same day or greater than the next business day, depending upon the
+time of day the request is submitted.  Sales and Operations will verify that the request has been
+implemented.
+Otherwise, VAL does not permit Subscribers to opt out of having their Aggregated Anonymous
+Data included in the Monthly POSIT and Alert Statistics, in market commentary that uses this
+data, or from having Sales Data provided to management personnel, Sales or Trading personnel,
+Relationship Management personnel and Alert Sales and Coverage personnel, for the purposes
+noted in Part II, Item 6(a).</taPart2Item7cExplainHowAndConditions>
+        </part2Item7cCanSubscriberWithdrawConsent>
+      </part2Item7bCanSubscriberConsentToDisclosure>
+      <taPart2Item7dSummaryOfRolesRespOfPersons>The shared personnel described in response to Part II, Item 6(a) have access to Confidential
+Information, as described in Part II, Item 6(a). These personnel have access to that information
+for the purpose of carrying out their job functions.
+To the extent Sales and Trading Personnel direct orders to the ATS, those orders and related
+executions are available to Sales and Trading Personnel who may analyze the data for the
+purposes of understanding the performance of the algorithms.
+As described in Part II, Item 7(a), the Firm makes public Aggregated Anonymous Data to further
+the Firm's efforts to market its products and services.  The Firm does not consider Aggregated
+Anonymous Data to be Confidential Information.  The Firm provides Sales Data to management
+personnel, Sales or Trading personnel, Relationship Management personnel and Alert Sales and
+Coverage personnel so that they may keep abreast of their clients' activities and coordinate the
+Firm's sales efforts.  The Firm does not make this information available to third parties.  The
+Firm does not consider Sales Data to be Confidential Information when it is provided to
+management personnel, Sales or Trading personnel, Relationship Management personnel and Alert
+Sales and Coverage personnel or these purposes.</taPart2Item7dSummaryOfRolesRespOfPersons>
+    </partTwo>
+    <partThree>
+      <taPart3Item1SubscriberType>Investment Companies</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Brokers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Asset Managers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Principal Trading Firms</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Hedge Funds</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Market Makers</taPart3Item1SubscriberType>
+      <taPart3Item1SubscriberType>Dealers</taPart3Item1SubscriberType>
+      <rbPart3Item2aRegisteredBD>N</rbPart3Item2aRegisteredBD>
+      <part3Item2bSummaryOfConditions rbPart3Item2bIsThereOtherConditions="Y">
+        <taPart3Item2bSummaryOfCndtns>The Firm permits applicants who satisfy certain eligibility requirements to become Direct
+Subscribers.  Direct Subscribers must be institutional investors or broker dealers.  Additionally,
+Direct Subscribers must execute an electronic access agreement, and submit the standard on-
+boarding documentation that all clients of the Firm must submit.  Such documentation includes
+"know your customer" information, financial information to assess counterparty risk and
+establish a trading limit, and relevant agreements such as Agreements to Give Up ("AGU") or
+Qualified Service Representative Agreements ("QSR") to facilitate trade clearance.  The Firm
+performs reviews to assess a client's prior disciplinary history.  A disciplinary history related to
+market abuse, for example, would potentially preclude a prospective client from being on-
+boarded to VAL and consequently would preclude the client from being permitted access to the
+ATS.
+The Firm evaluates factors such as an institutional investor's assets and assets under
+management, a broker-dealer's net capital and its clearing firm's net capital to the extent a
+broker-dealer is not self-clearing, and credit ratings in making on-boarding determinations.
+Institutions must meet the FINRA definition of Institutional Investor.  For Broker-Dealers the
+Firm doesn't have a specific net capital requirement, but will consider the nature of the business
+flow, whether there will be large mark-to-market exposures, anticipated revenues provide
+sufficient risk vs. reward ratios, whether the Subscriber is part of a larger group and there are
+explicit or implicit guarantees. For non-Broker-Dealers that do not meet one of the criteria to be
+defined as an Institutional Investor, exceptions may be granted is there is a degree of confidence
+the company will grow and meet the definition of institutional investor in the future.  The
+Product Manager for the ATS approves or denies access to the ATS.  Clients who are not
+approved for access to the ATS would generally also not be approved for any other VAL
+services.
+The Firm requires Indirect Subscribers to go through the same on-boarding process.  The Firm
+only on-boards clients who use its EMS, algorithms, and Alert that are broker-dealers or
+institutional type clients and does not accept natural persons as clients.</taPart3Item2bSummaryOfCndtns>
+        <rbPart3Item2cIsConditionsSameForAll>Y</rbPart3Item2cIsConditionsSameForAll>
+      </part3Item2bSummaryOfConditions>
+      <rbPart3Item2dIsThereWrittenAgreement>N</rbPart3Item2dIsThereWrittenAgreement>
+      <part3Item3aSumryOfExcludngCondtns rbPart3Item3aIsExcludeSubscriber="Y">
+        <taPart3Item3aExcludngSumryDtls>Subscribers may be excluded as a result of regulatory or counterparty risk concerns which would
+result in the Subscriber being excluded from all services provided by the broker-dealer operator
+of the ATS.  The same criteria listed in Part III, Item 2 which would preclude a prospective client
+from becoming a client of  VAL and being granted access to the ATS could also result in an
+existing Subscriber from being excluded from access to the ATS and from other services
+provided by VAL.  For example, a disciplinary history related to market abuse or a change in
+financial condition such that the Subscriber fails to satisfy VAL's counter-party risk criteria
+could preclude a Subscriber from continued access to the ATS.  Additionally, a subscriber can be
+temporarily blocked intraday for a given symbol in the POSIT Alert Crossing Session, which is
+described in Part III, Item 14a.</taPart3Item3aExcludngSumryDtls>
+        <rbPart3Item3bIsCondtnsSameForAll>Y</rbPart3Item3bIsCondtnsSameForAll>
+      </part3Item3aSumryOfExcludngCondtns>
+      <taPart3Item4aHrsOfOperation>POSIT accepts orders beginning at 8:00 a.m. EST.  POSIT executes orders from 9:30 a.m. to
+4:00 p.m. EST, Monday through Friday, except for during United States equity market holidays
+and early market close times.  These same hours apply to Alert as well, with the exception that
+Alert does not begin accepting Conditional Orders until 9:30 a.m. EST.</taPart3Item4aHrsOfOperation>
+      <rbPart3Item4bIsHrsOfOperationsame>Y</rbPart3Item4bIsHrsOfOperationsame>
+      <part3Item5aProtocolDetails rbPart3Item5aIsPermitOrdrTradng="Y">
+        <taPart3Item5aProtocolused>All Subscribers enter or direct the entry of orders to POSIT through FIX APIs provided by the
+Firm or its Affiliates. VAL provides Direct Subscribers in the U.S. with a FIX API to enter
+orders into POSIT using FIX protocols 4, 4.2 and 4.4.  The FIX API communicates with POSIT
+in a binary format.  VAL provides its Canadian Affiliate with a binary gateway to enter orders
+into POSIT. Indirect subscribers in Canada direct orders to the Canadian Affiliate via FIX. VAL
+provides a FIX specification document for both POSIT and Alert describing the transmission
+formats for order messages.</taPart3Item5aProtocolused>
+        <rbPart3Item5bIsProtclsameForAll>Y</rbPart3Item5bIsProtclsameForAll>
+      </part3Item5aProtocolDetails>
+      <part3Item5cOthrDtls rbPart3Item5cIsAnyOtherMeans="Y">
+        <taPart3Item5cOthrMeansDtls>VAL provides its clients with Triton EMS, algorithms, smart order routers and Alert which can
+enter or indirectly cause the entry of orders to POSIT.  The Firm's Affiliates provide algorithms
+that are used by clients and the Firm's business units that enter or direct the entry of orders to
+POSIT and orders and conditional interests to Alert.  The conditions described in Part III, Item 2
+are the only conditions for entering orders through the algorithms provided by VAL and its
+affiliates.  Specifically, Subscribers must execute an electronic access agreement, and submit
+standard on-boarding documentation that all clients must submit, including know your customer
+information, financial information to assess counterparty risk and establish a trading limit, and
+relevant agreements information to facilitate trade clearance and settlement, and be approved as a
+client of VAL or its Affiliates.</taPart3Item5cOthrMeansDtls>
+        <rbPart3Item5dIsTnCSameForAll>Y</rbPart3Item5dIsTnCSameForAll>
+      </part3Item5cOthrDtls>
+      <part3Item6aProtocolDetails rbPart3Item6aIsCoLocRltdSrvcsOfrd="Y">
+        <taPart3Item6aCoLocRltdSrvcsDtls>POSIT is hosted in Equinix NY5 Data Center in Secaucus, NJ with a backup location at Cyxtera
+NJ2 Datacenter in Weehawken, NJ. All VAL network and system equipment is kept in VAL's
+cage, which is owned and operated by VAL.  VAL does not permit Subscribers to co-locate within
+VAL's cage.
+VAL offers cross connects in Equinix NY5 and NJ2 Datacenters to all Direct Subscribers who
+wish to connect directly to POSIT via cross connect. Clients can also leverage extranet
+connectivity providers in order to connect to POSIT.  Connectivity via Internet is also available.
+Connecting via Internet/Extranet vs directly via cross connect could affect the speed of client
+orders in reaching POSIT.  Direct Subscribers connecting to POSIT via direct cross connection
+would reach the POSIT matching system faster than a Direct Subscribers connecting via an
+Internet/Extranet connection.   Direct connectivity to POSIT via cross connections are available by
+request, which are made to Equinix in NY5 or Cyxtera in NJ2. VAL will provide the required
+Letter-of-Authorization. Datacenter vendors (Equinix, Cyxtera) may charge a fee for the cross
+connect. VAL supports 1 Gigabit (multi-mode fiber/single-mode fiber) and 10 Gigabit (single-
+mode fiber) connections. Direct Subscriber cross-connects terminate on VAL owned and managed
+network switches. All of the equipment in the cabinets hosting POSIT infrastructure is solely
+owned and managed by VAL.</taPart3Item6aCoLocRltdSrvcsDtls>
+        <rbPart3Item6bIsTNCsameForAll>Y</rbPart3Item6bIsTNCsameForAll>
+      </part3Item6aProtocolDetails>
+      <rbPart3Item6cIsAnyOtherMeans>N</rbPart3Item6cIsAnyOtherMeans>
+      <rbPart3Item6eIsAnyRducdSpOfCom>N</rbPart3Item6eIsAnyRducdSpOfCom>
+      <taPart3Item7AOrdrTypExplain>Continuous Crossing Session
+
+POSIT accepts Peg orders, Day orders and Immediate or Cancel ("IOC") orders.  Peg and Day
+orders may execute against contra-side Peg orders, contra-side Day orders or against IOC orders.
+IOC orders may only cross against contra-side Peg orders or contra-side Day orders. These order
+types may be entered with other instructions that will be used by the matching algorithm to
+determine whether and how they will interact with other orders.
+Priority in the POSIT Continuous Crossing Session for all order types is price, then size, then
+time.  For orders without a peg instruction, the limit price submitted is used to determine
+the price portion of the queue priority.  For orders with a peg instruction, the less aggressive
+price between the current peg price and limit price submitted is used to determine the price
+portion of the queue priority.  If the algorithm modifies the terms of a previously transmitted
+order, the order will receive a new order time stamp for matching purposes (i.e. the order will
+lose queue spot).  The only exception is a reduction in order quantity which, absent any other
+changes to the terms of the order, will not update the order time stamp for matching purposes.
+The following instructions are available for orders entered in the POSIT Continuous Crossing
+Session.  The instructions placed on orders will affect whether an order is eligible to be executed
+against contra-side orders.
+(1) Peg Orders: Peg orders remain open until executed, canceled by the Subscriber or until the
+end of the daily matching session. Peg orders can be designated with the following execution
+instruction:
+      (i) Market: A Market instruction designates that a buy order can be executed up to the
+national best offer and a sell order can be executed down to the national best bid.
+      (ii) Mid-Point: A Mid-Point instruction designates that an order can be executed up to the
+mid-point between the national best bid and national best offer ("NBBO").
+      (iii) Primary: A Primary instruction designates that the order can only be executed at the
+national best bid in the case of a buy order and the national best offer in the case of a sell order.
+A Limit Price instruction can be specified for Peg orders in conjunction with the above
+referenced execution instruction.
+(2) Day Orders: Day orders remain open until executed, canceled by the Subscriber or until the
+end of the daily matching session. Day orders can also include a Market, Mid-Point, Primary Peg
+or Limit Price
+instruction.
+(3) IOC Orders: IOC orders will either execute if an eligible contra side order exists against
+which the order can be executed or if not the order is canceled.  Subscribers may enter IOC
+orders with Market, Mid-Point, Primary Peg or Limit Price instructions.
+
+Other available Instructions and Designations for the Continuous Crossing Session: The
+following
+instructions may be applied to the above order types unless otherwise indicated. These
+instructions may be implemented by either transmitting a specified value over a FIX tag on an
+order by order basis, or requesting a session level configuration that will apply the requested
+instruction across all orders sent to the session specified by the Direct Subscriber, unless
+otherwise indicated:
+
+(i) Minimum Execution Quantity (MEQ): An MEQ instruction specifies the minimum
+number of shares that must be available for a contra side order to be eligible for execution.
+POSIT does not aggregate multiple contra side orders to satisfy a MEQ instruction on a single
+order.  POSIT will cancel back an order to the Direct Subscriber if the residual quantity of an
+order falls below the MEQ instruction.
+
+(ii) Locked Market: A Locked Market instruction specifies that an order is not eligible for
+execution during locked markets. IOC orders entered with a Locked Market instruction
+will be accepted if the NBBO is locked, but will receive a 'Nothing Done' message. Peg orders will
+be accepted but ineligible for execution until the NBBO unlocks.
+
+(iii) Peg Order Add-Only Liquidity Instruction ("Add Only"): An Add-Only instruction
+specifies that the order is only eligible for execution when it adds liquidity to POSIT upon
+entry. Peg orders that would remove liquidity from POSIT will be accepted by POSIT
+and remain open but ineligible for execution until such a time as the order adds liquidity to
+POSIT. Contra-side Peg orders on the book at the time a Peg order with an Add Only
+instruction is entered will not interact with the Peg Add Only order.  The Add Only instruction
+will be ignored if specified for an IOC order.
+
+(iv) Virtu Principal Opt Out: Direct and Indirect Subscribers may request to have
+their orders not interact with Virtu principal orders. This instruction will only prevent
+interaction against orders entered by VAL under the MPID's NITE, VIRT and
+VALX. Principal orders entered by VAL or the Affiliates, as defined in Part II, Item 2a, using
+other MPIDs will not be subject to this opt out. See Part II, Item 3a for more detail.  This order
+instruction can only be specified at the session level, and cannot be specified on an order by
+order basis via a FIX tag.
+
+(v) POSIT Liquidity Profiles and Limits on Interaction: This instruction specifies the
+types of counterparties that an order may interact with based on the counterparty's
+Liquidity Profile. POSIT uses quantitative metrics to create one or more Liquidity Profiles for
+each POSIT Subscriber. The metrics include execution performance relative to the market over
+different time horizons for all fills in POSIT. POSIT makes discretionary decisions in assigning a
+Liquidity Profile to a new or previously uncategorized Subscriber. POSIT will inform
+Subscribers about their own profile information upon request.  See Part III, Item 13a for more
+detail on POSIT Liquidity Profiles.
+(vi) Self-Match Prevention: Subscribers may provide instructions that will prevent
+orders from crossing if the resulting cross may result in a transaction with no change
+in beneficial ownership.  This order instruction can only be specified at the session level, and
+cannot be specified on an order by order basis via a FIX tag.
+
+ An order that contains a value in a utilized FIX field other than a value recognized by VAL (as
+described in its FIX specifications) will be rejected.  An order containing a value in a non-
+utilized FIX field will be accepted, but that instruction will not be processed.
+
+Alert Crossing Session
+The Alert Crossing Session supports all of the order types and instructions described in the
+Continuous Crossing Session section in Part III, Item 7(a), with the exception that the Alert
+Crossing Session does not accept IOC orders. Additionally, the below order type instructions are
+only available in the Alert Crossing Session.
+(i) 	Conditional Indicator: Peg orders entered into the Alert Crossing Session are by
+default designated as Conditional Orders. Conditional Orders are not firm and
+must respond affirmatively to an Invitation to Firm-Up from the Alert Crossing
+Session by transmitting a Firm-Up Response Order to be eligible to be executed
+against contra-side orders.
+(ii) 	Firm-Up Response Order: These orders are entered in response to invitations
+from the Alert Crossing Session.
+(iii)	Auto-Ex: Human Participants, as described in Part III, Item 9(a), can designate a
+Conditional Order as Auto-Ex.  If the Auto-Ex instruction is enabled for a
+Conditional Order, the Human Participant will not receive a pop up window
+requesting to Firm-Up, as described in Part III, Item 9(a), but instead the
+Conditional Order from the Human Participant will automatically Firm-Up
+against a contra side order.
+See Part III, Item 9a for more detail on the Alert Crossing Session.</taPart3Item7AOrdrTypExplain>
+      <rbPart3Item7bIsTnCSameForAll>Y</rbPart3Item7bIsTnCSameForAll>
+      <part3Item8aSizeReqrmnts rbPart3Item8aIsMinOrMaxSizeReqd="Y">
+        <taPart3Item8aOtiSizeReqrmns>In the POSIT Alert Crossing Session, Human Participants (see Part III, Item 9a for more detail on Human Participants) have size thresholds a contra order needs to meet in order for the Human Participant to receive an invitation to trade.  In order for a Human Participant to receive a trade invitation, the contra side order must be either at least 10,000 shares, $300,000 notional value, or 2% of the trailing 21 day average daily volume in the stock.</taPart3Item8aOtiSizeReqrmns>
+        <rbPart3Item8bIsReqProcSameForAll>Y</rbPart3Item8bIsReqProcSameForAll>
+      </part3Item8aSizeReqrmnts>
+      <part3Item8cOddltOrdrReqs rbPart3Item8cIsOddLotsAcptdExecutd="Y">
+        <taPart3Item8cOddLtOrdrReqsnProcdurs>Odd lot orders are treated and handled in the same manner as round and mixed lot orders.</taPart3Item8cOddLtOrdrReqsnProcdurs>
+        <rbPart3Item8dIsReqsProcdurSameForAll>Y</rbPart3Item8dIsReqsProcdurSameForAll>
+      </part3Item8cOddltOrdrReqs>
+      <part3Item8eMixltOrdrDetails rbPart3Item8eIsMixLotOrdrsAcptdExecutd="Y">
+        <taPart3Item8eMixltOrdrReqsProcDtls>Mixed lot orders are treated and handled in the same manner as round and odd lot orders.</taPart3Item8eMixltOrdrReqsProcDtls>
+        <rbPart3Item8fIsRecProcSameForAll>Y</rbPart3Item8fIsRecProcSameForAll>
+      </part3Item8eMixltOrdrDetails>
+      <part3Item9aMsgDtls rbPart3Item9aIsAnyMsgToIndicTI="Y">
+        <taPart3Item9aMsgUsgDtls>VAL offers a conditional messaging system known as Alert.  Alert is an anonymous
+Conditional Order matching application that exists outside of the POSIT matching engine.
+Alert has two types of participants: Human Participants and Electronic Participants.  Alert has
+three message types: A Conditional Order; an Invitation to Firm-Up; and a Firm-Up Response
+Order.
+Human Participants install Alert software, which can be installed on a variety of OMS or EMS
+systems, on their systems.  The Alert software takes in information about Human Participants
+orders resident in the OMS or EMS and transmits that information to the Alert matching
+application in the form of a Conditional Order.  Alert Human Participants configure the
+frequency at which the Alert software takes in information about orders resident in their OMS or
+EMS.  The Alert software also provides Alert participants with a graphical user interface ("the
+Alert Front End") that allows users to see pending Conditional Orders and respond to Invitations
+to Firm-Up. Human Participants can manually respond to Firm-Up Requests or configure the
+Alert software to automatically respond.  For Human Participants, Alert will send the Invitation
+to Firm-Up to the Alert Front End via a pop up window, requesting the Human Participant to
+Firm-Up.  The pop up window indicates that a contra order exists in a given symbol, as well as
+indicates if the contra is an Electronic Participant, but does not provide any size or price
+information of the contra order.  For an execution to occur, the Human Participant must respond
+to the pop-up window by submitting a Firm-Up Response.  The one exception to this workflow
+is for Human Participants who have enabled Auto-Ex on their order, which is described in Part
+III, Item 7a. The Auto-Ex order instruction can only be set by the Human Participant in the Alert
+software.  The Auto-Ex instruction will remain in effect until one of the following occurs: 1. The
+Human Participant turns off Auto-Ex on the order, 2. The Human Participant is fully filled on the
+Auto-Ex order, 3. The trading day ends. The Alert software will the send a Firm-Up Response
+Order from the Human Participant's EMS to VAL for submission to the POSIT ATS Alert
+Crossing Session that references the invitation and matches the attributes of the invitation in
+terms of symbol, side and quantity. Human Participants can change order quantities up or down
+prior to submitting a Firm-Up Response.  VAL's agency desks and clients of its Affiliates cannot
+use the Alert Front End to view and interact with conditional interests.  They are Electronic
+Participants and can only send orders to algorithms that can send Conditional Orders through
+Alert.
+Electronic Participants do not install Alert software.  Rather, Electronic Participants transmit
+Conditional Orders directly to the Alert matching application through the Electronic
+Participant's algorithm or electronic system.   Alert will send an Invitation to Firm-Up to the
+algorithm or system that entered a Conditional Order when a potential matching opportunity
+exists.  When the Invitation to Firm-Up message is sent to an Electronic Participant, the
+Electronic Participant's original Conditional Order is automatically canceled.  Hereinafter,
+Electronic Participant and algorithm or system shall have the same meaning.  For an execution
+to occur, the Electronic Participant must respond to the invitation by transmitting a Firm-Up
+Response Order.  Alert will transmit an Invitation to Firm-Up to the Electronic Participant
+containing the same number of shares included in the Electronic Participant's original
+Conditional Order.  The Electronic Participant may then respond by sending a Firm-Up
+Response Order to VAL for submission to the POSIT ATS Alert Crossing Session that
+references the invitation and matches the attributes of the invitation in terms of symbol, side
+and quantity.  The Electronic Participant may transmit a Firm-Up Response Order with a
+quantity that is less or more than the invited quantity.  An execution will occur to the extent that
+Firm-Up Response Orders are received by POSIT within the designated response time, subject
+to other instructions placed on the orders by the participant, as described in Part III item 7.  All
+business units and affiliates of the broker dealer operator that enter or direct the entry of orders
+into POSIT ALERT are considered Electronic Participants, and are not treated any differently
+than Electronic Participants external to the broker dealer operator.
+When multiple Conditional Orders are present on the same side and same symbol, the Alert
+matching application will give invitation priority in the following order: Human Participant
+with Auto-Ex enabled, Human Participant without Auto-Ex enabled, Electronic Participant.
+When two participants are on the same side and fall within the same participant type (i.e., two
+Human Participants with Auto-Ex enabled, two Human Participants without Auto-Ex enabled,
+or two Electronic Participants), the Alert matching application will use order size as the second
+order of invitation priority.  For example, if two Human Participants are present on the same
+side and same symbol, and a single contra order is submitted, the Human Participant with the
+largest order size will receive an invitation message.  Lastly, if two participants are on the same
+side, fall within the same participant type, and have the same order size, order submission time
+will be used as the third order of priority to determine which participant would receive the
+invitation.
+The response time to the Invitation to Firm-Up is a function of the type of participants invited.
+Electronic Participants must respond within 2 seconds, while Human Participants without Auto-
+Ex enabled have 30 seconds to respond.  Participants who do not respond within these time
+frames will not be eligible to participate in the match.
+Alert invites all participants in the potential match simultaneously, except as described below.
+When an Electronic Participant has a potential match against a Human Participant, the Human
+Participant will receive the Invitation to Firm-Up first.  Once the Human Participant firms up,
+an Invitation to Firm-Up is then sent to the Electronic Participant.  If the Human Participant
+does not firm up, the Electronic Participant will not receive an Invitation to Firm-Up.
+In addition to the messaging described above to Alert participants, Alert will transmit
+information to POSIT on the potential Alert match.  At the time Invitations to Firm-Up are sent
+to participants, Alert sends the following information to POSIT on the potential Alert match: 1)
+Number of buyers, 2) Number of sellers, 3) Number of Human Participants, 4) Symbol, 5)
+Response timer.  POSIT will run the match at the earlier of when all participants submit firm up
+orders to POSIT or the expiration of the response timer.
+After the completion of the match, or the expiration of the response timer, POSIT will transmit
+information on the outcome of the match back to Alert.  This information is stored to log files
+that are consumed by a front end application called Phoenix.  Phoenix is used by Alert Sales and
+Coverage personnel to monitor client orders in Alert, as described in Part II, Item 6a.
+Upon request, POSIT will apply a maximum notional value constraint, set by the Alert
+participant, to an Alert participant's order. In addition, upon request and only available to Human
+participants, POSIT will aggregate an Alert participant's orders for execution. Where such Alert
+orders have a common MEQ instruction, POSIT will apply the MEQ instruction on the
+aggregated Alert order.</taPart3Item9aMsgUsgDtls>
+      </part3Item9aMsgDtls>
+      <rbPart3Item9bIsIndIntrstSameForAll>Y</rbPart3Item9bIsIndIntrstSameForAll>
+      <taPart3Item10aOpenReOpenDtls>POSIT begins accepting all order types at 8:00 AM EST, while Alert begins accepting
+Conditional Orders at 9:30 AM EST. POSIT does not execute orders before the U.S. market's
+open, after the U.S. market's close, and during a trading halt. There are no limitations on the
+types of orders POSIT will accept prior to the start of regular trading hours or during a trading
+halt; however, IOC orders will be cancelled back and Peg orders will remain on the POSIT order
+book until trading begins. Unexecuted orders will be cancelled at the market's closing time.
+POSIT does not have an opening auction or any specific procedures to reopen after a halt of
+trading.  Peg orders will remain on the book during a trading halt, and be prioritized by price, pro
+rata shares, as described in Part III, Item 7(a), subject to the instructions placed on an order by a
+Subscriber.  POSIT will not begin trading after the market's open or after a trading halt in a given
+security until one of the following occur: (1) a trade occurs on the primary market whose size is
+at least a round lot, or (2) a bid and offer for the security has been posted on the primary market.
+A Subscriber can request to not begin trading in POSIT after the market's open or after a trading
+halt unless both (1) and (2) are met.  Peg day orders already resting on the POSIT order book just
+prior to a trading halt will remain on the order book after the trading halt commences.</taPart3Item10aOpenReOpenDtls>
+      <rbPart3Item10bIsOpnReopnSameForAll>Y</rbPart3Item10bIsOpnReopnSameForAll>
+      <taPart3Item10cUnexeOrdrTIDtls>As described in Part III, Item 10(a) above, POSIT will not begin trading after the market's open or
+after a trading halt in a given security until one of the following occur: (1) a trade occurs on the
+primary market whose size is at least a round lot, or (2) a bid and offer for the security has been
+posted on the primary market. A Subscriber can request to not begin trading in POSIT after the
+market's open or after a trading halt unless both (1) and (2) are met.  Unexecuted orders and
+trading will be treated in accordance with the procedures described in Part III, Item 11(c).</taPart3Item10cUnexeOrdrTIDtls>
+      <rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>Y</rbPart3Item10dIsAnyDifBtwnExeProcTrdHrs>
+      <rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>N</rbPart3Item10eIsAnyDifBtwnPreOpExecFlwngStpg>
+      <taPart3Item11aStrucOfNmsStk>POSIT is an equity crossing system providing a continuous trading environment in all NMS
+stocks for orders received by POSIT through a variety of means, both direct and indirect, as
+described in response to Part III, Item 5.  POSIT operates two general crossing sessions: (i) the
+Continuous Crossing Session; (ii) the Alert Crossing Session. Each of these crossing sessions is
+described in detail in response to Part III, Item 11(c).  The Continuing Crossing Session employs
+a price, size, time priority crossing methodology, as described in Part III, Item 7(a).  All NMS
+stocks are eligible for trading in POSIT.  POSIT may, in its sole discretion, stop trading certain
+symbols for, among other reasons, the purpose of remaining below the volume thresholds for (i)
+classification as an "SCI Entity" under Regulation SCI and (ii) certain regulatory requirements as
+set forth in Rules 301(b)(3) and (5) of Regulation ATS.</taPart3Item11aStrucOfNmsStk>
+      <rbPart3Item11bIsMeansFeciltsSameForAll>Y</rbPart3Item11bIsMeansFeciltsSameForAll>
+      <taPart3Item11cRulsProcsOfNmsStk>POSIT operates two crossing sessions: (i) the Continuous Crossing Session and (ii) the Alert
+Crossing Session.  POSIT offers the ability to participate in the two crossing sessions to all
+Subscribers. Note, the rules and procedures applicable to the Continuous Crossing Session apply
+to the Alert Crossing session unless otherwise stated.  Subscribers can specify which session to
+route an order to via a specific FIX tag.
+POSIT reserves the right to review any transaction based upon the request of a Subscriber or on
+its own motion and declare any transaction executed by POSIT null and void in the event that the
+transaction occurred at a price that was within the numerical guidelines for erroneous
+transactions of any exchange or was the result of a significant systems disruption.  In reviewing
+transactions resulting from significant systems disruptions, in addition to the price of the
+transactions, POSIT may also take into account the volume of transactions as compared to the
+normal volume of transactions for the relevant security as executed by POSIT.  POSIT reserves
+the right to use its discretion to provide price accommodations in circumstances that are not
+clearly errors or erroneous transactions but where the circumstances are appropriate, such as
+minor systems latency, to make a price adjustment as an accommodation to an affected client(s).
+In these scenarios, the Firm performs an analysis to determine the appropriate price and any
+profit or loss as a result of the adjustment is incurred by VAL.
+Below are descriptions of the Continuous Crossing Session and the Alert Crossing Session.
+      Continuous Crossing Session
+
+POSIT will execute Peg and Day orders against eligible contra-side IOC, Day and Peg
+orders. For Peg and Day orders, priority is determined on a price, size, time basis. If a Subscriber
+modifies the terms of a previously transmitted order, the order will receive a new order time for
+matching purposes (i.e. the order will lose queue spot). The only exception is a reduction in order
+quantity which, absent any other changes to the terms of the order, will not update the order time
+for matching purposes. Providers receive price improvement. In the case of an IOC order, the
+IOC order is always the removing order. In the case of two Peg and/or Day orders, the first in
+time is the providing order
+Subscribers accessing POSIT directly can request that POSIT apply certain default instructions
+or attributes to the Subscriber's orders submitted to POSIT, as described in Part III, Item 7a, and
+Part III, Item 14a.
+POSIT will execute crosses at prices within the permissible price bands established under the
+Limit Up - Limit Down Plan.  POSIT is programmed to prevent executions outside of the Limit
+Up - Limit Down price bands.
+Subscribers can include MEQ instructions on their orders. In that event, POSIT will not execute
+the order in an amount less than such minimum quantity. When the remaining quantity on the
+order is less than the MEQ instruction, POSIT will automatically cancel back the remaining
+quantity of the order.
+
+	Alert Crossing Session
+VAL offers a conditional messaging system known as Alert.  Alert is an anonymous Conditional
+Order matching application that exists outside of the POSIT matching engine.  Please see Part
+III, Item 9a for a description of Alert.
+All sessions
+Locked and Crossed Markets: POSIT does not execute in a crossed market, but will execute in
+a locked market.  Subscribers have the option of not executing in a locked market at the session
+level or via a fix tag.
+Price Protection: There are no Price Protection mechanisms.
+Short Sales: Subscribers are required to mark short sale orders as "sell short" or "sell short
+exempt".  POSIT does not execute short sell orders at the bid price in securities subject to a Reg
+SHO Rule 201 price restriction.</taPart3Item11cRulsProcsOfNmsStk>
+      <rbPart3Item11dIsProcsRulsSameForAll>Y</rbPart3Item11dIsProcsRulsSameForAll>
+      <rbPart3Item12aIsAnyFrmlInfrmlArngmnts>N</rbPart3Item12aIsAnyFrmlInfrmlArngmnts>
+      <part3Item13aSegmntDtls rbPart3Item13aIsOrdrTiSegmntd="Y">
+        <taPart3Item13aSegProcdurDtls>Continuous Crossing Session
+VAL segments Direct Subscribers into three distinct Liquidity Profiles based upon all of their
+filled orders. Direct Subscribers may enter instructions that when present on orders will prevent
+interaction with orders from Subscribers who fall into specified Liquidity Profiles. VAL scores
+and segments Direct Subscribers at the POSIT Moniker level.  The POSIT Moniker is an internal
+subscriber identifier.  A Direct Subscriber can have one or more POSIT Monikers.  Direct
+Subscribers with more than one POSIT Moniker have custom order attributes, as described in
+Part III, Item 7a, at the session level for each POSIT Moniker.  VAL scores and segments its
+own POSIT Monikers. VAL does not score and segment Indirect Subscribers. To the extent that
+VAL, its Affiliates or Direct Subscriber's transmit the orders of multiple Indirect Subscribers
+through a single POSIT Moniker, the Liquidity Profile will be the composite of all of the Indirect
+Subscribers. An exception is that VAL permits Direct Subscribers to have different order flows
+scored independently based upon a Segment ID FIX tag. The Current POSIT FIX Specification
+Document provides Direct Subscribers the ability to use up to four Segment IDs labeled Segment
+1, Segment 2, Segment 3 and Segment 4.
+VAL uses a scoring methodology to determine a Subscriber's Liquidity Profiles that is derived
+from the price move of a stock from the midpoint price at the time of fill to a weighted average
+of individual midpoint prices of durations that range from 10 minutes to 60 minutes after the time of
+fill, divided by the stock's spread (a "mark out").  Liquidity Profiles are generated monthly, based
+on the prior 3 months of trading activity. There is no de minimis volume rule in the Liquidity
+Profile generation.
+VAL creates Liquidity Profiles by sorting Subscribers by their mark-out score. The three
+Liquidity Profile tiers are called Move Towards, Neutral, and Move Away, where Direct
+Subscribers in the Move Towards segment generally produce negative markouts for the contra
+where the stock price moves towards the contra (the stock price for buy orders move lower, sell
+orders move higher), while subscribers in the Move Away segment generally produce positive
+markouts for the contra where the stock price moves away from the contra (the stock price for
+buy orders move higher, sell orders move lower).  After sorting Subscribers markout scores from
+most negative to most positive, the Liquidity Profiles are constructed such that approximately
+20% of the share volume of the most negative markout Subscribers are placed into the Move
+Towards category, 60% of the share volume is placed in the Neutral category, 20% of the share
+volume of the most positive markout Subscribers are placed in the Move Away category. The
+percentages are approximations. Based on the mix of Subscribers' share volume, they may not
+perfectly fit into a Segment such that the percentages are exact. VAL will use its discretion in
+these circumstances and typically will elect to include more Subscribers in a higher Segment.
+Subscribers that submit orders in POSIT can elect to prevent either the Move Towards or Move
+Away segments from interacting with their orders on an order by order basis via FIX tag or at a
+session level. VAL uses its own discretion to place new Subscribers into one of the three Segments described above. Segment
+selection for new Subscribers is based on VAL's subjective judgment of the trading and
+investment process employed by the new Subscriber. For new Subscribers that have no prior history trading in POSIT, Segment selection is based on the type of firm, as well as the expected characteristics of the order flow, as specified by the new Subscriber.  For new Subscribers that have a history trading in POSIT (for example, a current Subscriber that wants to set up a new POSIT moniker), Segment selection is based on the type of firm, the expected characteristics of the order flow (as specified by the new Subscriber), as well as the Segment placement of other POSIT Monikers associated with the same underlying Subscriber. VAL reserves the right to move a
+Subscriber's liquidity profile bucket intra-month if that Subscriber's mark outs during the month
+deviate widely from expected or prior trading activity.
+Liquidity Profiles only apply to order interaction in the Continuous Crossing Session and have
+no influence on order interaction in the Alert Crossing Session.
+Alert Crossing Session
+Alert has two types of participants: Human Participants and Electronic Participants.  See Part III,
+Item 9a for more detail.</taPart3Item13aSegProcdurDtls>
+        <rbPart3Item13bIsSegmntatnSameForAll>Y</rbPart3Item13bIsSegmntatnSameForAll>
+        <part3Item13dDsclrContntDtls rbPart3Item13dIsSegCatgDisclosd="Y">
+          <taPart3Item13dDsclosrContntDtls>Upon request, POSIT will disclose to a Subscriber their own profile information. This
+communication is provided either verbally or through email to the party that originally requested the information. Liquidity Profile designations cannot be contested.</taPart3Item13dDsclosrContntDtls>
+          <rbPart3Item13eIsDsclosrSameForAll>Y</rbPart3Item13eIsDsclosrSameForAll>
+        </part3Item13dDsclrContntDtls>
+      </part3Item13aSegmntDtls>
+      <rbPart3Item13cIsCustmrOrdr>N</rbPart3Item13cIsCustmrOrdr>
+      <part3Item14aCntrPrtySelectnDtls rbPart3Item14aIsDsgToIntrctOrNot="Y">
+        <taPart3Item14aCntrPrtyDtls>POSIT:
+Virtu Principal Opt Out: Direct and Indirect Subscribers may request to have their orders not
+interact with Virtu principal orders. See Part III, Item 7a which lists order instructions including
+this instruction.
+
+POSIT Liquidity Profile Interaction: All Direct Subscribers have the option to block either the
+Move Towards or Move Away segments for a single order, as described in Part III, Item 13.
+Direct Subscribers cannot block both the Move Towards and Move Away segments for a single
+order.  Direct Subscribers cannot block the Neutral segment.  VAL programs its algorithms to
+use blocking when analysis suggests it may improve execution outcomes. VAL implements the
+logic of the algorithms such that decisions are made on specific child orders in specific
+circumstances. Indirect Subscribers cannot make decisions to block based on Liquidity Profiles.
+Direct subscribers can send instructions designating which Liquidity Profiles to interact with on
+an order by order basis via a FIX tag, or set a default at the session level. These Profiles are only
+created for the Continuous Crossing Session and only effect counterparty interaction in the
+Continuous Crossing Session. See Part III, Item 7a, which  lists order instructions including this
+instruction.
+
+Self-Match Prevention: Direct Subscribers may provide instructions that will prevent orders from
+crossing if the resulting cross may result in a transaction with no change in beneficial ownership,
+as described in Part III, Item 7a. Subscribers can request Self-Match Prevention through their
+salesperson, who enter a ticket to make the request. Thereafter, an entry is made in a
+configuration file which takes effect in most cases on the next business day, but could take effect
+either the same day or greater than the next business day, depending upon the time of day the
+request is submitted. Further, Subscribers are able to block interaction against certain Virtu
+MPIDs. See Part II, Item 3a for further detail.
+
+Other Order Attributes: Direct Subscribers can place other attributes on orders that could limit an
+order's ability to interact with certain contra side interest. These additional attributes include:
+Minimum Execution Quantity, Do Not Execute In A Locked Market, and Add Only.  See Part
+III, Item 7a for more detail.
+Alert:
+Participant Type Blocking: Electronic Participants can request to block interaction against
+Human Participants via a FIX tag, on an individual order basis.  Human Participants can request
+to block interaction against Electronic Participants.  This blocking instruction is supported at the
+session level.
+Participant and Symbol Specific Blocking: Alert Sales and Coverage personnel can block certain
+participants in whole or at a symbol level.  Alert Sales and Coverage personnel apply participant
+blocks in whole, or at a symbol level, on an intraday basis if a participant is having a technical
+issue. For example, if an Alert participant was duping messages repeatedly then the Alert Sales
+and Coverage personnel could introduce a temporary block until the issue was resolved.  Alert
+Sales and Coverage personnel can lift this block once the participant verifies the technical issue has been resolved. Additionally, Human Participants can request to block individual symbols.  The Human Participant can make this request through their Alert Sales and Coverage person. Following receipt of a request, the sales person will enter a ticket to make the request. Thereafter, an entry is made in a configuration file which will take effect in most cases on the next business day, but could take effect either the same day or greater than the next business day, depending upon the time of day the request is submitted.  Symbol level blocks are also applied on an automated basis between an
+Electronic Participant and a Human Participant, as well as between two Electronic Participants.
+If within a two-minute span, for a given symbol, three consecutive invitations to Firm Up
+between the two participants result in no trades, a one minute block will be applied between the
+two participants in the given symbol.  After the one-minute blocking period, the block between
+the two participants will automatically be lifted in the given symbol.   The three-minute time
+span begins at the time of when the first invitation is sent.  Symbol level blocks do not carry over
+into the next trading day.  Please see Part III, Item 9(a) for more detail on the POSIT Alert
+Conditional Order process.
+Self-Match Prevention: Subscribers may provide instructions that will prevent orders from
+crossing if the resulting cross may result in a transaction with no change in beneficial ownership.</taPart3Item14aCntrPrtyDtls>
+        <rbPart3Item14bIsSelectnSameForAll>Y</rbPart3Item14bIsSelectnSameForAll>
+      </part3Item14aCntrPrtySelectnDtls>
+      <rbPart3Item15aIsElectrncCommu>N</rbPart3Item15aIsElectrncCommu>
+      <part3Item15bSubSctbDtls rbPart3Item15bIsSubScrbOrdBnd="Y">
+        <taPart3Item15bSubscrBndDtls>As described above in response to Part III, Item 9, Alert, through the Conditional Order
+invitation process, makes information available to Alert participants that might prompt the user
+to send an order to POSIT.  This information includes the symbol where contra side order exists
+in Alert.</taPart3Item15bSubscrBndDtls>
+        <rbPart3Item15cIsDsplyProcSameForAll>Y</rbPart3Item15cIsDsplyProcSameForAll>
+      </part3Item15bSubSctbDtls>
+      <rbPart3Item16aIsInstRoutd>N</rbPart3Item16aIsInstRoutd>
+      <rbPart3Item17aIsDiffBtwnOrdTITrtmnt>N</rbPart3Item17aIsDiffBtwnOrdTITrtmnt>
+      <rbPart3Item17bIsTrtmntSameForAll>Y</rbPart3Item17bIsTrtmntSameForAll>
+      <rbPart3Item18aIsOutsdeTrdingHrs>N</rbPart3Item18aIsOutsdeTrdingHrs>
+      <taPart3Item19aSrvcUsgFees>POSIT does not charge any subscription or connectivity fees. Historically, execution charges, if any, were individually negotiated with each Direct Subscriber. Currently, Direct Subscribers pay fees between $0 and $.05 per share. VAL and VAL Affiliates are not assessed a fee for POSIT trades. Indirect Subscribers pay bundled fees, See Section III, Item 19(b). VAL will consider a number of factors in determining the fee an individual Subscriber will be assessed, including, but not limited to, the client's overall relationship with VAL, the type of trading flow, the amount of trading flow, and the markets that will be traded.</taPart3Item19aSrvcUsgFees>
+      <taPart3Item19bBundldSrvcUsgFees>VAL establishes fees for use of its execution products and services, which could include executions in POSIT, on an individual client basis. VAL will consider a number of factors in determining the fee an individual client will be assessed, including, but not limited to, the client's overall relationship with VAL, the type of trading flow, the amount of trading flow, and the markets that will be traded. Client specific clearing arrangements, as specified in Section III, Item 22, are not considered when establishing a fee for that client.</taPart3Item19bBundldSrvcUsgFees>
+      <taPart3Item19cRbtDiscOfFees>VAL may pay the cost of cross connects for Direct Subscribers to connect to the NY 5 Hub based upon the overall relationship with the client and or the perceived value of having the Subscriber enter or direct the entry of orders to POSIT.</taPart3Item19cRbtDiscOfFees>
+      <taPart3Item20aSuspndProcdur>VAL may in its sole discretion, stop trading certain symbols from time to time for, among other reasons, the purpose of remaining below the volume thresholds for (i) classification as an "SCI Entity" under Regulation SCI and (ii) certain regulatory requirements as set forth in Rules 301(b)(3) and (5) of Regulation ATS.
+VAL uses a proprietary market data system to consolidate the best bids and offers to determine the NBBO at which executions occur on POSIT. See Part III, Item 23 for a description of this system. VAL has programmed its market data system to disseminate an alert when it detects a certain level of disparity from normative messages received by the systems. The POSIT system is programmed to shift to utilizing only the SIP BBOs when there is a certain level of disparity between the exchange book feeds and the SIP. If the Firm's Core Operations staff determines that there appears to be a significant delay or issue with the Firm's market data, they will cause POSIT to suspend trading in the impacted symbol or in all symbols in the case that they determine there is a more severe systems issue. In either event, the Core Operations staff will cause POSIT to cancel impacted orders. Cancellation reports will be sent to clients as soon as possible and POSIT's client services personnel will attempt to contact Subscribers. Where there is a severe systems interruption that prevents POSIT from recovering for the remainder of the day, POSIT will instruct Subscribers to route their orders to other market centers.
+POSIT will not execute orders if the NBBO is crossed, if the NBB is below the LULD Lower Limit Price Band, if the NBO is above the LULD Upper Limit Price Band, or if the security is in a LULD Trading Pause.
+POSIT will reject orders in certain NMS Stocks, including any symbols on VAL's restricted list or symbols for which VAL seeks to remain below certain volume thresholds. In those circumstances POSIT will provide clients with notice of the symbol(s) that will be unavailable by posting information on the POSIT page on the Virtu Financial, Inc. website (http://www.virtu.com).</taPart3Item20aSuspndProcdur>
+      <rbPart3Item20bIsSuspndProcdurSameFrAll>Y</rbPart3Item20bIsSuspndProcdurSameFrAll>
+      <taPart3Item21aMtrlArngmntDtls>VAL reports all POSIT transactions to the FINRA NASDAQ CARTERET TRF.  POSIT does
+not have a connection to other FINRA TRFs.  In the event that POSIT is unable to report
+transactions to the NASDAQ CARTERET TRF, POSIT will cease trading, cancel existing
+orders, and reject new orders.</taPart3Item21aMtrlArngmntDtls>
+      <rbPart3Item21bIsMtrlArngmtSameFrAll>Y</rbPart3Item21bIsMtrlArngmtSameFrAll>
+      <taPart3Item22aMtrlArngmntDtls>VAL is the counterparty to all trades that occur in POSIT and VAL clears and settles with each
+counterparty.  Broker-dealer Subscribers are required to be self-clearing or have an
+arrangement with a clearing firm.  All transactions are submitted to NSCC for clearance and
+settlement.  Subscribers may elect to clear their transactions via a Qualified Service
+Representative (QSR) agreement or via an Automated Give-Up (AGU) agreement.    For
+Subscribers that are Customers, VAL will settle their transactions through the facilities of the
+DTCC via RVP/DVP settlement.  VAL will clear and settle Indirect Subscriber trades in the
+same manner as Direct Subscribers.</taPart3Item22aMtrlArngmntDtls>
+      <rbPart3Item22bIsMtrlArngmtSameFrAll>Y</rbPart3Item22bIsMtrlArngmtSameFrAll>
+      <taPart3Item23aMrktDatSrc>POSIT employs a proprietary market data system that uses a combination of direct market data feeds from
+exchanges and market data disseminated by the Securities Information Processors (SIP) to determine the NBBO.  Specifically, POSIT uses direct market data feeds for all exchanges other than LTSE, for which the SIP is used as LTSE does not offer direct market data feeds.  POSIT utilizes this proprietary system to price, prioritize,
+and match orders in the POSIT Continuous and POSIT Alert Crossing Sessions, in compliance
+with regulations, including Reg NMS and Reg SHO.
+
+SIP data is used as a backup feed, and is used in place of a direct feed from a particular exchange
+if that exchange is experiencing a technical issue.  Switching to the SIP data feed is done via an
+automated process that compares direct feed data to SIP data.  Additionally, Core Operations
+have the ability to switch to the SIP data feed on a discretionary basis.  Switching back to direct
+feed data from the SIP data feed is done purely on a discretionary basis, and is performed by the
+Core Operations team once this team has confirmed that direct feed data in question is correct.
+The SIP data feed is also used for regulatory items, including limit up/limit down bands, trading
+halts, and Reg SHO designations.</taPart3Item23aMrktDatSrc>
+      <rbPart3Item23bIsSrcSameFrAll>Y</rbPart3Item23bIsSrcSameFrAll>
+      <rbPart3Item24aIsSubScrbrOrdr>N</rbPart3Item24aIsSubScrbrOrdr>
+      <rbPart3Item25aIsAvgDlyTradinVolExcd>N</rbPart3Item25aIsAvgDlyTradinVolExcd>
+      <part3Item26PlatFrmData rbPart3Item26IsOrdrFloExecStatsPublshd="Y">
+        <cbPart3Item26iInfoRqstdUndrExbt4AvlblAtWebst>true</cbPart3Item26iInfoRqstdUndrExbt4AvlblAtWebst>
+        <cbPart3Item26iiInfoRqstdUndrExbt5AvlblAtWebst>true</cbPart3Item26iiInfoRqstdUndrExbt5AvlblAtWebst>
+      </part3Item26PlatFrmData>
+    </partThree>
+  </formData>
+</edgarSubmission>

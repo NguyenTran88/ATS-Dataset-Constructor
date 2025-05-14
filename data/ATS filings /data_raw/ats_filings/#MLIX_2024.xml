@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/seventeenafiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>X-17A-5</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <filerCik>0000065106</filerCik>
+          <filerCcc>XXXXXXXX</filerCcc>
+        </filerCredentials>
+      </filer>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <returnCopyFlag>true</returnCopyFlag>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <submissionInformation>
+      <periodBegin>01-01-2023</periodBegin>
+      <periodEnd>12-31-2023</periodEnd>
+      <typeOfRegistrant>
+        <typeOfBDRegistrant>Broker-dealer</typeOfBDRegistrant>
+      </typeOfRegistrant>
+      <materialWeakness>N</materialWeakness>
+    </submissionInformation>
+    <registrantIdentification>
+      <brokerDealerName>MERRILL LYNCH, PIERCE, FENNER &amp; SMITH INCORPORATED</brokerDealerName>
+      <businessAddress>
+        <com:street1>ONE BRYANT PARK</com:street1>
+        <com:street2>250 VESEY STREET</com:street2>
+        <com:city>NEW YORK</com:city>
+        <com:stateOrCountry>NY</com:stateOrCountry>
+        <com:zipCode>10036</com:zipCode>
+      </businessAddress>
+      <contactPersonName>Faruqe Alam</contactPersonName>
+      <contactPersonPhoneNumber>980-388-0576</contactPersonPhoneNumber>
+    </registrantIdentification>
+    <accountantIdentification>
+      <accountantName>PricewaterhouseCoopers, LLP</accountantName>
+      <accountantAddress>
+        <com:street1>300 Madison Ave</com:street1>
+        <com:city>New York</com:city>
+        <com:stateOrCountry>NY</com:stateOrCountry>
+        <com:zipCode>10024</com:zipCode>
+      </accountantAddress>
+      <accountantType>Certified Public Accountant</accountantType>
+    </accountantIdentification>
+    <oathSignature>
+      <signPersonName>Faruqe Alam</signPersonName>
+      <entityName>MERRILL LYNCH, PIERCE, FENNER &amp; SMITH INCORPORATED</entityName>
+      <signDate>12-31-2023</signDate>
+      <signature>Faruqe Alam</signature>
+      <oathTitle>Chief Financial Officer</oathTitle>
+      <confirmNotarizedFlag>Y</confirmNotarizedFlag>
+    </oathSignature>
+  </formData>
+</edgarSubmission>

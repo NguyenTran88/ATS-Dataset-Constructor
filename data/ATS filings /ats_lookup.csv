@@ -1,0 +1,18 @@
+mpid,ats_name,cik,file_no,status,notes
+UBSA,UBS ATS,0000230611,013-00069,active
+INCR,IntelligentCross ATS,0001708826,013-00116,active
+SGMT,SIGMA X2,0000042352,013-00121,active
+JPMX,JPM-X,0000782124,013-00110,active
+MSPL,MS POOL ATS-4,0000068136,013-00117,active
+#MLIX,Instinct X,0000065106,013-00077,ceased,noted to cease Oct 2019 
+MLIX,Instinct X,0001675365,013-00150,active,Bofa-refile
+EBXL,LeveL ATS,0001343506,013-00132,ceased,ceased Feb 2022
+LATS,Luminex ATS,0001609177,013-00112,active
+BIDS,BIDS ATS,0001368727,013-00031,active
+KCGM,Virtu MatchIt ATS,0001457716,013-00140,active
+MSTX,MS Trajectory Cross ATS-1,0000068136,013-00115,active
+XSTM,CrossStream,0000356628,013-00118,active
+JBPX,JPB-X,0000782124,013-00109,active
+#ITGP,POSIT,0000880014,013-00111,ceased,ceased Jun 2020 but opened new one right after
+ITGP,POSIT,0001457716, 013-00175,active,opened to replace old venue
+PURE,PureStream,0001798802,013-00182,active

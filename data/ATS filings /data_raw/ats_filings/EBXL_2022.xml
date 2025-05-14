@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edgarSubmission xmlns="http://www.sec.gov/edgar/seventeenafiler" xmlns:com="http://www.sec.gov/edgar/common">
+  <headerData>
+    <submissionType>X-17A-5</submissionType>
+    <filerInfo>
+      <filer>
+        <filerCredentials>
+          <filerCik>0001343506</filerCik>
+          <filerCcc>XXXXXXXX</filerCcc>
+        </filerCredentials>
+      </filer>
+      <liveTestFlag>LIVE</liveTestFlag>
+      <flags>
+        <returnCopyFlag>false</returnCopyFlag>
+        <confirmingCopyFlag>false</confirmingCopyFlag>
+        <overrideInternetFlag>false</overrideInternetFlag>
+      </flags>
+    </filerInfo>
+  </headerData>
+  <formData>
+    <submissionInformation>
+      <periodBegin>01-01-2021</periodBegin>
+      <periodEnd>12-31-2021</periodEnd>
+      <typeOfRegistrant>
+        <typeOfBDRegistrant>Broker-dealer</typeOfBDRegistrant>
+      </typeOfRegistrant>
+      <materialWeakness>N</materialWeakness>
+    </submissionInformation>
+    <registrantIdentification>
+      <brokerDealerName>EBX LLC</brokerDealerName>
+      <businessAddress>
+        <com:street1>99 SUMMER STREET</com:street1>
+        <com:street2>SUITE 1700</com:street2>
+        <com:city>BOSTON</com:city>
+        <com:stateOrCountry>MA</com:stateOrCountry>
+        <com:zipCode>02110</com:zipCode>
+      </businessAddress>
+      <contactPersonName>Michael Stupay</contactPersonName>
+      <contactPersonPhoneNumber>2128971692</contactPersonPhoneNumber>
+    </registrantIdentification>
+    <accountantIdentification>
+      <accountantName>WithumSmith and Brown, PC</accountantName>
+      <accountantAddress>
+        <com:street1>200 Jefferson Park</com:street1>
+        <com:street2>Suite 400</com:street2>
+        <com:city>Whippany</com:city>
+        <com:stateOrCountry>NJ</com:stateOrCountry>
+        <com:zipCode>07981-1070</com:zipCode>
+      </accountantAddress>
+      <accountantType>Certified Public Accountant</accountantType>
+    </accountantIdentification>
+    <oathSignature>
+      <signPersonName>Neil Whitney Conary</signPersonName>
+      <entityName>EBX LLC</entityName>
+      <signDate>12-31-2021</signDate>
+      <signature>Neil Whitney Conary</signature>
+      <oathTitle>CEO</oathTitle>
+      <confirmNotarizedFlag>Y</confirmNotarizedFlag>
+    </oathSignature>
+  </formData>
+</edgarSubmission>
