@@ -13,8 +13,9 @@ import re
 import sys
 from pathlib import Path
 from typing import Dict, Optional, List
+import warnings
 from collections import defaultdict
-from bs4 import BeautifulSoup, NavigableString
+from bs4 import BeautifulSoup, NavigableString, XMLParsedAsHTMLWarning
 from radio_matrix import RadioMatrix  
 
 
@@ -104,6 +105,14 @@ RECIPIENT_PATTERNS: Dict[str, str] = {
 # ---------------------------------------------------------------------------
 # 2.  Low‑level helpers
 # ---------------------------------------------------------------------------
+# get soup helper
+def _get_soup(html: str) -> BeautifulSoup:
+    is_xml = html.lstrip().startswith("<?xml") or "<ATS-N" in html[:300]
+    if is_xml:
+        # silence “XMLParsedAsHTML” warning
+        warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+        return BeautifulSoup(html, "xml")          # ← XML parser
+    return BeautifulSoup(html, "html.parser")      # ← existing path
 
 # Helper for text normalisation (hyphen → space, collapse whitespace)
 _HYPHEN_WS = re.compile(r"[‐‑–—-]|\s+")
@@ -486,7 +495,8 @@ def _extract_segmentation_features(soup: BeautifulSoup, res: Dict[str, str]) -> 
 # ---------------------------------------------------------------------------
 
 def extract_features_from_html(html: str, ats_id: Optional[str] = None, year: Optional[int] = None) -> Dict[str, str]:
-    soup = BeautifulSoup(html, "html.parser")
+    #soup = BeautifulSoup(html, "html.parser")
+    soup = _get_soup(html)
     radios = RadioMatrix(soup) 
     results: Dict[str, str] = {}
     if ats_id: results["ats_id"] = ats_id
@@ -559,7 +569,7 @@ if __name__ == "__main__":
     html_path = Path(sys.argv[1])
     html_text = html_path.read_text(encoding="utf-8", errors="ignore")
     ats_id = PurePath(sys.argv[1]).stem.split("_")[0]
-    year = int(PurePath(sys.argv[1]).stem.split("_")[1])
+    year = int(PurePath(sys.argv[1]).stem.split("_")[1]) 
     
     features = extract_features_from_html(html_text, ats_id=ats_id, year=year)
     print(json.dumps(features, indent=2))

@@ -1,36 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<edgarSubmission xmlns="http://www.sec.gov/edgar/sbse/sbsecfiler">
-  <headerData>
-    <submissionType>SBSE-C</submissionType>
-    <filerInfo>
-      <filer>
-        <filerCredentials>
-          <filerCik>0000782124</filerCik>
-          <filerCcc>XXXXXXXX</filerCcc>
-        </filerCredentials>
-      </filer>
-      <flags>
-        <returnCopyFlag>false</returnCopyFlag>
-        <overrideInternetFlag>false</overrideInternetFlag>
-      </flags>
-    </filerInfo>
-  </headerData>
-  <formData>
-    <certificationOne>
-      <applicantName>J.P. MORGAN SECURITIES LLC</applicantName>
-      <cerApplicantName>J.P. MORGAN SECURITIES LLC</cerApplicantName>
-      <cerDate>10-29-2021</cerDate>
-      <signature>Jason Sippel</signature>
-      <name>Jason Sippel</name>
-      <title>CEO, J.P. Morgan Securities LLC</title>
-    </certificationOne>
-    <certificationTwo>
-      <applicantName>J.P. MORGAN SECURITIES LLC</applicantName>
-      <cerApplicantName>J.P. MORGAN SECURITIES LLC</cerApplicantName>
-      <cerDate>10-29-2021</cerDate>
-      <signature>Joseph Cerullo</signature>
-      <name>Joseph Cerullo</name>
-      <titleIfDesignee>Chief Compliance Officer</titleIfDesignee>
-    </certificationTwo>
-  </formData>
-</edgarSubmission>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:m1="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:acom="http://www.sec.gov/edgar/atsncommon"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="/css/ATSN_print.css"></head><body lang="en-US" text="#000000" bgcolor="#ffffff"><div class="contentwrapper"><table role="presentation" id="header"><tr><div class="boxed">
+                           THE SECURITIES AND EXCHANGE COMMISSION HAS NOT PASSED UPON THE MERITS OR ACCURACY OF<br> THE DISCLOSURES IN THIS FILING.
+                        </div></tr><tr><td class="title">Form ATS-N Filer Information</td><td rowspan="2" class="center">
+                        United States Securities and Exchange Commission
+                        <br>
+                        Washington, DC
+                        <br>
+                        FORM ATS-N
+                        <br>
+                        Intentional Misstatements or Omissions of Facts May Constitute
+                        <br>
+                        Criminal Violations
+                        <br>
+                        See 18 U.S.C.1001 and 15 U.S.C. 78ff(a)
+                  </td><td class="title">OMB APPROVAL</td></tr><tr><td class="side" style="text-align: center;"><p>OMB Number:  3235-0763</p><hr><p>Estimated average burden hours per response: 127.4</p><hr><p>Estimated average burden hours per amendment: 9</p><hr><p>Estimated average burden hours per cessation: 2</p><hr><p>OMB Expiration Date: 09/30/2021</p></td></tr></table></div><h2>Contents</h2><ul style="padding-left:0px;"></ul><hr><div id="info"><div class="contentwrapper"><div class="content"><a name="FilerInformation"><h1>: Filer Information</h1></a><table role="presentation"><tr><td class="label">Filer CIK</td><td><div class="fakeBox2"><span> </span></div></td></tr><tr><td class="label">Filer CCC</td><td><div class="fakeBox2"><span> </span></div></td></tr></table><table role="presentation"><tr><td><span class="fakeBox4"><span> </span></span><span>
+				              	
+					             is making this filing pursuant to the Rule 304 under the Securities Exchange Act of 1934
+					           
+					             </span></td></tr></table><table role="presentation"></table></div></div></div>
+  
+    SBSE-C
+    
+      
+        
+          0000782124
+          XXXXXXXX
+        
+      
+      
+        false
+        false
+      
+    
+  
+  
+    
+      J.P. MORGAN SECURITIES LLC
+      J.P. MORGAN SECURITIES LLC
+      10-29-2021
+      Jason Sippel
+      Jason Sippel
+      CEO, J.P. Morgan Securities LLC
+    
+    
+      J.P. MORGAN SECURITIES LLC
+      J.P. MORGAN SECURITIES LLC
+      10-29-2021
+      Joseph Cerullo
+      Joseph Cerullo
+      Chief Compliance Officer
+    
+  
+</body></html>

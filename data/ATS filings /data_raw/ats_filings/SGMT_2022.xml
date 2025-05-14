@@ -1,62 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<edgarSubmission xmlns="http://www.sec.gov/edgar/seventeenafiler" xmlns:com="http://www.sec.gov/edgar/common">
-  <headerData>
-    <submissionType>X-17A-5/A</submissionType>
-    <filerInfo>
-      <filer>
-        <filerCredentials>
-          <filerCik>0000042352</filerCik>
-          <filerCcc>XXXXXXXX</filerCcc>
-        </filerCredentials>
-      </filer>
-      <liveTestFlag>LIVE</liveTestFlag>
-      <flags>
-        <returnCopyFlag>true</returnCopyFlag>
-        <confirmingCopyFlag>false</confirmingCopyFlag>
-        <overrideInternetFlag>false</overrideInternetFlag>
-      </flags>
-    </filerInfo>
-  </headerData>
-  <formData>
-    <submissionInformation>
-      <periodBegin>01-01-2021</periodBegin>
-      <periodEnd>12-31-2021</periodEnd>
-      <typeOfRegistrant>
-        <typeOfBDRegistrant>Broker-dealer</typeOfBDRegistrant>
-        <typeOfSDRegistrant>Security-based swap dealer</typeOfSDRegistrant>
-      </typeOfRegistrant>
-      <materialWeakness>Y</materialWeakness>
-      <amendmentDescription>We have uploaded a revised copy of the Goldman Sachs &amp; Co. LLC 12/31/21 audited year-end financial statements, which include an amended 17a-5 Compliance Report and report from our independent public auditors. There have been no other revisions to the audited year-end financial statements.</amendmentDescription>
-    </submissionInformation>
-    <registrantIdentification>
-      <brokerDealerName>GOLDMAN SACHS &amp; CO. LLC</brokerDealerName>
-      <businessAddress>
-        <com:street1>200 WEST STREET</com:street1>
-        <com:city>NEW YORK</com:city>
-        <com:stateOrCountry>NY</com:stateOrCountry>
-        <com:zipCode>10282-2198</com:zipCode>
-      </businessAddress>
-      <contactPersonName>Thomas J. Favia</contactPersonName>
-      <contactPersonPhoneNumber>2129021710</contactPersonPhoneNumber>
-    </registrantIdentification>
-    <accountantIdentification>
-      <accountantName>PricewaterhouseCoopers LLP</accountantName>
-      <accountantAddress>
-        <com:street1>300 Madison Avenue</com:street1>
-        <com:city>New York</com:city>
-        <com:stateOrCountry>NY</com:stateOrCountry>
-        <com:zipCode>10017</com:zipCode>
-      </accountantAddress>
-      <accountantType>Certified Public Accountant</accountantType>
-    </accountantIdentification>
-    <oathSignature>
-      <signPersonName>Brian Doyle</signPersonName>
-      <entityName>GOLDMAN SACHS &amp; CO. LLC</entityName>
-      <signDate>12-31-2021</signDate>
-      <explanation>Receivables from customers and counterparties includes $10,761,252 receivable from Executive Officers and payables to customers and counterparties includes $68,081,210 payable to Executive Officers. Additionally, the account balances of certain affiliates are included in receivables from customers and counterparties or payables to customers and counterparties for purposes of financial statement presentation. In addition, pursuant to Financial Industry Regulatory Authority Rule 4140, we affirm that the attached consolidated financial statements and supplemental financial information as of December 31, 2021, have been or will be made available to Executive Officers of The Goldman Sachs Group, Inc.</explanation>
-      <signature>Brian Doyle</signature>
-      <oathTitle>Chief Financial Officer</oathTitle>
-      <confirmNotarizedFlag>Y</confirmNotarizedFlag>
-    </oathSignature>
-  </formData>
-</edgarSubmission>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns:m1="http://www.sec.gov/edgar/atsn" xmlns:com="http://www.sec.gov/edgar/common" xmlns:acom="http://www.sec.gov/edgar/atsncommon"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="/css/ATSN_print.css"></head><body lang="en-US" text="#000000" bgcolor="#ffffff"><div class="contentwrapper"><table role="presentation" id="header"><tr><div class="boxed">
+                           THE SECURITIES AND EXCHANGE COMMISSION HAS NOT PASSED UPON THE MERITS OR ACCURACY OF<br> THE DISCLOSURES IN THIS FILING.
+                        </div></tr><tr><td class="title">Form ATS-N Filer Information</td><td rowspan="2" class="center">
+                        United States Securities and Exchange Commission
+                        <br>
+                        Washington, DC
+                        <br>
+                        FORM ATS-N
+                        <br>
+                        Intentional Misstatements or Omissions of Facts May Constitute
+                        <br>
+                        Criminal Violations
+                        <br>
+                        See 18 U.S.C.1001 and 15 U.S.C. 78ff(a)
+                  </td><td class="title">OMB APPROVAL</td></tr><tr><td class="side" style="text-align: center;"><p>OMB Number:  3235-0763</p><hr><p>Estimated average burden hours per response: 127.4</p><hr><p>Estimated average burden hours per amendment: 9</p><hr><p>Estimated average burden hours per cessation: 2</p><hr><p>OMB Expiration Date: 09/30/2021</p></td></tr></table></div><h2>Contents</h2><ul style="padding-left:0px;"></ul><hr><div id="info"><div class="contentwrapper"><div class="content"><a name="FilerInformation"><h1>: Filer Information</h1></a><table role="presentation"><tr><td class="label">Filer CIK</td><td><div class="fakeBox2"><span> </span></div></td></tr><tr><td class="label">Filer CCC</td><td><div class="fakeBox2"><span> </span></div></td></tr></table><table role="presentation"><tr><td><span class="fakeBox4"><span> </span></span><span>
+				              	
+					             is making this filing pursuant to the Rule 304 under the Securities Exchange Act of 1934
+					           
+					             </span></td></tr></table><table role="presentation"></table></div></div></div>
+  
+    X-17A-5/A
+    
+      
+        
+          0000042352
+          XXXXXXXX
+        
+      
+      LIVE
+      
+        true
+        false
+        false
+      
+    
+  
+  
+    
+      01-01-2021
+      12-31-2021
+      
+        Broker-dealer
+        Security-based swap dealer
+      
+      Y
+      We have uploaded a revised copy of the Goldman Sachs &amp; Co. LLC 12/31/21 audited year-end financial statements, which include an amended 17a-5 Compliance Report and report from our independent public auditors. There have been no other revisions to the audited year-end financial statements.
+    
+    
+      GOLDMAN SACHS &amp; CO. LLC
+      
+        200 WEST STREET
+        NEW YORK
+        NY
+        10282-2198
+      
+      Thomas J. Favia
+      2129021710
+    
+    
+      PricewaterhouseCoopers LLP
+      
+        300 Madison Avenue
+        New York
+        NY
+        10017
+      
+      Certified Public Accountant
+    
+    
+      Brian Doyle
+      GOLDMAN SACHS &amp; CO. LLC
+      12-31-2021
+      Receivables from customers and counterparties includes $10,761,252 receivable from Executive Officers and payables to customers and counterparties includes $68,081,210 payable to Executive Officers. Additionally, the account balances of certain affiliates are included in receivables from customers and counterparties or payables to customers and counterparties for purposes of financial statement presentation. In addition, pursuant to Financial Industry Regulatory Authority Rule 4140, we affirm that the attached consolidated financial statements and supplemental financial information as of December 31, 2021, have been or will be made available to Executive Officers of The Goldman Sachs Group, Inc.
+      Brian Doyle
+      Chief Financial Officer
+      Y
+    
+  
+</body></html>
