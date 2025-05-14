@@ -116,6 +116,10 @@ def _bool_to_word(value: Optional[bool]) -> str:
     # convert boolean to yes/no/unclear
     return {True: "Yes", False: "No"}.get(value, "Unclear")
 
+def _bool_to_int(value: Optional[bool]) -> Optional[int]:
+    return {True: 1, False: 0}.get(value, None)
+
+
 
 # ---------------------------------------------------------------------------
 # 3.  Feature‑specific helpers (compose low‑level answers if needed)
@@ -481,10 +485,12 @@ def _extract_segmentation_features(soup: BeautifulSoup, res: Dict[str, str]) -> 
 # 4.  Master extractor
 # ---------------------------------------------------------------------------
 
-def extract_features_from_html(html: str) -> Dict[str, str]:
+def extract_features_from_html(html: str, ats_id: Optional[str] = None, year: Optional[int] = None) -> Dict[str, str]:
     soup = BeautifulSoup(html, "html.parser")
     radios = RadioMatrix(soup) 
     results: Dict[str, str] = {}
+    if ats_id: results["ats_id"] = ats_id
+    if year:   results["year"] = year
 
     # 4‑a. Regex features -----------------------------------------------------
     for key, pattern in REGEX_FEATURES.items():
@@ -510,9 +516,9 @@ def extract_features_from_html(html: str) -> Dict[str, str]:
     results.update(parse_order_type_features(_item7_text(soup)))
     
     # # -- display block -------------------------------------------------------
-    # results.update(_extract_display_features(soup))
+    results.update(_extract_display_features(soup))
     # # segmentation block
-    # results.update(_extract_segmentation_features(soup, results))
+    results.update(_extract_segmentation_features(soup, results))
 
 
 
@@ -526,7 +532,7 @@ def extract_features_from_html(html: str) -> Dict[str, str]:
 
 def main() -> None:
     if len(sys.argv) != 2:
-        print("Usage: python ats_feature_parser.py <html-file>")
+        print("Usage: python seminar_parse.py <html-file>")
         sys.exit(1)
 
     html_file = Path(sys.argv[1])
@@ -539,5 +545,22 @@ def main() -> None:
         print(f"{k:35}: {v}")
 
 
+# if __name__ == "__main__":
+#     main()
+
 if __name__ == "__main__":
-    main()
+    from pathlib import Path, PurePath
+    import sys, json
+
+    if len(sys.argv) != 2:
+        print("Usage: python seminar_parse.py <html-file>")
+        sys.exit(1)
+
+    html_path = Path(sys.argv[1])
+    html_text = html_path.read_text(encoding="utf-8", errors="ignore")
+    ats_id = PurePath(sys.argv[1]).stem.split("_")[0]
+    year = int(PurePath(sys.argv[1]).stem.split("_")[1])
+    
+    features = extract_features_from_html(html_text, ats_id=ats_id, year=year)
+    print(json.dumps(features, indent=2))
+
