@@ -40,14 +40,13 @@ weekly_rows = []   # <-- collect (MPID, weekStartDate, shares)
 
 for monday in tqdm(mondays, desc="📊 Fetching weekly ATS data"):
     monday_str = monday.isoformat()
+
     url = "https://api.finra.org/data/group/otcMarket/name/weeklySummary"
     params = {
-        "compareFilter": [
-            "atsSymbolFlag:eq:Y",
-            f"weekStartDate:eq:{monday_str}"
-        ],
+        # ONE string, conditions separated by commas
+        "filter": f"atsSymbolFlag:eq:Y,weekStartDate:eq:{monday_str}",
         "fields": "mpid,totalWeeklyShareQuantity",
-        "limit": 10000
+        "limit": 5000                # plenty; <3 k rows per week historically
     }
     try:
         r = requests.get(url,
