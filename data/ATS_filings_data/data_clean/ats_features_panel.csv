@@ -1,0 +1,85 @@
+ats_id,year,offers_hosted_pool,custom_order_types,market_data_feed_available,internal_trading_allowed,affiliate_access_to_ats,routing_to_affiliate_venue,display_to_persons,subscriber_opt_out_capability,supports_iois,supports_midpoint_orders,supports_post_only_orders,segmentation_supported
+BIDS,2020,1,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+BIDS,2021,1,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+BIDS,2022,1,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+BIDS,2023,1,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+BIDS,2024,1,1,1,1,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+BIDS,2025,1,1,1,1,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+EBXL,2020,0,0,1,0,1,0,1,Yes — Subscriber can opt out of affiliates but not ATS operator,Yes — terms and conditions are uniform,0,1,1
+EBXL,2021,0,1,1,0,1,0,1,Yes — Subscriber can opt out of affiliates but not ATS operator,Yes — terms and conditions are uniform,0,1,1
+EBXL,2022,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+INCR,2020,0,1,1,0,0,0,1,No — Subscriber cannot opt out from either,No — terms and conditions are not uniform,0,1,0
+INCR,2021,1,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,0
+INCR,2022,1,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,0
+INCR,2023,1,1,1,1,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,0
+INCR,2024,1,1,1,1,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,0
+INCR,2025,1,1,1,1,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,0
+ITGP,2020,0,0,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,1,1,0
+ITGP,2021,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are not uniform,0,1,1
+ITGP,2022,0,0,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,0,1,1
+ITGP,2023,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are not uniform,0,1,1
+ITGP,2024,0,0,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,0,1,1
+ITGP,2025,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are not uniform,0,1,1
+JBPX,2020,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,1,1,1
+JBPX,2021,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+JBPX,2022,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+JBPX,2023,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,1,1,1
+JBPX,2024,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,1
+JBPX,2025,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,1,1,1
+JPMX,2020,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,1,1,1
+JPMX,2021,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+JPMX,2022,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+JPMX,2023,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,1,1,1
+JPMX,2024,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,1
+JPMX,2025,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,1,1,1
+KCGM,2020,0,0,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,1,1,0
+KCGM,2021,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are not uniform,0,1,1
+KCGM,2022,0,0,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,0,1,1
+KCGM,2023,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are not uniform,0,1,1
+KCGM,2024,0,0,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,0,1,1
+KCGM,2025,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are not uniform,0,1,1
+LATS,2020,0,0,1,0,1,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,1
+LATS,2021,0,0,1,0,1,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,1
+LATS,2022,0,0,1,0,1,1,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+LATS,2023,0,0,1,0,1,1,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+LATS,2024,0,0,1,0,1,1,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,1,1,1
+LATS,2025,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,1
+MLIX,2020,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,1,1,1
+MLIX,2022,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,1,1,1
+MLIX,2023,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,1,1,1
+MLIX,2024,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,1,1,1
+MLIX,2025,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,1,1,1
+MSPL,2020,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+MSPL,2021,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,No — terms and conditions are not uniform,0,1,1
+MSPL,2022,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+MSPL,2023,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,0
+MSPL,2024,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,0
+MSPL,2025,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,0
+MSTX,2020,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+MSTX,2021,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,No — terms and conditions are not uniform,0,1,1
+MSTX,2022,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+MSTX,2023,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,0
+MSTX,2024,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,0
+MSTX,2025,0,0,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are uniform,0,1,0
+PURE,2021,0,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,0
+PURE,2022,0,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,0
+PURE,2023,0,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,0
+PURE,2024,0,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,0
+PURE,2025,0,1,1,0,0,0,1,No — Subscriber cannot opt out from either,Yes — terms and conditions are uniform,0,1,0
+SGMT,2020,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+SGMT,2021,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+SGMT,2022,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+SGMT,2023,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,1,1,1
+SGMT,2024,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,1,1,1
+SGMT,2025,0,1,1,1,1,0,1,Yes — Subscriber can opt out of ATS operator but not affiliates,Yes — terms and conditions are uniform,1,1,1
+UBSA,2020,1,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+UBSA,2021,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+UBSA,2022,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+UBSA,2023,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+UBSA,2024,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+UBSA,2025,1,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+XSTM,2021,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+XSTM,2022,0,0,0,,,,,,Unclear — terms and conditions are not uniform,0,0,
+XSTM,2023,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+XSTM,2024,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
+XSTM,2025,0,1,1,1,1,0,1,Yes — Subscriber can opt out of both the ATS operator and its affiliates,Yes — terms and conditions are not uniform,0,1,1
