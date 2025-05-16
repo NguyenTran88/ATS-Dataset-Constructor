@@ -569,7 +569,7 @@ if __name__ == "__main__":
     html_path = Path(sys.argv[1])
     html_text = html_path.read_text(encoding="utf-8", errors="ignore")
     ats_id = PurePath(sys.argv[1]).stem.split("_")[0]
-    year = int(PurePath(sys.argv[1]).stem.split("_")[1]) 
+    year = int(PurePath(sys.argv[1]).stem.split("_")[1]) if isinstance(PurePath(sys.argv[1]).stem.split("_"), int) else 2077
     
     features = extract_features_from_html(html_text, ats_id=ats_id, year=year)
     print(json.dumps(features, indent=2))

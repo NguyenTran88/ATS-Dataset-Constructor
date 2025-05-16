@@ -5,9 +5,8 @@ run_batch.py  – end-to-end pipeline for the dark-pool paper
 Outputs
   • data/ats_processed/ats_features_binary.csv
   • data/ats_processed/ats_features_longtext.csv
-  • fig/fig2_stacked_area.png
-  • fig/fig3_volume_vs_features.png
-  • fig/fig4_feature_heatmap.png
+  • fig/fig2_volume_vs_features.png
+  • fig/fig3_feature_heatmap.png
   • tables/tab1_feature_summary.csv
   • tables/tab2_corr_matrix.csv
   • tables/tab3_missing_years.csv
@@ -95,36 +94,9 @@ long_df = pd.DataFrame(long_rows)
 bin_df.to_csv(CLEAN_DIR / "ats_features_binary.csv",  index=False)
 long_df.to_csv(CLEAN_DIR / "ats_features_longtext.csv", index=False)
 
-# ---------------------------------------------------------
-# 2.  FIGURE 2  – Stacked weekly volume (top-15)
-# ---------------------------------------------------------
-wk      = pd.read_csv(WEEKLY_VOL, parse_dates=["weekStartDate"])
-top15   = (wk.groupby("MPID")["shares"].sum()
-              .sort_values(ascending=False).head(15).index.tolist())
-wk_top  = wk[wk["MPID"].isin(top15)]
-# --- Pivot weekly data: rows = weeks, cols = MPIDs ---------------------
-pivot = (wk_top.pivot_table(index="weekStartDate", columns="MPID", values="shares", fill_value=0)
-               .sort_index())
-
-# Optional: sort MPIDs by total volume for better layering (fat pools at bottom)
-pivot = pivot[pivot.sum().sort_values(ascending=False).index]
-
-x = pd.to_datetime(pivot.index)
-y = pivot.T.values  # shape: (n_mpid, n_weeks)
-
-fig2, ax = plt.subplots(figsize=(10, 5))
-ax.stackplot(x, y, labels=pivot.columns)
-ax.set_title("Fig 2. Weekly share volume – top 15 ATSs (stacked)")
-ax.set_ylabel("Shares")
-ax.legend(loc="upper left", ncol=3, fontsize=8)
-ax.ticklabel_format(axis="y", style="sci", scilimits=(0, 0))  # nice axis scale
-fig2.tight_layout()
-fig2.savefig(FIG_DIR / "fig2_stacked_area.png", dpi=300, bbox_inches="tight")
-plt.close(fig2)
-
 
 # ---------------------------------------------------------
-# 3.  FIGURE 3  – Annual volume vs. key binary feature
+# 3.  FIGURE 2  – Annual volume vs. key binary feature
 #                 (latest year only)
 # ---------------------------------------------------------
 ann = pd.read_csv(ANNUAL_VOL, delimiter=",", engine="python")
@@ -139,7 +111,7 @@ merged.sort_values(FEATURE, ascending=False, inplace=True)
 x_all = np.arange(len(merged))  # index for each ATS
 w     = 0.4
 
-fig3, ax = plt.subplots(figsize=(8, 4))
+fig2, ax = plt.subplots(figsize=(8, 4))
 
 # --- Hosted Pool = 1 group ---
 mask_yes = merged[FEATURE] == 1
@@ -156,18 +128,18 @@ ax.bar(x_no + w/2, h_no, width=w, label="Hosted pool = 0")
 # --- Axis / Legend ---
 ax.set_xticks(x_all)
 ax.set_xticklabels(merged["MPID"], rotation=45, ha="right")
-ax.set_title(f"Fig 3. {latest_year} annual volume by hosted-pool flag")
+ax.set_title(f"Fig 2. {latest_year} annual volume by hosted-pool flag")
 ax.set_ylabel("Shares")
 ax.ticklabel_format(axis="y", style="sci", scilimits=(0, 0))
 ax.legend()
-fig3.tight_layout()
-fig3.savefig(FIG_DIR / "fig3_volume_vs_features.png", dpi=300, bbox_inches="tight")
-plt.close(fig3)
+fig2.tight_layout()
+fig2.savefig(FIG_DIR / "fig2_volume_vs_features.png", dpi=300, bbox_inches="tight")
+plt.close(fig2)
 
 
 
 # ---------------------------------------------------------
-# 4.  FIGURE 4  – Heat-map of feature adoption (balanced panel)
+# 4.  FIGURE 3  – Heat-map of feature adoption (balanced panel)
 # ---------------------------------------------------------
 panel = (bin_df.set_index(["ats_id","year"])
                 .sort_index()
@@ -182,14 +154,14 @@ mat = (heat.groupby(["feature","year"])["flag"]
             .unstack(level=1)
             .sort_index())
 
-fig4, ax = plt.subplots(figsize=(6,6))
+fig3, ax = plt.subplots(figsize=(6,6))
 im = ax.imshow(mat.values, aspect="auto")
 ax.set_xticks(range(len(mat.columns)), labels=mat.columns, rotation=45)
 ax.set_yticks(range(len(mat.index)),   labels=mat.index)
-ax.set_title("Fig 4. Share of ATSs with feature = 1")
-fig4.colorbar(im, ax=ax, fraction=.046)
-fig4.savefig(FIG_DIR / "fig4_feature_heatmap.png", dpi=300,
-             bbox_inches="tight"); plt.close(fig4)
+ax.set_title("Fig 3. Share of ATSs with feature = 1")
+fig3.colorbar(im, ax=ax, fraction=.046)
+fig3.savefig(FIG_DIR / "fig3_feature_heatmap.png", dpi=300,
+             bbox_inches="tight"); plt.close(fig3)
 
 # ---------------------------------------------------------
 # 5.  TABLE 1 – Summary statistics of binary features
