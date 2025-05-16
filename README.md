@@ -65,12 +65,12 @@ But **volume is not the main focus** of this repo. Parsing and structuring ATS-N
 
 ## Quick Start: Parse One Filing
 
-If you want to test the parser on a single Form ATS-N HTML file, you can use the following script:
+If you want to test the parser on a single Form ATS-N HTML file, you can use the following script on primary_doc.xml.html, the test file I left in the root:
 
 ### 🔍 `ats_feature_parser.py`
 
 ```bash
-python ats_feature_parser.py data/ATS_filings_data/data_raw/primary_doc.html
+python ats_feature_parser.py data/ATS_filings_data/data_raw/primary_doc.xml.html
 ```
 
 This will print a dictionary of structural features (both binary and text fields) to your terminal.
